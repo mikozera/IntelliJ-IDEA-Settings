@@ -3,7 +3,7 @@
     <property name="created">2019-03-04T23:44:11</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2018.3.5.0.0</property>
-    <property name="modified">2019-03-05T22:52:15</property>
+    <property name="modified">2019-03-06T01:29:29</property>
     <property name="originalScheme">Atom One Dark</property>
   </metaInfo>
   <colors>
@@ -11,13 +11,18 @@
     <option name="CARET_ROW_COLOR" value="2c313a" />
     <option name="CONSOLE_BACKGROUND_KEY" value="21252b" />
     <option name="GUTTER_BACKGROUND" value="282c34" />
-    <option name="INDENT_GUIDE" value="6a6f7a" />
+    <option name="INDENT_GUIDE" value="5c6370" />
     <option name="LINE_NUMBERS_COLOR" value="636d83" />
-    <option name="RIGHT_MARGIN_COLOR" value="636d83" />
+    <option name="RIGHT_MARGIN_COLOR" value="" />
+    <option name="SELECTED_INDENT_GUIDE" value="2f333d" />
+    <option name="SELECTED_TEARLINE_COLOR" value="abb2bf" />
     <option name="SELECTION_BACKGROUND" value="3e4451" />
     <option name="SELECTION_FOREGROUND" value="c5c8c6" />
+    <option name="SEPARATOR_ABOVE_COLOR" value="5c6370" />
+    <option name="SEPARATOR_BELOW_COLOR" value="2f333d" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="6a6f7a" />
-    <option name="TEARLINE_COLOR" value="636d83" />
+    <option name="TEARLINE_COLOR" value="5c6370" />
+    <option name="VISUAL_INDENT_GUIDE" value="2f333d" />
     <option name="WHITESPACES" value="6a6f7a" />
   </colors>
   <attributes>
