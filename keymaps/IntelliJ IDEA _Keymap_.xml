@@ -1,7 +1,4 @@
 <keymap version="1" name="IntelliJ IDEA [Keymap]" parent="$default">
-  <action id="ActivateProjectToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl b" />
-  </action>
   <action id="ActivateRunToolWindow">
     <keyboard-shortcut first-keystroke="alt 4" />
     <keyboard-shortcut first-keystroke="alt back_quote" />
@@ -16,7 +13,6 @@
   <action id="ChangesView.Diff" />
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
   <action id="CompareTwoFiles" />
-  <action id="ContextHelp" />
   <action id="Diff.ShowDiff" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl y" />
@@ -27,10 +23,8 @@
   </action>
   <action id="EditorPasteFromX11" />
   <action id="FileChooser.GotoDesktop" />
-  <action id="Find">
-    <keyboard-shortcut first-keystroke="ctrl f" />
-  </action>
   <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="ctrl b" />
     <mouse-shortcut keystroke="control button1" />
   </action>
   <action id="GuiDesigner.Duplicate">
@@ -49,18 +43,11 @@
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
   <action id="QuickChangeScheme" />
-  <action id="Run">
-    <keyboard-shortcut first-keystroke="f1" />
-  </action>
   <action id="RunDashboard.CopyConfiguration">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
   <action id="SendEOF" />
   <action id="ShowContent" />
-  <action id="TodoViewGroupByFlattenPackage" />
-  <action id="Vcs.Log.GoToRef">
-    <keyboard-shortcut first-keystroke="alt f3" />
-  </action>
   <action id="Vcs.QuickListPopupAction" />
   <action id="XDebugger.CopyWatch">
     <keyboard-shortcut first-keystroke="shift alt down" />
