@@ -1,4 +1,4 @@
-# IntelliJ-IDEA-Settings
+# IntelliJ IDEA Settings
 Settings repository for IntelliJ IDEA
 
 ## Plugins
