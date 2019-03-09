@@ -4,6 +4,8 @@
 
 > **IDE:** IntelliJ IDEA
 
+---
+
 ## Plugins
  - AceJump
 - CodeGlance
