@@ -3,7 +3,7 @@
     <property name="created">2019-03-04T23:44:11</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2018.3.5.0.0</property>
-    <property name="modified">2019-03-06T01:29:29</property>
+    <property name="modified">2019-03-09T13:30:35</property>
     <property name="originalScheme">Atom One Dark</property>
   </metaInfo>
   <colors>
@@ -169,6 +169,26 @@
     <option name="CONSOLE_YELLOW_OUTPUT">
       <value>
         <option name="FOREGROUND" value="d6bf55" />
+      </value>
+    </option>
+    <option name="CSS.CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="d19a66" />
+      </value>
+    </option>
+    <option name="CSS.HASH">
+      <value>
+        <option name="FOREGROUND" value="61afef" />
+      </value>
+    </option>
+    <option name="CSS.NUMBER">
+      <value>
+        <option name="FOREGROUND" value="d19a66" />
+      </value>
+    </option>
+    <option name="CSS.PROPERTY_NAME">
+      <value>
+        <option name="FOREGROUND" value="abb2bf" />
       </value>
     </option>
     <option name="CTRL_CLICKABLE">
@@ -427,7 +447,7 @@
     </option>
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="e06c75" />
+        <option name="FOREGROUND" value="d19a66" />
       </value>
     </option>
     <option name="HTML_CODE">
@@ -475,6 +495,16 @@
       <value>
         <option name="FOREGROUND" value="5c6370" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="JS.GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="e5c07b" />
+      </value>
+    </option>
+    <option name="JS.LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="abb2bf" />
       </value>
     </option>
     <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
@@ -567,6 +597,16 @@
     <option name="ROUND_BRACKETS_RAINBOW_COLOR4">
       <value>
         <option name="FOREGROUND" value="e5c07b" />
+      </value>
+    </option>
+    <option name="SASS_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="d19a66" />
+      </value>
+    </option>
+    <option name="SASS_PROPERTY_VALUE">
+      <value>
+        <option name="FOREGROUND" value="98c379" />
       </value>
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
