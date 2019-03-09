@@ -1,5 +1,30 @@
 <application>
-  <component name="LiveEditOptions" nodeUpdateOnChanges="true" restartIfHotSwapFailed="true">
+  <component name="DefaultFont">
+    <option name="FONT_SIZE" value="14" />
+    <option name="FONT_FAMILY" value="Fira Code Retina" />
+    <option name="SECONDARY_FONT_FAMILY" value="Monospaced" />
+  </component>
+  <component name="EditorSettings">
+    <option name="languageBreadcrumbsMap">
+      <map>
+        <entry key="JAVA" value="true" />
+      </map>
+    </option>
+    <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
+    <option name="USE_CUSTOM_SOFT_WRAP_INDENT" value="true" />
+    <option name="STRIP_TRAILING_SPACES" value="Whole" />
+    <option name="SHOW_QUICK_DOC_ON_MOUSE_OVER_ELEMENT" value="true" />
+    <option name="QUICK_DOC_ON_MOUSE_OVER_DELAY_MS" value="600" />
+    <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
+    <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
+    <option name="SHOW_BREADCRUMBS" value="false" />
+    <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
+    <option name="SHOW_PARAMETER_NAME_HINTS" value="false" />
+  </component>
+  <component name="LiveEditOptions" chromeUpdateJSOnChanges="true" nodeUpdateOnChanges="true" restartIfHotSwapFailed="true" useJBChromeExtension="true">
     <option name="elementHighlighting" value="true" />
+  </component>
+  <component name="XmlEditorOptions">
+    <option name="showCssInlineColorPreview" value="true" />
   </component>
 </application>
