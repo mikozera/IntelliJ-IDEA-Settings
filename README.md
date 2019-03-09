@@ -4,10 +4,12 @@
 
 > **IDE:** IntelliJ IDEA
 
+---
+
 ## Plugins
  - AceJump
 - CodeGlance
 - Material Theme UI
 - Rainbow Brackets
 - Save Actions
-- Settings Repository
+- Presentation Assistant
