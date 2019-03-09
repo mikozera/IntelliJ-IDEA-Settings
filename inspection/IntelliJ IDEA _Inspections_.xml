@@ -1929,7 +1929,7 @@
   </inspection_tool>
   <inspection_tool class="StringConcatenationArgumentToLogCall" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="StringConcatenationInFormatCall" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="StringConcatenationInLoops" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="StringConcatenationInLoops" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="StringConcatenationInMessageFormatCall" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="StringConcatenationInsideStringBufferAppend" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="StringConcatenationMissingWhitespace" enabled="false" level="WARNING" enabled_by_default="false" />
