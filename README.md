@@ -29,7 +29,7 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 ---
 
 ## **Installation**
-1. Download JetBrain's IDE
+1. Download the Desired JetBrain's IDE
 2. Install Plugins: File -> Settings -> Plugins -> Browse Repositories 
 3. Enable Settings Repository: File -> Settings Repository -> Enter link: https://github.com/mikozera/JetBrains-Atom-One-Dark -> Override Local 
 
