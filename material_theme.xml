@@ -4,19 +4,15 @@
     <option name="compactDropdowns" value="true" />
     <option name="compactSidebar" value="true" />
     <option name="darkTitleBar" value="true" />
-    <option name="isCompactMenus" value="true" />
     <option name="isCompactStatusBar" value="true" />
     <option name="isCompactTables" value="true" />
     <option name="isContrastMode" value="true" />
     <option name="isCustomTreeIndentEnabled" value="true" />
     <option name="isWizardShown" value="true" />
-    <option name="overrideAccentColor" value="true" />
-    <option name="pristineConfig" value="false" />
     <option name="themedScrollbars" value="false" />
     <option name="upperCaseButtons" value="false" />
     <option name="customSidebarHeight" value="26" />
     <option name="tabOpacity" value="6" />
-    <option name="indicatorThickness" value="4" />
     <option name="rightTreeIndent" value="8" />
     <option name="settingsSelectedTab" value="3" />
     <option name="tabsHeight" value="40" />
@@ -24,6 +20,5 @@
     <option name="selectedTheme" value="ONE_DARK" />
     <option name="userId" value="70f25316:1681251df9f:-8000" />
     <option name="version" value="3.5.0.1" />
-    <option name="tabHighlightPosition" value="Bottom" />
   </component>
 </application>
