@@ -12,9 +12,9 @@
 - [**Installation**](#installation)
 - [**Plugins**](#plugins)
 - [**Color Schemes**](#color-schemes)
-  - [IntelliJ IDEA](#intellij-idea-java)
-  - [WebStorm](#webstorm-html)
-  - [PyCharm](#pycharm-python)
+  - [IntelliJ IDEA](#intellij-idea)
+  - [WebStorm](#webstorm)
+  - [PyCharm](#pycharm)
 - [**License**](#license)
   - [MIT](#mit)
   
