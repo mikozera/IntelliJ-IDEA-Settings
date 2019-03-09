@@ -10,7 +10,7 @@
 
 - [**Installation**](#installation)
 - [**Plugins**](#plugins)
-- [**License**](#mit-license)
+- [**MIT License**](#mit-license)
   
 ---
 
