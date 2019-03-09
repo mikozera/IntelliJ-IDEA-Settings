@@ -2,6 +2,7 @@
   <option name="AUTODETECT_INDENTS" value="false" />
   <HTMLCodeStyleSettings>
     <option name="HTML_KEEP_BLANK_LINES" value="1" />
+    <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="thead,tbody,tfoot" />
     <option name="HTML_ENFORCE_QUOTES" value="true" />
   </HTMLCodeStyleSettings>
   <JavaCodeStyleSettings>
@@ -48,6 +49,12 @@
     <option name="METHOD_ANNOTATION_WRAP" value="0" />
     <option name="CLASS_ANNOTATION_WRAP" value="0" />
     <option name="FIELD_ANNOTATION_WRAP" value="0" />
+  </codeStyleSettings>
+  <codeStyleSettings language="JavaScript">
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+    </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="SCSS">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
