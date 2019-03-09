@@ -10,7 +10,7 @@
 
 - [**Installation**](#installation)
 - [**Plugins**](#plugins)
-- [**License**](#license)
+- [**License**](#mit-license)
   
 ---
 
@@ -35,9 +35,7 @@
 
 ---
 
-## **License**
-
-MIT License
+## **MIT License**
 
 Copyright (c) 2019 Sebastian Nunez
 
