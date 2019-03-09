@@ -24,7 +24,7 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 - Awesome Plugins to Enhance the IDE Experience 
 - Advanced Color Configuration for most JetBrain's IDEs
 
-> **Note:** It has been optimized for IntelliJ IDEA, WebStorm & PyCharm
+> **Note:** Theme has been optimized for IntelliJ IDEA, WebStorm & PyCharm
 
 ---
 
