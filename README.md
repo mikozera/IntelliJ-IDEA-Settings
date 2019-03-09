@@ -10,4 +10,4 @@
 - Material Theme UI
 - Rainbow Brackets
 - Save Actions
-- Settings Repository
+- Presentation Assistant 
