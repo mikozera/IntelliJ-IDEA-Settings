@@ -1,7 +1,4 @@
 <keymap version="1" name="IntelliJ IDEA [Keymap]" parent="$default">
-  <action id="ActivateProjectToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl b" />
-  </action>
   <action id="ActivateRunToolWindow">
     <keyboard-shortcut first-keystroke="alt 4" />
     <keyboard-shortcut first-keystroke="alt back_quote" />
