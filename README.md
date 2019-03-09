@@ -33,7 +33,7 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 2. Install Plugins: File -> Settings -> Plugins -> Browse Repositories 
 3. Enable Settings Repository: File -> Settings Repository -> Enter link: https://github.com/mikozera/JetBrains-Atom-One-Dark -> Override Local 
 
-> **Note:** Theme comes with a adjusted Inspections Configuration & "optimized" Keymap (use "Ctrl + Shift + A" to search for quick action search)
+> **Note:** Theme comes with a adjusted Inspections Configuration & "optimized" Keymap
 
 ---
 
