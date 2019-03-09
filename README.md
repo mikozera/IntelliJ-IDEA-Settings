@@ -62,29 +62,29 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 
 ### IntelliJ IDEA
 ![Project Image](https://lh3.googleusercontent.com/Jur6OkU-NCzGUConr_g9244Za1Eehvj_rZ3seiNA7Jf1K2i3N8zHA7vm1H19t-vxTFPYKP5taDs70W3kt2eKCeu7NlK00uf25Tc-wg=w1918-h998-rw-no)
-> **Language** Java
+> **Java** 
 
 
 ### WebStorm
 ![Project Image](https://lh3.googleusercontent.com/Jur6OkU-NCzGUConr_g9244Za1Eehvj_rZ3seiNA7Jf1K2i3N8zHA7vm1H19t-vxTFPYKP5taDs70W3kt2eKCeu7NlK00uf25Tc-wg=w1918-h998-rw-no)
-> **Language:** HTML
+> **HTML** 
 
 
 ![Project Image](https://lh3.googleusercontent.com/Jur6OkU-NCzGUConr_g9244Za1Eehvj_rZ3seiNA7Jf1K2i3N8zHA7vm1H19t-vxTFPYKP5taDs70W3kt2eKCeu7NlK00uf25Tc-wg=w1918-h998-rw-no)
-> **Language:** CSS
+> **CSS**
 
 
 ![Project Image](https://lh3.googleusercontent.com/Jur6OkU-NCzGUConr_g9244Za1Eehvj_rZ3seiNA7Jf1K2i3N8zHA7vm1H19t-vxTFPYKP5taDs70W3kt2eKCeu7NlK00uf25Tc-wg=w1918-h998-rw-no)
-> **Language:** SCSS
+> **SCSS** 
 
 
 ![Project Image](https://lh3.googleusercontent.com/Jur6OkU-NCzGUConr_g9244Za1Eehvj_rZ3seiNA7Jf1K2i3N8zHA7vm1H19t-vxTFPYKP5taDs70W3kt2eKCeu7NlK00uf25Tc-wg=w1918-h998-rw-no)
-> **Language:** JavaScript
+> **JavaScript** 
 
 
 ### PyCharm
 ![Project Image](https://lh3.googleusercontent.com/Jur6OkU-NCzGUConr_g9244Za1Eehvj_rZ3seiNA7Jf1K2i3N8zHA7vm1H19t-vxTFPYKP5taDs70W3kt2eKCeu7NlK00uf25Tc-wg=w1918-h998-rw-no)
-> **Language:** Python
+> **Python** 
 
 ---
 ## **License**
