@@ -19,7 +19,7 @@
 This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. Apart from the theme, everything around the IDE has been set up to provide a beautiful and pleasant experience. What's included?
 - Atom One Dark Theme
 - Fira Code Retina (w/ Font Ligatures)
-- Optimzed Configuration
+- Optimized Configuration
 - Modified Keymap
 - Awesome Plugins to Enhance the IDE Experience 
 - Advanced Color Configuration for most JetBrain's IDEs
