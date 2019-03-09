@@ -8,10 +8,23 @@
 
 ## **Contents**
 
+- [**Description**](#description)
 - [**Installation**](#installation)
 - [**Plugins**](#plugins)
 - [**MIT License**](#mit-license)
   
+---
+
+## **Description**
+This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. Apart from the theme, everything around the IDE has been set up to provide a beautiful and pleasant experience. What's included?
+- Atom One Dark Theme
+- Fira Code Retina (w/ Font Ligatures)
+- Optimzed Configuration
+- Modified Keymap
+- Awesome Plugins to Enhance the IDE Experience 
+
+> **Note:** It has been optimized for IntelliJ IDEA, WebStorm & PyCharm
+
 ---
 
 ## **Installation**
