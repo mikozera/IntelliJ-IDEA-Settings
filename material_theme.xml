@@ -2,6 +2,7 @@
   <component name="MaterialThemeConfig">
     <option name="version" value="2.4.1.5-2018.1" />
     <option name="selectedTheme" value="ONE_DARK" />
+    <option name="highlightColor" value="80cbc4" />
     <option name="isContrastMode" value="true" />
     <option name="isCustomTreeIndentEnabled" value="true" />
     <option name="rightTreeIndent" value="8" />
@@ -16,7 +17,7 @@
     <option name="tabOpacity" value="6" />
     <option name="compactDropdowns" value="true" />
     <option name="upperCaseButtons" value="false" />
-    <option name="settingsSelectedTab" value="3" />
+    <option name="settingsSelectedTab" value="1" />
     <option name="userId" value="70f25316:1681251df9f:-8000" />
     <option name="allowDataCollection" value="true" />
   </component>
