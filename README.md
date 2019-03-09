@@ -39,12 +39,12 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 
 ## **Plugins**
 
-### Mandatory:
+### Mandatory
 - CodeGlance
 - Material Theme UI
 - Rainbow Brackets
 
-### Recommended:
+### Recommended
 - AceJump
 - Save Actions
 - Presentation Assistant
