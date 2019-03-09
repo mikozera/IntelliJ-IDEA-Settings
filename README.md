@@ -24,14 +24,16 @@
 ---
 
 ## **Plugins**
-- AceJump
+
+### Mandatory:
 - CodeGlance
 - Material Theme UI
 - Rainbow Brackets
+
+### Recommended:
+- AceJump
 - Save Actions
 - Presentation Assistant
-
-> **Note:** Theme only requires CodeGlance, Material Theme UI & Rainbow Brackets
 
 ---
 
