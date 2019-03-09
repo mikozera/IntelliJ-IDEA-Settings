@@ -41,7 +41,7 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 
 ### Mandatory
 - CodeGlance: enables a "Sublime-esk" mini-map
-- Material Theme UI: enables Atom One Dark
+- Material Theme UI: enables a basic Atom One Dark theme
 - Rainbow Brackets: enables colorful bracket/brace coloring
 
 ### Recommended
