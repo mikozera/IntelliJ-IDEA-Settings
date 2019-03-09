@@ -8,14 +8,28 @@
 
 ## **Contents**
 
+- [**Description**](#description)
 - [**Installation**](#installation)
 - [**Plugins**](#plugins)
 - [**MIT License**](#mit-license)
   
 ---
 
+## **Description**
+This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. Apart from the theme, everything around the IDE has been set up to provide a beautiful and pleasant experience. What's included?
+- Atom One Dark Theme
+- Fira Code Retina (w/ Font Ligatures)
+- Optimized Configuration
+- Modified Keymap
+- Awesome Plugins to Enhance the IDE Experience 
+- Advanced Color Configuration for most JetBrain's IDEs
+
+> **Note:** Theme has been fully optimized for IntelliJ IDEA, WebStorm & PyCharm
+
+---
+
 ## **Installation**
-1. Download JetBrain's IDE
+1. Download your Desired JetBrain's IDE
 2. Install Plugins: File -> Settings -> Plugins -> Browse Repositories 
 3. Enable Settings Repository: File -> Settings Repository -> Enter link: https://github.com/mikozera/JetBrains-Atom-One-Dark -> Override Local 
 
@@ -25,16 +39,17 @@
 
 ## **Plugins**
 
-### Mandatory:
-- CodeGlance
-- Material Theme UI
-- Rainbow Brackets
+### Mandatory
+- CodeGlance: enables a "Sublime-esk" mini-map
+- Material Theme UI: enables a basic Atom One Dark theme
+- Rainbow Brackets: enables colorful bracket/brace coloring
 
-### Recommended:
-- AceJump
-- Save Actions
-- Presentation Assistant
+### Recommended
+- AceJump: allows for quick cursor movement w/o taking your hands-off the keyboard (Ctrl + ;)
+- Save Actions: auto-format your code 
+- Presentation Assistant: displays any pressed keyboard shortcuts (Alt + Shift + D)
 
+> **Note:** To enable auto-formatting, you must configure it under "Save Actions"
 ---
 
 ## **MIT License**
