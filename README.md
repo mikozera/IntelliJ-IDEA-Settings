@@ -19,7 +19,7 @@
 2. Install Plugins: File -> Settings -> Plugins -> Browse Repositories 
 3. Enable Settings Repository: File -> Settings Repository -> Enter link: https://github.com/mikozera/JetBrains-Atom-One-Dark -> Override Local 
 
-> **Note:** Theme comes with modified Keymap 
+> **Note:** Theme comes with a adjusted Inspections Configuration & "optimized" Keymap
 
 ---
 
