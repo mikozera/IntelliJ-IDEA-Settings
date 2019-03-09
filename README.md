@@ -11,7 +11,12 @@
 - [**Description**](#description)
 - [**Installation**](#installation)
 - [**Plugins**](#plugins)
-- [**MIT License**](#mit-license)
+- [**Color Schemes**](#color-schemes)
+  - [IntelliJ IDEA](#intellij-idea-java)
+  - [WebStorm](#webstorm-html)
+  - [PyCharm](#pycharm-python)
+- [**License**](#license)
+  - [MIT](#mit)
   
 ---
 
@@ -50,9 +55,37 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 - Presentation Assistant: displays any pressed keyboard shortcuts (Alt + Shift + D)
 
 > **Note:** To enable auto-formatting, you must configure it under "Save Actions"
+
 ---
 
-## **MIT License**
+## **Color Schemes**
+
+### IntelliJ IDEA
+![Project Image](https://lh3.googleusercontent.com/Jur6OkU-NCzGUConr_g9244Za1Eehvj_rZ3seiNA7Jf1K2i3N8zHA7vm1H19t-vxTFPYKP5taDs70W3kt2eKCeu7NlK00uf25Tc-wg=w1918-h998-rw-no)
+
+> **Language** Java
+
+### WebStorm
+![Project Image](https://lh3.googleusercontent.com/Jur6OkU-NCzGUConr_g9244Za1Eehvj_rZ3seiNA7Jf1K2i3N8zHA7vm1H19t-vxTFPYKP5taDs70W3kt2eKCeu7NlK00uf25Tc-wg=w1918-h998-rw-no)
+> **Language:** HTML
+
+![Project Image](https://lh3.googleusercontent.com/Jur6OkU-NCzGUConr_g9244Za1Eehvj_rZ3seiNA7Jf1K2i3N8zHA7vm1H19t-vxTFPYKP5taDs70W3kt2eKCeu7NlK00uf25Tc-wg=w1918-h998-rw-no)
+> **Language:** CSS
+
+![Project Image](https://lh3.googleusercontent.com/Jur6OkU-NCzGUConr_g9244Za1Eehvj_rZ3seiNA7Jf1K2i3N8zHA7vm1H19t-vxTFPYKP5taDs70W3kt2eKCeu7NlK00uf25Tc-wg=w1918-h998-rw-no)
+> **Language:** SCSS
+
+![Project Image](https://lh3.googleusercontent.com/Jur6OkU-NCzGUConr_g9244Za1Eehvj_rZ3seiNA7Jf1K2i3N8zHA7vm1H19t-vxTFPYKP5taDs70W3kt2eKCeu7NlK00uf25Tc-wg=w1918-h998-rw-no)
+> **Language:** JavaScript
+
+### PyCharm
+![Project Image](https://lh3.googleusercontent.com/Jur6OkU-NCzGUConr_g9244Za1Eehvj_rZ3seiNA7Jf1K2i3N8zHA7vm1H19t-vxTFPYKP5taDs70W3kt2eKCeu7NlK00uf25Tc-wg=w1918-h998-rw-no)
+> **Language:** Python
+
+---
+## **License**
+
+### MIT
 
 Copyright (c) 2019 Sebastian Nunez
 
