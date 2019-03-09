@@ -2,6 +2,7 @@
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="14" />
     <option name="FONT_FAMILY" value="Fira Code Retina" />
+    <option name="USE_LIGATURES" value="true" />
     <option name="SECONDARY_FONT_FAMILY" value="Monospaced" />
   </component>
   <component name="EditorSettings">
@@ -23,10 +24,6 @@
   </component>
   <component name="LiveEditOptions" nodeUpdateOnChanges="true" restartIfHotSwapFailed="true">
     <option name="elementHighlighting" value="true" />
-  </component>
-  <component name="TodoConfiguration">
-    <pattern pattern="\btodo\b.*" />
-    <pattern pattern="\bfixme\b.*" />
   </component>
   <component name="XmlEditorOptions">
     <option name="showCssInlineColorPreview" value="true" />
