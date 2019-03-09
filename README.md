@@ -40,15 +40,16 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 ## **Plugins**
 
 ### Mandatory
-- CodeGlance
-- Material Theme UI
-- Rainbow Brackets
+- CodeGlance: enables a "Sublime-esk" mini-map
+- Material Theme UI: enables Atom One Dark
+- Rainbow Brackets: enables colorful bracket/brace coloring
 
 ### Recommended
-- AceJump
-- Save Actions
-- Presentation Assistant
+- AceJump: allows for quick cursor movement w/o taking your hands-off the keyboard (Ctrl + ;)
+- Save Actions: auto-format your code 
+- Presentation Assistant: displays any pressed keyboard shortcuts (Alt + Shift + D)
 
+> **Note:** To enable auto-formatting, you must configure it under "Save Actions"
 ---
 
 ## **MIT License**
