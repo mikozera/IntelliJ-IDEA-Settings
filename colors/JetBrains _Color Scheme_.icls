@@ -4,7 +4,7 @@
     <property name="created">2019-03-09T18:45:13</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.1.4.0.0</property>
-    <property name="modified">2019-03-10T14:58:09</property>
+    <property name="modified">2019-03-10T15:00:25</property>
     <property name="originalScheme">Atom One Dark</property>
   </metaInfo>
   <console-font>
@@ -461,7 +461,7 @@
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="2d6099" />
+        <option name="BACKGROUND" value="2d4c85" />
       </value>
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
