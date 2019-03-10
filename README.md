@@ -86,7 +86,7 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 
 ### PyCharm
 > **Python**
-![Project Image](https://lh3.googleusercontent.com/rtYgTLai68zKEhjkgnaXTwSnGnA2bR_gLEr0Fu3kywYlom4eug49SKbHADYRp6uSk5a5-E_gYwv3QCAAUFC-jziILeOd4lq_WOGI=w1920-h989-rw-no)
+![Project Image](https://lh3.googleusercontent.com/6WCfoslSQ1aXlvVfh75onoSM0KZuGevxvKIrQZJN59My1rtkR3oP-wwjmJiSuTIEF87c6XTekuV4HQ=w1920-h993-rw-no)
  
 
 ---
