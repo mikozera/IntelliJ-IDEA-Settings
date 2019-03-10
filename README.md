@@ -11,6 +11,8 @@
 - [**Description**](#description)
 - [**Installation**](#installation)
 - [**Plugins**](#plugins)
+  - [Mandatory](#mandatory)
+  - [Recommended](#recommended)
 - [**Color Schemes**](#color-schemes)
   - [IntelliJ IDEA](#intellij-idea)
   - [WebStorm](#webstorm)
