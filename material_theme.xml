@@ -11,7 +11,6 @@
     <option name="useProjectViewDecorators" value="false" />
     <option name="compactSidebar" value="true" />
     <option name="tabsHeight" value="40" />
-    <option name="themedScrollbars" value="false" />
     <option name="isCompactStatusBar" value="true" />
     <option name="isCompactTables" value="true" />
     <option name="customSidebarHeight" value="26" />
@@ -20,8 +19,7 @@
     <option name="tabOpacity" value="6" />
     <option name="compactDropdowns" value="true" />
     <option name="upperCaseButtons" value="false" />
-    <option name="settingsSelectedTab" value="4" />
-    <option name="fileStatusColorsEnabled" value="true" />
+    <option name="settingsSelectedTab" value="5" />
     <option name="userId" value="70f25316:1681251df9f:-8000" />
     <option name="allowDataCollection" value="true" />
   </component>
