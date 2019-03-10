@@ -4,7 +4,7 @@
     <property name="created">2019-03-09T18:45:13</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.1.4.0.0</property>
-    <property name="modified">2019-03-10T16:18:11</property>
+    <property name="modified">2019-03-10T16:21:34</property>
     <property name="originalScheme">Atom One Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -415,7 +415,7 @@
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="45bfeb" />
+        <option name="FOREGROUND" value="44bae6" />
       </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
@@ -25381,7 +25381,7 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="4ea2af" />
+        <option name="FOREGROUND" value="4ea7b4" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
