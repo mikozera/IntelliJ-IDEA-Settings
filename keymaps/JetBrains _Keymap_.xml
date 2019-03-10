@@ -37,6 +37,10 @@
     <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="Diff.ShowDiff" />
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="alt button1" />
+    <mouse-shortcut keystroke="shift alt button1" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
@@ -48,18 +52,13 @@
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
-  <action id="FindNext">
-    <keyboard-shortcut first-keystroke="f3" />
-  </action>
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
   </action>
-  <action id="GotoLine">
-    <keyboard-shortcut first-keystroke="ctrl l" />
-  </action>
+  <action id="GotoLine" />
   <action id="GotoNextError" />
   <action id="GuiDesigner.Duplicate">
     <keyboard-shortcut first-keystroke="shift alt down" />
@@ -73,6 +72,7 @@
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
   <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
   <action id="QuickChangeScheme" />
@@ -95,7 +95,6 @@
   </action>
   <action id="ShowContent" />
   <action id="TodoViewGroupByFlattenPackage" />
-  <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Log.GoToRef">
     <keyboard-shortcut first-keystroke="alt f3" />
   </action>
