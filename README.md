@@ -61,30 +61,28 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 ## **Color Schemes**
 
 ### IntelliJ IDEA
-![Project Image](https://lh3.googleusercontent.com/Jur6OkU-NCzGUConr_g9244Za1Eehvj_rZ3seiNA7Jf1K2i3N8zHA7vm1H19t-vxTFPYKP5taDs70W3kt2eKCeu7NlK00uf25Tc-wg=w1918-h998-rw-no)
 > **Java** 
+![Project Image](https://lh3.googleusercontent.com/0ImVOMRfCfgchrdLOrvv7HWsn8pN1SVklJ4bVf3Of_W9l5BZBvCM0lEFOzw2tKMQ05fOv2yL1ufVv84vBnyH5fQnuH7cUKFiaAekVw=w1920-h985-rw-no)
 
 
 ### WebStorm
-![Project Image](https://lh3.googleusercontent.com/Jur6OkU-NCzGUConr_g9244Za1Eehvj_rZ3seiNA7Jf1K2i3N8zHA7vm1H19t-vxTFPYKP5taDs70W3kt2eKCeu7NlK00uf25Tc-wg=w1918-h998-rw-no)
-> **HTML** 
+> **HTML**
+![Project Image](https://lh3.googleusercontent.com/Qs0rLKz_ZRkWKcfbHHin-QaI7Zl4jo8Bq2FjCoQJk876L3dHYdNHL9Vji2w3xEy0z6fPCgO4R7YEQkP_CucpjkISmjVlYFjGM-vy=w1920-h999-rw-no)
 
-
-![Project Image](https://lh3.googleusercontent.com/Jur6OkU-NCzGUConr_g9244Za1Eehvj_rZ3seiNA7Jf1K2i3N8zHA7vm1H19t-vxTFPYKP5taDs70W3kt2eKCeu7NlK00uf25Tc-wg=w1918-h998-rw-no)
 > **CSS**
+![Project Image](https://lh3.googleusercontent.com/zTl4gOrEVmYPRwRSc7KCueHk6U-M2TsB5OWn6ly4IZJioIUaUPO2utQsiU_QT3vFrOGHI1ol7K3TxyCJR9WimtEwaaIhHX3YoAsf=w1920-h996-rw-no)
 
-
-![Project Image](https://lh3.googleusercontent.com/Jur6OkU-NCzGUConr_g9244Za1Eehvj_rZ3seiNA7Jf1K2i3N8zHA7vm1H19t-vxTFPYKP5taDs70W3kt2eKCeu7NlK00uf25Tc-wg=w1918-h998-rw-no)
 > **SCSS** 
+![Project Image](https://lh3.googleusercontent.com/R6zE9xQVCkSSRP6gyOAgOIpt-RJCk5UoaLIpvdKSFrJPAs87RjMV8lVoyVwDd3qA5h3xBJ-vG2TI4F13slW_p45CwICHauWJk9zn=w1920-h993-rw-no)
 
-
-![Project Image](https://lh3.googleusercontent.com/Jur6OkU-NCzGUConr_g9244Za1Eehvj_rZ3seiNA7Jf1K2i3N8zHA7vm1H19t-vxTFPYKP5taDs70W3kt2eKCeu7NlK00uf25Tc-wg=w1918-h998-rw-no)
 > **JavaScript** 
+![Project Image](https://lh3.googleusercontent.com/3FHr_IdAdmbidTFYNf5W1JpRqrH5pLivomqDX0wumEcx-rHEiNcHEkwbJKtq5FPd7q4DEoeOwMQvsjd9LaBYdr4uxbBzYcE0UC8g=w1920-h995-rw-no)
 
 
 ### PyCharm
-![Project Image](https://lh3.googleusercontent.com/Jur6OkU-NCzGUConr_g9244Za1Eehvj_rZ3seiNA7Jf1K2i3N8zHA7vm1H19t-vxTFPYKP5taDs70W3kt2eKCeu7NlK00uf25Tc-wg=w1918-h998-rw-no)
-> **Python** 
+> **Python**
+![Project Image](https://lh3.googleusercontent.com/rtYgTLai68zKEhjkgnaXTwSnGnA2bR_gLEr0Fu3kywYlom4eug49SKbHADYRp6uSk5a5-E_gYwv3QCAAUFC-jziILeOd4lq_WOGI=w1920-h989-rw-no)
+ 
 
 ---
 ## **License**
