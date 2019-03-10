@@ -5,6 +5,10 @@
   </component>
   <component name="CodeInsightSettings">
     <option name="SHOW_METHOD_CHAIN_TYPES_INLINE" value="false" />
+    <option name="PARAMETER_INFO_DELAY" value="500" />
+    <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
+    <option name="JAVADOC_INFO_DELAY" value="800" />
+    <option name="INDENT_TO_CARET_ON_PASTE" value="true" />
     <option name="HIGHLIGHT_SCOPE" value="true" />
   </component>
   <component name="DaemonCodeAnalyzerSettings" profile="JetBrains [Inspections]" />
