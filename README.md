@@ -9,8 +9,11 @@
 ## **Contents**
 
 - [**Description**](#description)
+  - [Features](#features)
 - [**Installation**](#installation)
 - [**Plugins**](#plugins)
+  - [Mandatory](#mandatory)
+  - [Recommended](#recommended)
 - [**Color Schemes**](#color-schemes)
   - [IntelliJ IDEA](#intellij-idea)
   - [WebStorm](#webstorm)
@@ -21,7 +24,9 @@
 ---
 
 ## **Description**
-This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. Apart from the theme, everything around the IDE has been set up to provide a beautiful and pleasant experience. What's included?
+This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. Apart from the theme, everything around the IDE has been set up to provide a beautiful and pleasant experience. 
+
+### Features
 - Atom One Dark Theme
 - Fira Code Retina (w/ Font Ligatures)
 - Optimized Configuration
@@ -108,3 +113,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+[back to the top](#jetbrains-atom-one-dark)
