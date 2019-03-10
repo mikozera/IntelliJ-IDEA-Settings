@@ -37,8 +37,11 @@
     <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="Diff.ShowDiff" />
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="alt button1" />
+    <mouse-shortcut keystroke="shift alt button1" />
+  </action>
   <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="ctrl y" />
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="EditorDuplicate">
@@ -55,6 +58,7 @@
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
   </action>
+  <action id="GotoLine" />
   <action id="GotoNextError" />
   <action id="GuiDesigner.Duplicate">
     <keyboard-shortcut first-keystroke="shift alt down" />
@@ -72,11 +76,18 @@
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
   <action id="QuickChangeScheme" />
+  <action id="QuickEvaluateExpression">
+    <keyboard-shortcut first-keystroke="ctrl alt f8" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
   <action id="RunDashboard.CopyConfiguration">
     <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="alt j" />
   </action>
   <action id="SendEOF" />
   <action id="ShelvedChanges.Rename">

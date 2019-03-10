@@ -1,5 +1,6 @@
 <application>
   <component name="UISettings">
+    <option name="EDITOR_TAB_LIMIT" value="12" />
     <option name="FONT_FACE" value="Fira Code Retina" />
     <option name="HIDE_TOOL_STRIPES" value="true" />
     <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
