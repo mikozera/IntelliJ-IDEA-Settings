@@ -1,29 +1,26 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="allowDataCollection" value="true" />
-    <option name="compactDropdowns" value="true" />
-    <option name="compactSidebar" value="true" />
-    <option name="darkTitleBar" value="true" />
+    <option name="version" value="2.4.1.5-2018.1" />
+    <option name="selectedTheme" value="ONE_DARK" />
+    <option name="highlightColor" value="2979ff" />
     <option name="highlightColorEnabled" value="true" />
-    <option name="isCompactMenus" value="true" />
-    <option name="isCompactStatusBar" value="true" />
-    <option name="isCompactTables" value="true" />
     <option name="isContrastMode" value="true" />
     <option name="isCustomTreeIndentEnabled" value="true" />
-    <option name="isWizardShown" value="true" />
-    <option name="pristineConfig" value="false" />
-    <option name="upperCaseButtons" value="false" />
-    <option name="useMaterialFont" value="false" />
-    <option name="useProjectViewDecorators" value="false" />
-    <option name="customSidebarHeight" value="26" />
-    <option name="tabOpacity" value="6" />
     <option name="rightTreeIndent" value="8" />
-    <option name="settingsSelectedTab" value="1" />
-    <option name="tabsHeight" value="40" />
     <option name="accentColor" value="2979ff" />
-    <option name="highlightColor" value="2979ff" />
-    <option name="selectedTheme" value="ONE_DARK" />
+    <option name="useProjectViewDecorators" value="false" />
+    <option name="compactSidebar" value="true" />
+    <option name="tabsHeight" value="40" />
+    <option name="isCompactStatusBar" value="true" />
+    <option name="isCompactTables" value="true" />
+    <option name="customSidebarHeight" value="26" />
+    <option name="darkTitleBar" value="true" />
+    <option name="useMaterialFont" value="false" />
+    <option name="tabOpacity" value="6" />
+    <option name="compactDropdowns" value="true" />
+    <option name="upperCaseButtons" value="false" />
+    <option name="settingsSelectedTab" value="1" />
     <option name="userId" value="70f25316:1681251df9f:-8000" />
-    <option name="version" value="3.5.0.1" />
+    <option name="allowDataCollection" value="true" />
   </component>
 </application>
