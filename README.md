@@ -45,7 +45,8 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 ## **Installation**
 1. Download JetBrain's IDE
 2. Install Plugins: File -> Settings -> Plugins -> Browse Repositories 
-3. Enable Settings Repository: File -> Settings Repository -> Enter link: https://github.com/mikozera/JetBrains-Atom-One-Dark -> Override Local 
+3. Install Bash Configuration
+4. Enable Settings Repository: File -> Settings Repository -> Enter link: https://github.com/mikozera/JetBrains-Atom-One-Dark -> Override Local 
 
 > **Note:** Theme comes with a adjusted Inspections Configuration & "optimized" Keymap
 
