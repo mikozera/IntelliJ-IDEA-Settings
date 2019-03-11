@@ -4,7 +4,7 @@
     <property name="created">2019-03-09T18:45:13</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.1.4.0.0</property>
-    <property name="modified">2019-03-10T16:21:34</property>
+    <property name="modified">2019-03-10T20:34:58</property>
     <property name="originalScheme">Atom One Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -88,6 +88,11 @@
       <value>
         <option name="BACKGROUND" value="502828" />
         <option name="ERROR_STRIPE_COLOR" value="e06c75" />
+      </value>
+    </option>
+    <option name="CLASS_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="e5c07b" />
       </value>
     </option>
     <option name="CONSOLE_BLACK_OUTPUT">
@@ -451,6 +456,11 @@
         <option name="ERROR_STRIPE_COLOR" value="43698d" />
       </value>
     </option>
+    <option name="DOC_COMMENT_TAG_VALUE">
+      <value>
+        <option name="FOREGROUND" value="5c6370" />
+      </value>
+    </option>
     <option name="DUPLICATE_FROM_SERVER">
       <value>
         <option name="BACKGROUND" value="5e5339" />
@@ -552,6 +562,11 @@
       <value>
         <option name="FOREGROUND" value="5c6370" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="JS.DEBUGGER_STMT">
+      <value>
+        <option name="FOREGROUND" value="c678dd" />
       </value>
     </option>
     <option name="JS.FUNCTION">
@@ -25363,6 +25378,11 @@
         <option name="FOREGROUND" value="43b6e2" />
       </value>
     </option>
+    <option name="STATIC_FIELD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="e06c75" />
+      </value>
+    </option>
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="e06c75" />
@@ -25384,6 +25404,11 @@
         <option name="FOREGROUND" value="4ea7b4" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="4" />
+      </value>
+    </option>
+    <option name="TS.PRIVATE_PUBLIC">
+      <value>
+        <option name="FOREGROUND" value="c678dd" />
       </value>
     </option>
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
