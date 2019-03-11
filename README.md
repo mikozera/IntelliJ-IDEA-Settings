@@ -1,6 +1,6 @@
 # JetBrains: Atom One Dark
 
-![Project Image](https://lh3.googleusercontent.com/DhU_CFVnz649d7F-XDR0Grp4Kh_vEeSkZtwLHBWxVm5-uM2dxj3jBw-sNLSOzuiZEQokKQ8AsS9akg=w1917-h998-rw-no)
+![Project Image](https://lh3.googleusercontent.com/L_qZ8s-QMWoV4H61xdxdudLMdTz15e2krR63R6jlgIFFzb_YOgtbg-7W7qV4T2K98YdJDuLTJFZS0Q=w1920-h997-rw-no)
 
 > **IDE:** IntelliJ IDEA
 
@@ -139,7 +139,7 @@ PS1="$PS1"'$ '
 
 ### PyCharm
 > **Python**
-![Project Image](https://lh3.googleusercontent.com/rtYgTLai68zKEhjkgnaXTwSnGnA2bR_gLEr0Fu3kywYlom4eug49SKbHADYRp6uSk5a5-E_gYwv3QCAAUFC-jziILeOd4lq_WOGI=w1920-h989-rw-no)
+![Project Image](https://lh3.googleusercontent.com/ZHABAuRKIKcyUa2lzkclojvTP5gYyyzajvsJYDzSVRGY1cY8aNvlthWI9lZasdCyHaAIf9_y3K09Eg=w1920-h993-rw-no)
  
 
 ---
