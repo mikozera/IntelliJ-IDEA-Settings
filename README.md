@@ -14,6 +14,9 @@
 - [**Plugins**](#plugins)
   - [Mandatory](#mandatory)
   - [Recommended](#recommended)
+- [**Bash Configuration**](#bash-configuration)
+  - [Instructions](#instructions)
+  - [Files](#files)
 - [**Color Schemes**](#color-schemes)
   - [IntelliJ IDEA](#intellij-idea)
   - [WebStorm](#webstorm)
@@ -29,9 +32,9 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 ### Features
 - Atom One Dark Theme
 - Fira Code Retina (w/ Font Ligatures)
-- Optimized Configuration
+- Optimized IDE Configuration
 - Modified Keymap
-- Improved GitBash compatibility 
+- Improved GitBash compatibility (w/ Bash Configuration)
 - Awesome Plugins to Enhance the IDE Experience 
 - Advanced Color Configuration for most JetBrain's IDEs
 
@@ -40,7 +43,7 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 ---
 
 ## **Installation**
-1. Download your Desired JetBrain's IDE
+1. Download JetBrain's IDE
 2. Install Plugins: File -> Settings -> Plugins -> Browse Repositories 
 3. Enable Settings Repository: File -> Settings Repository -> Enter link: https://github.com/mikozera/JetBrains-Atom-One-Dark -> Override Local 
 
@@ -64,6 +67,52 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 
 > **Note:** To enable auto-formatting, you must configure it under "Save Actions"
 
+---
+
+## **Bash Configuration**
+
+### Instructions
+1. Download Git for Windows (includes GitBash Terminal)
+2. Locate or create ".bash_profile" and ".bashrc" files (C:\Users\<your user name>)
+3. Replace content within each of the files
+
+### Files
+##### .bash_profile
+```
+if [ -f ~/.bashrc ]; then
+  source ~/.bashrc
+fi
+```
+
+##### .bashrc
+```
+# Bash Configuration
+PS1='\[\033]0;Terminal\007\]'
+PS1="$PS1"'\[\033[32m\]' 
+PS1="$PS1"'\u' # print: 'user'
+PS1="$PS1"'\[\033[37m\]' 
+PS1="$PS1"': ' # print ': '
+PS1="$PS1"'\[\033[33m\]' 
+PS1="$PS1"'\w' 
+
+if test -z "$WINELOADERNOEXEC"
+then
+  GIT_EXEC_PATH="$(git --exec-path 2>/dev/null)"
+  COMPLETION_PATH="${GIT_EXEC_PATH%/libexec/git-core}"
+  COMPLETION_PATH="${COMPLETION_PATH%/lib/git-core}"
+  COMPLETION_PATH="$COMPLETION_PATH/share/git/completion"
+  if test -f "$COMPLETION_PATH/git-prompt.sh"
+  then
+    . "$COMPLETION_PATH/git-completion.bash"
+    . "$COMPLETION_PATH/git-prompt.sh"
+    PS1="$PS1"'\[\033[36m\]' 
+    PS1="$PS1"'`__git_ps1`' 
+  fi
+fi
+PS1="$PS1"'\[\033[37m\]' 
+PS1="$PS1"'\n' 
+PS1="$PS1"'$ ' 
+```
 ---
 
 ## **Color Schemes**
