@@ -90,9 +90,9 @@ fi
 # Bash Configuration
 PS1='\[\033]0;Terminal\007\]'
 PS1="$PS1"'\[\033[32m\]' 
-PS1="$PS1"'\u' # print: 'user'
+PS1="$PS1"'\u' 
 PS1="$PS1"'\[\033[37m\]' 
-PS1="$PS1"': ' # print ': '
+PS1="$PS1"': ' 
 PS1="$PS1"'\[\033[33m\]' 
 PS1="$PS1"'\w' 
 
