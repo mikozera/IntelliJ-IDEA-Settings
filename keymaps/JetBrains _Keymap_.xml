@@ -3,7 +3,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt back_quote" />
   </action>
   <action id="ActivateFavoritesToolWindow">
-    <keyboard-shortcut first-keystroke="alt 4" />
+    <keyboard-shortcut first-keystroke="alt 5" />
   </action>
   <action id="ActivateRunToolWindow">
     <keyboard-shortcut first-keystroke="alt back_quote" />
@@ -12,7 +12,7 @@
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
   <action id="ActivateTODOToolWindow">
-    <keyboard-shortcut first-keystroke="alt 5" />
+    <keyboard-shortcut first-keystroke="alt 4" />
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
