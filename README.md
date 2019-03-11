@@ -31,6 +31,7 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 - Fira Code Retina (w/ Font Ligatures)
 - Optimized Configuration
 - Modified Keymap
+- Improved GitBash compatibility 
 - Awesome Plugins to Enhance the IDE Experience 
 - Advanced Color Configuration for most JetBrain's IDEs
 
@@ -55,8 +56,10 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 - Rainbow Brackets: enables colorful bracket/brace coloring
 
 ### Recommended
+- .ignore: improved file ignoring capabilities
 - AceJump: allows for quick cursor movement w/o taking your hands-off the keyboard (Ctrl + ;)
 - Save Actions: auto-format your code 
+- Markdown Navigator: integrates advanced Markdown support
 - Presentation Assistant: displays any pressed keyboard shortcuts (Alt + Shift + D)
 
 > **Note:** To enable auto-formatting, you must configure it under "Save Actions"
