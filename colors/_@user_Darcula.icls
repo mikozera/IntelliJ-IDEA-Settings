@@ -3,7 +3,7 @@
     <property name="created">2019-01-03T01:06:22</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2018.3.2.0.0</property>
-    <property name="modified">2019-03-10T22:43:16</property>
+    <property name="modified">2019-03-10T23:06:30</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <colors>
@@ -18,6 +18,7 @@
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="72a038" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
+    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="808080" />
     <option name="FILESTATUS_MERGED" value="" />
     <option name="FILESTATUS_MODIFIED" value="61afef" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="" />
