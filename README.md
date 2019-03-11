@@ -1,13 +1,170 @@
-# IntelliJ IDEA Settings
+# JetBrains: Atom One Dark
 
-![Project Image](https://lh3.googleusercontent.com/Jur6OkU-NCzGUConr_g9244Za1Eehvj_rZ3seiNA7Jf1K2i3N8zHA7vm1H19t-vxTFPYKP5taDs70W3kt2eKCeu7NlK00uf25Tc-wg=w1918-h998-rw-no)
+![Project Image](https://lh3.googleusercontent.com/L_qZ8s-QMWoV4H61xdxdudLMdTz15e2krR63R6jlgIFFzb_YOgtbg-7W7qV4T2K98YdJDuLTJFZS0Q=w1920-h997-rw-no)
 
-> **Style:** Atom One Dark
+> **IDE:** IntelliJ IDEA
 
-## Plugins
- - AceJump
-- CodeGlance
-- Material Theme UI
-- Rainbow Brackets
-- Save Actions
-- Settings Repository
+---
+
+## **Contents**
+
+- [**Description**](#description)
+  - [Features](#features)
+- [**Installation**](#installation)
+- [**Plugins**](#plugins)
+  - [Mandatory](#mandatory)
+  - [Recommended](#recommended)
+- [**Bash Configuration**](#bash-configuration)
+  - [Instructions](#instructions)
+  - [Files](#files)
+- [**Color Schemes**](#color-schemes)
+  - [IntelliJ IDEA](#intellij-idea)
+  - [WebStorm](#webstorm)
+  - [PyCharm](#pycharm)
+- [**License**](#license)
+  - [MIT](#mit)
+  
+---
+
+## **Description**
+This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. Apart from the theme, everything around the IDE has been set up to provide a beautiful and pleasant experience. 
+
+### Features
+- Atom One Dark Theme
+- Fira Code Retina (w/ Font Ligatures)
+- Optimized IDE Configuration
+- Modified Keymap
+- Improved GitBash Compatibility (w/ Bash Configuration)
+- Awesome Plugins to Enhance the IDE Experience 
+- Advanced Color Scheme Configuration for Most JetBrain's IDEs
+
+> **Note:** Theme has been fully optimized for IntelliJ IDEA, WebStorm & PyCharm
+
+---
+
+## **Installation**
+1. Download JetBrain's IDE
+2. Install Plugins: File -> Settings -> Plugins -> Browse Repositories 
+3. Install Bash Configuration
+4. Enable Settings Repository: File -> Settings Repository -> Enter link: https://github.com/mikozera/JetBrains-Atom-One-Dark -> Override Local 
+
+> **Note:** Theme comes with a adjusted Inspections Configuration & "optimized" Keymap
+
+---
+
+## **Plugins**
+
+### Mandatory
+- CodeGlance: enables a "Sublime-esk" mini-map
+- Material Theme UI: enables a basic Atom One Dark theme
+- Rainbow Brackets: enables colorful bracket/brace coloring
+
+### Recommended
+- .ignore: improved file ignoring capabilities
+- AceJump: allows for quick cursor movement w/o taking your hands-off the keyboard (Ctrl + ;)
+- Save Actions: auto-format your code 
+- Markdown Navigator: integrates advanced Markdown support
+- Presentation Assistant: displays any pressed keyboard shortcuts (Alt + Shift + D)
+
+> **Note:** To enable auto-formatting, you must configure it under "Save Actions"
+
+---
+
+## **Bash Configuration**
+
+### Instructions
+1. Download Git for Windows (includes GitBash Terminal)
+2. Locate or create ".bash_profile" and ".bashrc" files (C:\Users\<your user name>)
+3. Replace content within each of the files
+
+### Files
+##### .bash_profile
+```
+if [ -f ~/.bashrc ]; then
+  source ~/.bashrc
+fi
+```
+
+##### .bashrc
+```
+# Bash Configuration
+PS1='\[\033]0;Terminal\007\]'
+PS1="$PS1"'\[\033[32m\]' 
+PS1="$PS1"'\u' 
+PS1="$PS1"'\[\033[37m\]' 
+PS1="$PS1"': ' 
+PS1="$PS1"'\[\033[33m\]' 
+PS1="$PS1"'\w' 
+
+if test -z "$WINELOADERNOEXEC"
+then
+  GIT_EXEC_PATH="$(git --exec-path 2>/dev/null)"
+  COMPLETION_PATH="${GIT_EXEC_PATH%/libexec/git-core}"
+  COMPLETION_PATH="${COMPLETION_PATH%/lib/git-core}"
+  COMPLETION_PATH="$COMPLETION_PATH/share/git/completion"
+  if test -f "$COMPLETION_PATH/git-prompt.sh"
+  then
+    . "$COMPLETION_PATH/git-completion.bash"
+    . "$COMPLETION_PATH/git-prompt.sh"
+    PS1="$PS1"'\[\033[36m\]' 
+    PS1="$PS1"'`__git_ps1`' 
+  fi
+fi
+PS1="$PS1"'\[\033[37m\]' 
+PS1="$PS1"'\n' 
+PS1="$PS1"'$ ' 
+```
+---
+
+## **Color Schemes**
+
+### IntelliJ IDEA
+> **Java** 
+![Project Image](https://lh3.googleusercontent.com/0ImVOMRfCfgchrdLOrvv7HWsn8pN1SVklJ4bVf3Of_W9l5BZBvCM0lEFOzw2tKMQ05fOv2yL1ufVv84vBnyH5fQnuH7cUKFiaAekVw=w1920-h985-rw-no)
+
+
+### WebStorm
+> **HTML**
+![Project Image](https://lh3.googleusercontent.com/Qs0rLKz_ZRkWKcfbHHin-QaI7Zl4jo8Bq2FjCoQJk876L3dHYdNHL9Vji2w3xEy0z6fPCgO4R7YEQkP_CucpjkISmjVlYFjGM-vy=w1920-h999-rw-no)
+
+> **CSS**
+![Project Image](https://lh3.googleusercontent.com/zTl4gOrEVmYPRwRSc7KCueHk6U-M2TsB5OWn6ly4IZJioIUaUPO2utQsiU_QT3vFrOGHI1ol7K3TxyCJR9WimtEwaaIhHX3YoAsf=w1920-h996-rw-no)
+
+> **SCSS** 
+![Project Image](https://lh3.googleusercontent.com/R6zE9xQVCkSSRP6gyOAgOIpt-RJCk5UoaLIpvdKSFrJPAs87RjMV8lVoyVwDd3qA5h3xBJ-vG2TI4F13slW_p45CwICHauWJk9zn=w1920-h993-rw-no)
+
+> **JavaScript** 
+![Project Image](https://lh3.googleusercontent.com/3FHr_IdAdmbidTFYNf5W1JpRqrH5pLivomqDX0wumEcx-rHEiNcHEkwbJKtq5FPd7q4DEoeOwMQvsjd9LaBYdr4uxbBzYcE0UC8g=w1920-h995-rw-no)
+
+
+### PyCharm
+> **Python**
+![Project Image](https://lh3.googleusercontent.com/ZHABAuRKIKcyUa2lzkclojvTP5gYyyzajvsJYDzSVRGY1cY8aNvlthWI9lZasdCyHaAIf9_y3K09Eg=w1920-h993-rw-no)
+ 
+
+---
+## **License**
+
+### MIT
+
+Copyright (c) 2019 Sebastian Nunez
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+[back to the top](#jetbrains-atom-one-dark)
