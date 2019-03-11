@@ -34,9 +34,9 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 - Fira Code Retina (w/ Font Ligatures)
 - Optimized IDE Configuration
 - Modified Keymap
-- Improved GitBash compatibility (w/ Bash Configuration)
+- Improved GitBash Compatibility (w/ Bash Configuration)
 - Awesome Plugins to Enhance the IDE Experience 
-- Advanced Color Configuration for most JetBrain's IDEs
+- Advanced Color Scheme Configuration for Most JetBrain's IDEs
 
 > **Note:** Theme has been fully optimized for IntelliJ IDEA, WebStorm & PyCharm
 
