@@ -55,10 +55,10 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 - Rainbow Brackets: enables colorful bracket/brace coloring
 
 ### Recommended
+- .ignore: improved file ignore functionality within VCS
 - AceJump: allows for quick cursor movement w/o taking your hands-off the keyboard (Ctrl + ;)
 - Save Actions: auto-format your code 
 - Markdown Navigator: allows for advanced Markdown support
-- .ignore: improve ignore functionality within VCS
 - Presentation Assistant: displays any pressed keyboard shortcuts (Alt + Shift + D)
 
 > **Note:** To enable auto-formatting, you must configure it under "Save Actions"
