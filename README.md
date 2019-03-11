@@ -57,8 +57,7 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 ### Recommended
 - AceJump: allows for quick cursor movement w/o taking your hands-off the keyboard (Ctrl + ;)
 - Save Actions: auto-format your code 
-- Markdown Support
-- Markdown Navigator
+- Markdown Navigator: allows for advanced Markdown support
 - Presentation Assistant: displays any pressed keyboard shortcuts (Alt + Shift + D)
 
 > **Note:** To enable auto-formatting, you must configure it under "Save Actions"
