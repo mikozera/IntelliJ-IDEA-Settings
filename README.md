@@ -34,9 +34,9 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 - Fira Code Retina (w/ Font Ligatures)
 - Optimized IDE Configuration
 - Modified Keymap
-- Improved GitBash compatibility (w/ Bash Configuration)
+- Improved GitBash Compatibility (w/ Bash Configuration)
 - Awesome Plugins to Enhance the IDE Experience 
-- Advanced Color Configuration for most JetBrain's IDEs
+- Advanced Color Scheme Configuration for Most JetBrain's IDEs
 
 > **Note:** Theme has been fully optimized for IntelliJ IDEA, WebStorm & PyCharm
 
@@ -90,9 +90,9 @@ fi
 # Bash Configuration
 PS1='\[\033]0;Terminal\007\]'
 PS1="$PS1"'\[\033[32m\]' 
-PS1="$PS1"'\u' # print: 'user'
+PS1="$PS1"'\u' 
 PS1="$PS1"'\[\033[37m\]' 
-PS1="$PS1"': ' # print ': '
+PS1="$PS1"': ' 
 PS1="$PS1"'\[\033[33m\]' 
 PS1="$PS1"'\w' 
 
