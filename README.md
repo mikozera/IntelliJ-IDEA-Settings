@@ -1,6 +1,6 @@
 # JetBrains: Atom One Dark
 
-![Project Image](https://lh3.googleusercontent.com/Jur6OkU-NCzGUConr_g9244Za1Eehvj_rZ3seiNA7Jf1K2i3N8zHA7vm1H19t-vxTFPYKP5taDs70W3kt2eKCeu7NlK00uf25Tc-wg=w1918-h998-rw-no)
+![Project Image](https://lh3.googleusercontent.com/L_qZ8s-QMWoV4H61xdxdudLMdTz15e2krR63R6jlgIFFzb_YOgtbg-7W7qV4T2K98YdJDuLTJFZS0Q=w1920-h997-rw-no)
 
 > **IDE:** IntelliJ IDEA
 
@@ -14,6 +14,9 @@
 - [**Plugins**](#plugins)
   - [Mandatory](#mandatory)
   - [Recommended](#recommended)
+- [**Bash Configuration**](#bash-configuration)
+  - [Instructions](#instructions)
+  - [Files](#files)
 - [**Color Schemes**](#color-schemes)
   - [IntelliJ IDEA](#intellij-idea)
   - [WebStorm](#webstorm)
@@ -29,19 +32,21 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 ### Features
 - Atom One Dark Theme
 - Fira Code Retina (w/ Font Ligatures)
-- Optimized Configuration
+- Optimized IDE Configuration
 - Modified Keymap
+- Improved GitBash Compatibility (w/ Bash Configuration)
 - Awesome Plugins to Enhance the IDE Experience 
-- Advanced Color Configuration for most JetBrain's IDEs
+- Advanced Color Scheme Configuration for Most JetBrain's IDEs
 
 > **Note:** Theme has been fully optimized for IntelliJ IDEA, WebStorm & PyCharm
 
 ---
 
 ## **Installation**
-1. Download your Desired JetBrain's IDE
+1. Download JetBrain's IDE
 2. Install Plugins: File -> Settings -> Plugins -> Browse Repositories 
-3. Enable Settings Repository: File -> Settings Repository -> Enter link: https://github.com/mikozera/JetBrains-Atom-One-Dark -> Override Local 
+3. Install Bash Configuration
+4. Enable Settings Repository: File -> Settings Repository -> Enter link: https://github.com/mikozera/JetBrains-Atom-One-Dark -> Override Local 
 
 > **Note:** Theme comes with a adjusted Inspections Configuration & "optimized" Keymap
 
@@ -55,12 +60,60 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 - Rainbow Brackets: enables colorful bracket/brace coloring
 
 ### Recommended
+- .ignore: improved file ignoring capabilities
 - AceJump: allows for quick cursor movement w/o taking your hands-off the keyboard (Ctrl + ;)
 - Save Actions: auto-format your code 
+- Markdown Navigator: integrates advanced Markdown support
 - Presentation Assistant: displays any pressed keyboard shortcuts (Alt + Shift + D)
 
 > **Note:** To enable auto-formatting, you must configure it under "Save Actions"
 
+---
+
+## **Bash Configuration**
+
+### Instructions
+1. Download Git for Windows (includes GitBash Terminal)
+2. Locate or create ".bash_profile" and ".bashrc" files (C:\Users\<your user name>)
+3. Replace content within each of the files
+
+### Files
+##### .bash_profile
+```
+if [ -f ~/.bashrc ]; then
+  source ~/.bashrc
+fi
+```
+
+##### .bashrc
+```
+# Bash Configuration
+PS1='\[\033]0;Terminal\007\]'
+PS1="$PS1"'\[\033[32m\]' 
+PS1="$PS1"'\u' 
+PS1="$PS1"'\[\033[37m\]' 
+PS1="$PS1"': ' 
+PS1="$PS1"'\[\033[33m\]' 
+PS1="$PS1"'\w' 
+
+if test -z "$WINELOADERNOEXEC"
+then
+  GIT_EXEC_PATH="$(git --exec-path 2>/dev/null)"
+  COMPLETION_PATH="${GIT_EXEC_PATH%/libexec/git-core}"
+  COMPLETION_PATH="${COMPLETION_PATH%/lib/git-core}"
+  COMPLETION_PATH="$COMPLETION_PATH/share/git/completion"
+  if test -f "$COMPLETION_PATH/git-prompt.sh"
+  then
+    . "$COMPLETION_PATH/git-completion.bash"
+    . "$COMPLETION_PATH/git-prompt.sh"
+    PS1="$PS1"'\[\033[36m\]' 
+    PS1="$PS1"'`__git_ps1`' 
+  fi
+fi
+PS1="$PS1"'\[\033[37m\]' 
+PS1="$PS1"'\n' 
+PS1="$PS1"'$ ' 
+```
 ---
 
 ## **Color Schemes**
@@ -86,7 +139,7 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 
 ### PyCharm
 > **Python**
-![Project Image](https://lh3.googleusercontent.com/rtYgTLai68zKEhjkgnaXTwSnGnA2bR_gLEr0Fu3kywYlom4eug49SKbHADYRp6uSk5a5-E_gYwv3QCAAUFC-jziILeOd4lq_WOGI=w1920-h989-rw-no)
+![Project Image](https://lh3.googleusercontent.com/ZHABAuRKIKcyUa2lzkclojvTP5gYyyzajvsJYDzSVRGY1cY8aNvlthWI9lZasdCyHaAIf9_y3K09Eg=w1920-h993-rw-no)
  
 
 ---
