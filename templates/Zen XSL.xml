@@ -1,5 +1,0 @@
-<templateSet group="Zen XSL">
-  <template name="com" value="&lt;xsl:comment&gt;$END$&lt;/xsl:comment&gt;" description="&lt;xsl:comment&gt;...&lt;/xsl:comment&gt;" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
-</templateSet>
