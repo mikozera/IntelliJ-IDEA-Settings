@@ -1,5 +1,6 @@
 <application>
   <component name="CodeGlance">
+    <option name="clean" value="false" />
     <option name="locked" value="true" />
     <option name="percentageBasedClick" value="true" />
     <option name="pixelsPerLine" value="2" />
