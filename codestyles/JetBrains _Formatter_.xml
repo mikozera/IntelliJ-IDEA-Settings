@@ -1,6 +1,5 @@
 <code_scheme name="JetBrains [Formatter]" version="173">
   <option name="AUTODETECT_INDENTS" value="false" />
-  <option name="FORMATTER_TAGS_ENABLED" value="true" />
   <CssCodeStyleSettings>
     <option name="HEX_COLOR_LOWER_CASE" value="true" />
     <option name="HEX_COLOR_SHORT_FORMAT" value="true" />
