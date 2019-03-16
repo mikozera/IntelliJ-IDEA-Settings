@@ -105,6 +105,7 @@
     <option name="FIELD_ANNOTATION_WRAP" value="0" />
   </codeStyleSettings>
   <codeStyleSettings language="JSON">
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
     </indentOptions>
