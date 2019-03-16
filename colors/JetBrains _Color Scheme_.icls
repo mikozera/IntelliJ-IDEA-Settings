@@ -4,7 +4,7 @@
     <property name="created">2019-03-09T18:45:13</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.1.4.0.0</property>
-    <property name="modified">2019-03-15T20:40:21</property>
+    <property name="modified">2019-03-15T20:34:10</property>
     <property name="originalScheme">Atom One Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -27,7 +27,7 @@
   </console-font>
   <option name="CONSOLE_LIGATURES" value="true" />
   <colors>
-    <option name="ADDED_LINES_COLOR" value="1ea55f" />
+    <option name="ADDED_LINES_COLOR" value="1bbc79" />
     <option name="CARET_COLOR" value="636d83" />
     <option name="CARET_ROW_COLOR" value="2c313a" />
     <option name="CONSOLE_BACKGROUND_KEY" value="21252b" />
