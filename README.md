@@ -120,26 +120,26 @@ PS1="$PS1"'$ '
 
 ### IntelliJ IDEA
 > **Java** 
-![Project Image](https://lh3.googleusercontent.com/0ImVOMRfCfgchrdLOrvv7HWsn8pN1SVklJ4bVf3Of_W9l5BZBvCM0lEFOzw2tKMQ05fOv2yL1ufVv84vBnyH5fQnuH7cUKFiaAekVw=w1920-h985-rw-no)
+![Project Image](https://lh3.googleusercontent.com/zUtbDW41Th5D3vClku24ws3quUYkh3nS3R6tI9st4Lx90tu4rZsSlyidRbkqMp2krL-RLsYwVGUA19Z-nBPaupiARDep0g77JiW6VA=w1920-h997-rw-no)
 
 
 ### WebStorm
 > **HTML**
-![Project Image](https://lh3.googleusercontent.com/Qs0rLKz_ZRkWKcfbHHin-QaI7Zl4jo8Bq2FjCoQJk876L3dHYdNHL9Vji2w3xEy0z6fPCgO4R7YEQkP_CucpjkISmjVlYFjGM-vy=w1920-h999-rw-no)
+![Project Image](https://lh3.googleusercontent.com/FKVBC9OkXqE-F3b5Q2Cm3B2JfG3Jssh7l1bhfUuerwUC3TSj9HL58E_uLSQ3EdgJZ1aXaL0Tb9BjDQ9IN8kOBjF6NnL08COTSsmd9Q=w1920-h992-rw-no)
 
 > **CSS**
-![Project Image](https://lh3.googleusercontent.com/zTl4gOrEVmYPRwRSc7KCueHk6U-M2TsB5OWn6ly4IZJioIUaUPO2utQsiU_QT3vFrOGHI1ol7K3TxyCJR9WimtEwaaIhHX3YoAsf=w1920-h996-rw-no)
+![Project Image](https://lh3.googleusercontent.com/CSgVilkiXtfmAr06lTCX5-icDzhkMT2tu5-ECvrpHSPdsyJOfFYzKTIdQk-0JbQzlNyNkUOYxSnksX7icWg9QhIQX_iset19ZCObZw=w1920-h996-rw-no)
 
 > **SCSS** 
-![Project Image](https://lh3.googleusercontent.com/R6zE9xQVCkSSRP6gyOAgOIpt-RJCk5UoaLIpvdKSFrJPAs87RjMV8lVoyVwDd3qA5h3xBJ-vG2TI4F13slW_p45CwICHauWJk9zn=w1920-h993-rw-no)
+![Project Image](https://lh3.googleusercontent.com/BEHd4MDGakyK07jF00TGvgrSsOB9IgM0UDkoStIV9GWQ6Lsb3qUoL8CYgja9mVSQM737WseTlve39v8eSHUvLJNvYYDDLNdSdzPVWw=w1920-h995-rw-no)
 
 > **JavaScript** 
-![Project Image](https://lh3.googleusercontent.com/3FHr_IdAdmbidTFYNf5W1JpRqrH5pLivomqDX0wumEcx-rHEiNcHEkwbJKtq5FPd7q4DEoeOwMQvsjd9LaBYdr4uxbBzYcE0UC8g=w1920-h995-rw-no)
+![Project Image](https://lh3.googleusercontent.com/HJEQyBiT2Ee59O4DWW5-VySUiZHHeJqz-mu7R4Vao_hUqS4R4of5UpFJlLD3NKfazcDK3ZId9VPVT_I4T0WoILCht9iVyTujgC61sA=w1920-h996-rw-no)
 
 
 ### PyCharm
 > **Python**
-![Project Image](https://lh3.googleusercontent.com/ZHABAuRKIKcyUa2lzkclojvTP5gYyyzajvsJYDzSVRGY1cY8aNvlthWI9lZasdCyHaAIf9_y3K09Eg=w1920-h993-rw-no)
+![Project Image](https://lh3.googleusercontent.com/Covjqc51LA7-S8ifDux3vxKMRUBuRDoTI-gCwJQY8bVY3erMtQdHNUfCQfAI_Q-rqHCgmdAuApM7Usu_GxU8671j0ky7Nd5-EtFDAQ=w1918-h995-rw-no)
  
 
 ---
