@@ -4,11 +4,12 @@
     <option name="fuzzySearchEnabled" value="false" />
   </component>
   <component name="EmmetOptions">
+    <option name="bemModifierSeparator" value="--" />
+    <option name="emmetExpandShortcut" value="67" />
     <option name="filtersEnabledByDefault">
       <set>
         <option value="bem" />
       </set>
     </option>
-    <option name="previewEnabled" value="true" />
   </component>
 </application>

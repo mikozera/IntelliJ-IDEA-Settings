@@ -44,6 +44,13 @@
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
   <action id="EditorPasteFromX11" />
+  <action id="EmmetPreview">
+    <keyboard-shortcut first-keystroke="shift ctrl alt p" />
+  </action>
+  <action id="ExpandLiveTemplateCustom">
+    <keyboard-shortcut first-keystroke="tab" />
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl f" />
@@ -75,6 +82,7 @@
   <action id="QuickEvaluateExpression">
     <keyboard-shortcut first-keystroke="ctrl alt f8" />
   </action>
+  <action id="ReformatWithPrettierAction" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="f1" />
   </action>

@@ -1,19 +1,22 @@
 <code_scheme name="JetBrains [Formatter]" version="173">
   <option name="AUTODETECT_INDENTS" value="false" />
+  <option name="FORMATTER_TAGS_ENABLED" value="true" />
   <CssCodeStyleSettings>
     <option name="HEX_COLOR_LOWER_CASE" value="true" />
     <option name="HEX_COLOR_SHORT_FORMAT" value="true" />
   </CssCodeStyleSettings>
   <HTMLCodeStyleSettings>
     <option name="HTML_KEEP_BLANK_LINES" value="1" />
-    <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="thead,tbody,tfoot" />
+    <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="body,div,form,h1,h2,h3,p" />
+    <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
     <option name="HTML_INLINE_ELEMENTS" value="abbr,acronym,b,basefont,bdo,big,cite,cite,code,dfn,em,font,i,kbd,q,s,samp,strike,strong,sub,sup,tt,u,var" />
-    <option name="HTML_DONT_ADD_BREAKS_IF_INLINE_CONTENT" value="title,h1,h2,h3,h4,h5,h6" />
+    <option name="HTML_DONT_ADD_BREAKS_IF_INLINE_CONTENT" value="" />
     <option name="HTML_ENFORCE_QUOTES" value="true" />
   </HTMLCodeStyleSettings>
   <JSCodeStyleSettings>
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
     <option name="REFORMAT_C_STYLE_COMMENTS" value="true" />
+    <option name="ENFORCE_TRAILING_COMMA" value="Remove" />
     <option name="SPACES_WITHIN_IMPORTS" value="true" />
     <option name="USE_CHAINED_CALLS_GROUP_INDENTS" value="true" />
   </JSCodeStyleSettings>
@@ -49,6 +52,9 @@
     <option name="SPACES_WITHIN_IMPORTS" value="true" />
     <option name="USE_CHAINED_CALLS_GROUP_INDENTS" value="true" />
   </TypeScriptCodeStyleSettings>
+  <XML>
+    <option name="XML_KEEP_BLANK_LINES" value="1" />
+  </XML>
   <editorconfig>
     <option name="ENABLED" value="false" />
   </editorconfig>
@@ -121,6 +127,12 @@
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
+  <codeStyleSettings language="SASS">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="SCSS">
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
@@ -135,7 +147,8 @@
   </codeStyleSettings>
   <codeStyleSettings language="XML">
     <indentOptions>
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="kotlin">
