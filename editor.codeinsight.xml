@@ -4,7 +4,6 @@
     <option name="COLLAPSE_FILE_HEADER" value="false" />
   </component>
   <component name="CodeInsightSettings">
-    <option name="SHOW_METHOD_CHAIN_TYPES_INLINE" value="false" />
     <option name="PARAMETER_INFO_DELAY" value="500" />
     <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
     <option name="JAVADOC_INFO_DELAY" value="800" />
@@ -16,5 +15,11 @@
   <component name="JavaCodeFoldingSettings">
     <option name="collapseConstructorGenericParameters" value="false" />
     <option name="collapseOneLineMethods" value="false" />
+  </component>
+  <component name="MarkdownFoldingSettings">
+    <option name="COLLAPSE_SIM_TOC" value="false" />
+  </component>
+  <component name="XmlFoldingSettings">
+    <option name="COLLAPSE_ENTITIES" value="false" />
   </component>
 </application>
