@@ -79,14 +79,14 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 
 ### Files
 ##### .bash_profile
-```
+```bash
 if [ -f ~/.bashrc ]; then
   source ~/.bashrc
 fi
 ```
 
 ##### .bashrc
-```
+```bash
 # Bash Configuration
 PS1='\[\033]0;Terminal\007\]'
 PS1="$PS1"'\[\033[32m\]' 
