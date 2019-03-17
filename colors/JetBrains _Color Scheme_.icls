@@ -4,7 +4,7 @@
     <property name="created">2019-03-09T18:45:13</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.1.4.0.0</property>
-    <property name="modified">2019-03-17T16:43:40</property>
+    <property name="modified">2019-03-17T18:48:36</property>
     <property name="originalScheme">Atom One Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -218,6 +218,12 @@
         <option name="FOREGROUND" value="d19a66" />
       </value>
     </option>
+    <option name="CSS.COLON">
+      <value>
+        <option name="FOREGROUND" value="43b6e2" />
+        <option name="BACKGROUND" value="282c34" />
+      </value>
+    </option>
     <option name="CSS.COLOR">
       <value>
         <option name="FOREGROUND" value="61afef" />
@@ -248,6 +254,11 @@
         <option name="FOREGROUND" value="d19a66" />
       </value>
     </option>
+    <option name="CSS.UNICODE.RANGE">
+      <value>
+        <option name="FOREGROUND" value="e5c07b" />
+      </value>
+    </option>
     <option name="CSS.URL">
       <value>
         <option name="FOREGROUND" value="98c379" />
@@ -274,6 +285,16 @@
     <option name="CUSTOM_KEYWORD4_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="c678dd" />
+      </value>
+    </option>
+    <option name="DART_DYNAMIC_LOCAL_VARIABLE_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="43b6e2" />
+      </value>
+    </option>
+    <option name="DART_IMPORT_PREFIX">
+      <value>
+        <option name="FOREGROUND" value="e06c75" />
       </value>
     </option>
     <option name="DEBUGGER_INLINED_VALUES">
@@ -459,6 +480,12 @@
         <option name="FOREGROUND" value="abb2bf" />
       </value>
     </option>
+    <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
+      <value>
+        <option name="FOREGROUND" value="98c379" />
+        <option name="BACKGROUND" value="282c34" />
+      </value>
+    </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="43b6e2" />
@@ -517,6 +544,31 @@
         <option name="FOREGROUND" value="61afef" />
       </value>
     </option>
+    <option name="EJS_OPEN">
+      <value>
+        <option name="FOREGROUND" value="c678dd" />
+      </value>
+    </option>
+    <option name="EJS_OPEN_EQ">
+      <value>
+        <option name="FOREGROUND" value="61afef" />
+      </value>
+    </option>
+    <option name="EJS_OPEN_EQ_EQ">
+      <value>
+        <option name="FOREGROUND" value="e5c07b" />
+      </value>
+    </option>
+    <option name="EJS_OPEN_EQ_GENERATOR">
+      <value>
+        <option name="FOREGROUND" value="1eaa64" />
+      </value>
+    </option>
+    <option name="EJS_OPEN_FILTER">
+      <value>
+        <option name="FOREGROUND" value="d19a66" />
+      </value>
+    </option>
     <option name="ENUM_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="e5c07b" />
@@ -553,6 +605,42 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="GHERKIN_TABLE_HEADER_CELL">
+      <value>
+        <option name="FOREGROUND" value="43b6e2" />
+      </value>
+    </option>
+    <option name="HAML_CLASS">
+      <value>
+        <option name="FOREGROUND" value="e5c07b" />
+      </value>
+    </option>
+    <option name="HAML_FILTER">
+      <value>
+        <option name="FOREGROUND" value="1eaa64" />
+      </value>
+    </option>
+    <option name="HAML_ID">
+      <value>
+        <option name="FOREGROUND" value="61afef" />
+      </value>
+    </option>
+    <option name="HAML_RUBY_CODE">
+      <value>
+        <option name="FOREGROUND" value="98c379" />
+      </value>
+    </option>
+    <option name="HAML_TAG">
+      <value>
+        <option name="FOREGROUND" value="c678dd" />
+        <option name="BACKGROUND" value="282c34" />
+      </value>
+    </option>
+    <option name="HAML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="e06c75" />
+      </value>
+    </option>
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="d19a66" />
@@ -577,9 +665,14 @@
         <option name="FOREGROUND" value="98c379" />
       </value>
     </option>
+    <option name="HTTP_REQUEST_MESSAGE_BODY">
+      <value>
+        <option name="FOREGROUND" value="98c379" />
+      </value>
+    </option>
     <option name="HTTP_REQUEST_MULTIPART_BOUNDARY">
       <value>
-        <option name="FOREGROUND" value="1bbc79" />
+        <option name="FOREGROUND" value="e5c07b" />
       </value>
     </option>
     <option name="HTTP_REQUEST_PARAMETER_NAME">
@@ -589,7 +682,7 @@
     </option>
     <option name="HTTP_REQUEST_PARAMETER_VALUE">
       <value>
-        <option name="FOREGROUND" value="98c379" />
+        <option name="FOREGROUND" value="e06c75" />
       </value>
     </option>
     <option name="HTTP_REQUEST_SEPARATOR">
@@ -688,6 +781,17 @@
     <option name="INTERFACE_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="98c379" />
+      </value>
+    </option>
+    <option name="JADE_EMBEDDED_CONTENT">
+      <value>
+        <option name="FOREGROUND" value="61afef" />
+        <option name="BACKGROUND" value="282c34" />
+      </value>
+    </option>
+    <option name="JADE_JS_BLOCK">
+      <value>
+        <option name="FOREGROUND" value="e5c07b" />
       </value>
     </option>
     <option name="JAVA.MODIFIER">
@@ -26544,6 +26648,11 @@
         <option name="FOREGROUND" value="e06c75" />
       </value>
     </option>
+    <option name="REGEXP.OPTIONS">
+      <value>
+        <option name="FOREGROUND" value="e5c07b" />
+      </value>
+    </option>
     <option name="ROUND_BRACKETS_RAINBOW_COLOR0">
       <value>
         <option name="FOREGROUND" value="43b6e2" />
@@ -26574,6 +26683,12 @@
         <option name="FOREGROUND" value="61afef" />
       </value>
     </option>
+    <option name="SASS_COLON">
+      <value>
+        <option name="FOREGROUND" value="43b6e2" />
+        <option name="BACKGROUND" value="282c34" />
+      </value>
+    </option>
     <option name="SASS_FUNCTION">
       <value>
         <option name="FOREGROUND" value="61afef" />
@@ -26581,7 +26696,7 @@
     </option>
     <option name="SASS_INTERPOLATION">
       <value>
-        <option name="FOREGROUND" value="44bae6" />
+        <option name="FOREGROUND" value="43b6e2" />
       </value>
     </option>
     <option name="SASS_MIXIN">
@@ -26618,6 +26733,36 @@
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="e5c07b" />
+      </value>
+    </option>
+    <option name="SPY-JS.EXCEPTION">
+      <value>
+        <option name="FOREGROUND" value="e06c75" />
+      </value>
+    </option>
+    <option name="SPY-JS.FUNCTION_SCOPE">
+      <value>
+        <option name="FOREGROUND" value="61afef" />
+      </value>
+    </option>
+    <option name="SPY-JS.PATH_LEVEL_ONE">
+      <value>
+        <option name="FOREGROUND" value="e5c07b" />
+      </value>
+    </option>
+    <option name="SPY-JS.PATH_LEVEL_TWO">
+      <value>
+        <option name="FOREGROUND" value="98c379" />
+      </value>
+    </option>
+    <option name="SPY-JS.PROGRAM_SCOPE">
+      <value>
+        <option name="FOREGROUND" value="abb2bf" />
+      </value>
+    </option>
+    <option name="SPY-JS.VALUE_HINT">
+      <value>
+        <option name="FOREGROUND" value="c678dd" />
       </value>
     </option>
     <option name="SQUARE_BRACKETS_RAINBOW_COLOR0">
@@ -26664,6 +26809,11 @@
     <option name="STATIC_METHOD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="61afef" />
+      </value>
+    </option>
+    <option name="TAG_ATTR_KEY">
+      <value>
+        <option name="FOREGROUND" value="d19a66" />
       </value>
     </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
@@ -26728,7 +26878,12 @@
     </option>
     <option name="XML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="e06c75" />
+        <option name="FOREGROUND" value="d19a66" />
+      </value>
+    </option>
+    <option name="XML_NS_PREFIX">
+      <value>
+        <option name="FOREGROUND" value="e5c07b" />
       </value>
     </option>
     <option name="XML_TAG_NAME">
@@ -26756,6 +26911,18 @@
     <option name="XSLT_DIRECTIVE">
       <value>
         <option name="FOREGROUND" value="e5c07b" />
+        <option name="BACKGROUND" value="282c34" />
+      </value>
+    </option>
+    <option name="YAML_SCALAR_LIST">
+      <value>
+        <option name="FOREGROUND" value="98c379" />
+        <option name="BACKGROUND" value="282c34" />
+      </value>
+    </option>
+    <option name="YAML_SCALAR_VALUE">
+      <value>
+        <option name="FOREGROUND" value="43b6e2" />
         <option name="BACKGROUND" value="282c34" />
       </value>
     </option>
