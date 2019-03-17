@@ -1,6 +1,6 @@
 # JetBrains: Atom One Dark
 
-![Project Image](https://lh3.googleusercontent.com/FD5qrsKPaVtgLAbrhbi-42YxWVaj_iEOyL4VJxTDdDYyY6OVadh9K-mrmKVBM2oooPqipriUthJ8zMNTHcP0Wsfdbjnzna1Fybl1=w1920-h997-rw-no)
+![Project Image](https://lh3.googleusercontent.com/VRdrnpg4-0DBUR9oEW9QOQUwD1NSKV6od9g49XynLeIHjn9TBjWy8F5qsfXyquxL44BxqIrNM6oyo3kZfRj-MXvZLIlyHUoaFbVYAw=w1920-h997-rw-no)
 
 > **IDE:** IntelliJ IDEA
 
@@ -120,7 +120,7 @@ PS1="$PS1"'$ '
 
 ### IntelliJ IDEA
 > **Java** 
-![Project Image](https://lh3.googleusercontent.com/CsTwmEmQP-JfKdWR-qcCjCf9chOsXjSVNMesrkMYrQPyWOsQG7zZ8KZUMKtlRph17hSTiJMBX54eGXf3NdHV94KuZYbUQrnzHNtn=w1920-h996-rw-no)
+![Project Image](https://lh3.googleusercontent.com/4V4fgCF6l5axTQzVcjyPMbQ9sOskRbO-Z9Vosc294nJ8Lt61SSJuZjZe6i2LZ-aVNZc73XswBB8lOxPPxK7o8itCEq-wSxFEFkZhJA=w1920-h997-rw-no)
 
 
 ### WebStorm
