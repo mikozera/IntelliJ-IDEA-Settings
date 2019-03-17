@@ -4,7 +4,7 @@
     <property name="created">2019-03-09T18:45:13</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.1.4.0.0</property>
-    <property name="modified">2019-03-16T20:09:52</property>
+    <property name="modified">2019-03-16T20:31:34</property>
     <property name="originalScheme">Atom One Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -173,7 +173,7 @@
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ff7976" />
+        <option name="FOREGROUND" value="e06c75" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -195,7 +195,7 @@
     </option>
     <option name="CONSOLE_WHITE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="1f1f1f" />
+        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
     <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
@@ -323,7 +323,7 @@
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="d19a66" />
+        <option name="FOREGROUND" value="e5c07b" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
@@ -511,6 +511,11 @@
     <option name="DUPLICATE_FROM_SERVER">
       <value>
         <option name="BACKGROUND" value="5e5339" />
+      </value>
+    </option>
+    <option name="EDITORCONFIG_PATTERN">
+      <value>
+        <option name="FOREGROUND" value="61afef" />
       </value>
     </option>
     <option name="ENUM_NAME_ATTRIBUTES">
@@ -758,6 +763,16 @@
         <option name="FOREGROUND" value="da70cc" />
       </value>
     </option>
+    <option name="KOTLIN_DYNAMIC_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="1bbc79" />
+      </value>
+    </option>
+    <option name="KOTLIN_DYNAMIC_PROPERTY_CALL">
+      <value>
+        <option name="FOREGROUND" value="d19a66" />
+      </value>
+    </option>
     <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
       <value>
         <option name="FONT_TYPE" value="1" />
@@ -765,11 +780,6 @@
     </option>
     <option name="KOTLIN_LABEL">
       <value />
-    </option>
-    <option name="KOTLIN_LOCAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="e06c75" />
-      </value>
     </option>
     <option name="LINE_FULL_COVERAGE">
       <value>
@@ -794,6 +804,26 @@
         <option name="FOREGROUND" value="abb2bf" />
       </value>
     </option>
+    <option name="LOGCAT_DEBUG_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="d19a66" />
+      </value>
+    </option>
+    <option name="LOGCAT_INFO_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="61afef" />
+      </value>
+    </option>
+    <option name="LOGCAT_VERBOSE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="1bbc79" />
+      </value>
+    </option>
+    <option name="LOGCAT_WARNING_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="b06100" />
+      </value>
+    </option>
     <option name="LOG_DEBUG_OUTPUT">
       <value>
         <option name="FOREGROUND" value="e5c07b" />
@@ -802,6 +832,7 @@
     <option name="LOG_ERROR_OUTPUT">
       <value>
         <option name="FOREGROUND" value="cc666e" />
+        <option name="ERROR_STRIPE_COLOR" value="e06c75" />
       </value>
     </option>
     <option name="LOG_EXPIRED_ENTRY">
@@ -820,7 +851,9 @@
       </value>
     </option>
     <option name="LOG_WARNING_OUTPUT">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="b06100" />
+      </value>
     </option>
     <option name="MARKDOWN_AUTO_LINK">
       <value>
@@ -26602,6 +26635,7 @@
     <option name="STATIC_FIELD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="e06c75" />
+        <option name="ERROR_STRIPE_COLOR" value="e06c75" />
       </value>
     </option>
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
@@ -26682,6 +26716,29 @@
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="e06c75" />
+      </value>
+    </option>
+    <option name="XPATH.XPATH_NAME">
+      <value>
+        <option name="FOREGROUND" value="d19a66" />
+        <option name="BACKGROUND" value="282c34" />
+      </value>
+    </option>
+    <option name="XPATH.XPATH_PREFIX">
+      <value>
+        <option name="FOREGROUND" value="e5c07b" />
+        <option name="BACKGROUND" value="282c34" />
+      </value>
+    </option>
+    <option name="XPATH.XPATH_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="e06c75" />
+      </value>
+    </option>
+    <option name="XSLT_DIRECTIVE">
+      <value>
+        <option name="FOREGROUND" value="e5c07b" />
+        <option name="BACKGROUND" value="282c34" />
       </value>
     </option>
   </attributes>
