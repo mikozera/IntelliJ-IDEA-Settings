@@ -125,16 +125,16 @@ PS1="$PS1"'$ '
 
 ### WebStorm
 > **HTML**
-![Project Image](https://lh3.googleusercontent.com/lzrgeqN_1LWMx09oesCMzdQz4NnMlT9gGXt6ECtreDddoo6ekmpRVTp3M2CKayPJA5yhASPSpQZno8m9GmTxN1E6tA5_cxlnIxXq=w1920-h994-rw-no)
+![Project Image](https://lh3.googleusercontent.com/N5RPHtjH9sc40jJ0A3HpVa8I5uQP469z_G8hP5KkV7_ut4_RPwqUGWQSzlF1RfY90HT90-rOdzYY3232z-jXlu4Fog-vseiq_AMx=w1920-h994-rw-no)
 
 > **CSS**
-![Project Image](https://lh3.googleusercontent.com/Qv9EmoySdJtfb-z9FTCBUr7oHT-Bb8v_rO6yRf4XKza4pr0f1sV-txB1AjEP0ZjQl7LLQgm5TbhOs_wZDP9v0L-tDOCd0y0R1iKQ=w1920-h996-rw-no)
+![Project Image](https://lh3.googleusercontent.com/lIJH4y4KICWwlc0UZkyJR_7FRkXHeBfKNKPkKSmB7yc7Ejsda6-ewWxB45oavDKV-TJat9Ja5HPq884zFyP_TzTOiepOoaSI9pcK=w1920-h996-rw-no)
 
 > **SCSS** 
-![Project Image](https://lh3.googleusercontent.com/Pg6qa71EE0Qf7JhUHlAlNsaAMAZaNqq9W3aOkUIuWj5myjtH5Xw_5hgLdvKUFdyY3WKuVuR-3sQgRMwQQJ-DtHG56qsHmkFQGXNV=w1920-h997-rw-no)
+![Project Image](https://lh3.googleusercontent.com/p3Gp_AfnMzd5pLuaPArqy8KaWfxoJV_UCagL-WiYx6RjDwh3KC-ath4rDxMxaJs05yCIiCya-joV01Z4S_sQAhBbyc11S-YgBLxj=w1920-h998-rw-no)
 
 > **JavaScript** 
-![Project Image](https://lh3.googleusercontent.com/iZAvoar9Zy-iYbq2tciasBTi6FEJVMGx3b2cB6efulXAles-DPEeLoxwvCz9Um6L19IijmKjZS37g3J06sHepxzVCmhE8_hTws5B=w1920-h995-rw-no)
+![Project Image](https://lh3.googleusercontent.com/nPhlu7qn0KU0xLjD65S_uWn6xS1Fnh2fW3ehX81l2T_RYP3KwoCl6MV2rHY_p14w4UyfZH6gbWsVnIOhavOZ3XcurdiZHmlebZtb=w1920-h997-rw-no)
 
 
 ### PyCharm
