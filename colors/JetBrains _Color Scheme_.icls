@@ -4,7 +4,7 @@
     <property name="created">2019-03-09T18:45:13</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.1.4.0.0</property>
-    <property name="modified">2019-03-17T17:42:26</property>
+    <property name="modified">2019-03-17T16:43:40</property>
     <property name="originalScheme">Atom One Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -348,7 +348,7 @@
     </option>
     <option name="DEFAULT_DOT">
       <value>
-        <option name="FOREGROUND" value="43b6e2" />
+        <option name="FOREGROUND" value="abb2bf" />
       </value>
     </option>
     <option name="DEFAULT_ENTITY">

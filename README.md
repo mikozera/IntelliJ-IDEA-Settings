@@ -1,6 +1,6 @@
 # JetBrains: Atom One Dark
 
-![Project Image](https://lh3.googleusercontent.com/g7BSTwRDqa9OMxmSOyKLrxO1CurcPb-OKQI_ZJY_Uu1IX20dcoqqqe0IzgsXsiOLZu6KNK8sKlwZTzQhQfOUkd0Bjngx7pfT_7Y9_A=w1920-h999-rw-no)
+![Project Image](https://lh3.googleusercontent.com/FD5qrsKPaVtgLAbrhbi-42YxWVaj_iEOyL4VJxTDdDYyY6OVadh9K-mrmKVBM2oooPqipriUthJ8zMNTHcP0Wsfdbjnzna1Fybl1=w1920-h997-rw-no)
 
 > **IDE:** IntelliJ IDEA
 
@@ -120,26 +120,26 @@ PS1="$PS1"'$ '
 
 ### IntelliJ IDEA
 > **Java** 
-![Project Image](https://lh3.googleusercontent.com/zUtbDW41Th5D3vClku24ws3quUYkh3nS3R6tI9st4Lx90tu4rZsSlyidRbkqMp2krL-RLsYwVGUA19Z-nBPaupiARDep0g77JiW6VA=w1920-h997-rw-no)
+![Project Image](https://lh3.googleusercontent.com/CsTwmEmQP-JfKdWR-qcCjCf9chOsXjSVNMesrkMYrQPyWOsQG7zZ8KZUMKtlRph17hSTiJMBX54eGXf3NdHV94KuZYbUQrnzHNtn=w1920-h996-rw-no)
 
 
 ### WebStorm
 > **HTML**
-![Project Image](https://lh3.googleusercontent.com/FKVBC9OkXqE-F3b5Q2Cm3B2JfG3Jssh7l1bhfUuerwUC3TSj9HL58E_uLSQ3EdgJZ1aXaL0Tb9BjDQ9IN8kOBjF6NnL08COTSsmd9Q=w1920-h992-rw-no)
+![Project Image](https://lh3.googleusercontent.com/N5RPHtjH9sc40jJ0A3HpVa8I5uQP469z_G8hP5KkV7_ut4_RPwqUGWQSzlF1RfY90HT90-rOdzYY3232z-jXlu4Fog-vseiq_AMx=w1920-h994-rw-no)
 
 > **CSS**
-![Project Image](https://lh3.googleusercontent.com/CSgVilkiXtfmAr06lTCX5-icDzhkMT2tu5-ECvrpHSPdsyJOfFYzKTIdQk-0JbQzlNyNkUOYxSnksX7icWg9QhIQX_iset19ZCObZw=w1920-h996-rw-no)
+![Project Image](https://lh3.googleusercontent.com/lIJH4y4KICWwlc0UZkyJR_7FRkXHeBfKNKPkKSmB7yc7Ejsda6-ewWxB45oavDKV-TJat9Ja5HPq884zFyP_TzTOiepOoaSI9pcK=w1920-h996-rw-no)
 
 > **SCSS** 
-![Project Image](https://lh3.googleusercontent.com/BEHd4MDGakyK07jF00TGvgrSsOB9IgM0UDkoStIV9GWQ6Lsb3qUoL8CYgja9mVSQM737WseTlve39v8eSHUvLJNvYYDDLNdSdzPVWw=w1920-h995-rw-no)
+![Project Image](https://lh3.googleusercontent.com/p3Gp_AfnMzd5pLuaPArqy8KaWfxoJV_UCagL-WiYx6RjDwh3KC-ath4rDxMxaJs05yCIiCya-joV01Z4S_sQAhBbyc11S-YgBLxj=w1920-h998-rw-no)
 
 > **JavaScript** 
-![Project Image](https://lh3.googleusercontent.com/HJEQyBiT2Ee59O4DWW5-VySUiZHHeJqz-mu7R4Vao_hUqS4R4of5UpFJlLD3NKfazcDK3ZId9VPVT_I4T0WoILCht9iVyTujgC61sA=w1920-h996-rw-no)
+![Project Image](https://lh3.googleusercontent.com/nPhlu7qn0KU0xLjD65S_uWn6xS1Fnh2fW3ehX81l2T_RYP3KwoCl6MV2rHY_p14w4UyfZH6gbWsVnIOhavOZ3XcurdiZHmlebZtb=w1920-h997-rw-no)
 
 
 ### PyCharm
 > **Python**
-![Project Image](https://lh3.googleusercontent.com/Covjqc51LA7-S8ifDux3vxKMRUBuRDoTI-gCwJQY8bVY3erMtQdHNUfCQfAI_Q-rqHCgmdAuApM7Usu_GxU8671j0ky7Nd5-EtFDAQ=w1918-h995-rw-no)
+![Project Image](https://lh3.googleusercontent.com/lj786HZSOreYF_J6bxXz0eguh0Y3yTR5oJ4sfKM766CFJlFHMX1c-qAEtmMJxK--wuZFLKgjWum6jhkTsH4KKNjdenA7N6EanxNj=w1920-h997-rw-no)
  
 
 ---
