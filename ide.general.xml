@@ -16,6 +16,5 @@
     <entry key="win.editor.thumb.darcula.fill.min" value="102" />
     <entry key="ide.tooltip.initialDelay" value="289" />
     <entry key="ide.svg.icon" value="true" />
-    <entry key="documentation.show.toolbar" value="true" />
   </component>
 </application>

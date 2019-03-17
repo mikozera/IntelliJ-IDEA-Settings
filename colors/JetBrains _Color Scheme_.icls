@@ -4,7 +4,7 @@
     <property name="created">2019-03-09T18:45:13</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.1.4.0.0</property>
-    <property name="modified">2019-03-16T23:03:49</property>
+    <property name="modified">2019-03-17T14:22:35</property>
     <property name="originalScheme">Atom One Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -244,6 +244,11 @@
       </value>
     </option>
     <option name="CSS.PROPERTY_VALUE">
+      <value>
+        <option name="FOREGROUND" value="d19a66" />
+      </value>
+    </option>
+    <option name="CSS.PSEUDO">
       <value>
         <option name="FOREGROUND" value="d19a66" />
       </value>
