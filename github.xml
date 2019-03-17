@@ -4,4 +4,8 @@
       <server host="github.com" />
     </account>
   </component>
+  <component name="GithubSettings">
+    <option name="LOGIN" value="mikozera" />
+    <option name="AUTH_TYPE" value="BASIC" />
+  </component>
 </application>
