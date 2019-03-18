@@ -74,7 +74,7 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 
 ### Instructions
 1. Download Git for Windows (includes GitBash Terminal)
-2. Locate or create ".bash_profile" and ".bashrc" files (C:\Users\<your user name>)
+2. Locate or create ".bash_profile" and ".bashrc" files (C:\Users\\<your user name\>)
 3. Replace content within each of the files
 
 ### Files
@@ -131,7 +131,7 @@ PS1="$PS1"'$ '
 ![Project Image](https://lh3.googleusercontent.com/lIJH4y4KICWwlc0UZkyJR_7FRkXHeBfKNKPkKSmB7yc7Ejsda6-ewWxB45oavDKV-TJat9Ja5HPq884zFyP_TzTOiepOoaSI9pcK=w1920-h996-rw-no)
 
 > **SCSS** 
-![Project Image](https://lh3.googleusercontent.com/p3Gp_AfnMzd5pLuaPArqy8KaWfxoJV_UCagL-WiYx6RjDwh3KC-ath4rDxMxaJs05yCIiCya-joV01Z4S_sQAhBbyc11S-YgBLxj=w1920-h998-rw-no)
+![Project Image](https://lh3.googleusercontent.com/eqPWMnVP99z7PoSPNoFz9XgwwL38kQBfH06mcgD1uYpDrjZ9xSVMhBnRIaxxYHqPE-y4sETQW6MXnhuWK7tbdF4ROVh_aSxLOXlU=w1920-h997-rw-no)
 
 > **JavaScript** 
 ![Project Image](https://lh3.googleusercontent.com/vJBKtFMuFgzfMR0EBwJpuwgBm6SY5MYW_BA-cCXAI2c3rA6IJrPRazXwHtNgjEDboqUUVLrDy5BKO6rNe_9BH-I-Lv1oX5xDPY-l=w1920-h995-rw-no)
