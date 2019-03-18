@@ -128,7 +128,7 @@ PS1="$PS1"'$ '
 ![Project Image](https://lh3.googleusercontent.com/CbbAhtR4n-S1wMweHfyKHe06vv9cTJx32zI0HUW5apbqByVLawxHyFsJt6gj6Rb0FRCuB_JM05rLXF39j1IM3dFOFVj7YOBRjL5V=w1920-h994-rw-no)
 
 > **CSS**
-![Project Image](https://lh3.googleusercontent.com/lIJH4y4KICWwlc0UZkyJR_7FRkXHeBfKNKPkKSmB7yc7Ejsda6-ewWxB45oavDKV-TJat9Ja5HPq884zFyP_TzTOiepOoaSI9pcK=w1920-h996-rw-no)
+![Project Image](https://lh3.googleusercontent.com/12Z-HSwgx1tKG8TV9cGaiVnQPG_CRt7zk7uk9GT93r6pD9IIJ6kVECHbXfUpWNXUMhPUSGSpQzQsGS3h4vEs86QB8QdzqvvJY6sX=w1920-h996-rw-no)
 
 > **SCSS** 
 ![Project Image](https://lh3.googleusercontent.com/eqPWMnVP99z7PoSPNoFz9XgwwL38kQBfH06mcgD1uYpDrjZ9xSVMhBnRIaxxYHqPE-y4sETQW6MXnhuWK7tbdF4ROVh_aSxLOXlU=w1920-h997-rw-no)
