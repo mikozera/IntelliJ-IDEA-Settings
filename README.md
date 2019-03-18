@@ -125,7 +125,7 @@ PS1="$PS1"'$ '
 
 ### WebStorm
 > **HTML**
-![Project Image](https://lh3.googleusercontent.com/N5RPHtjH9sc40jJ0A3HpVa8I5uQP469z_G8hP5KkV7_ut4_RPwqUGWQSzlF1RfY90HT90-rOdzYY3232z-jXlu4Fog-vseiq_AMx=w1920-h994-rw-no)
+![Project Image](https://lh3.googleusercontent.com/CbbAhtR4n-S1wMweHfyKHe06vv9cTJx32zI0HUW5apbqByVLawxHyFsJt6gj6Rb0FRCuB_JM05rLXF39j1IM3dFOFVj7YOBRjL5V=w1920-h994-rw-no)
 
 > **CSS**
 ![Project Image](https://lh3.googleusercontent.com/lIJH4y4KICWwlc0UZkyJR_7FRkXHeBfKNKPkKSmB7yc7Ejsda6-ewWxB45oavDKV-TJat9Ja5HPq884zFyP_TzTOiepOoaSI9pcK=w1920-h996-rw-no)
