@@ -27,7 +27,7 @@
 ---
 
 ## **Description**
-This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. Apart from the theme, everything around the IDE has been set up to provide a beautiful and pleasant experience. 
+This is a full JetBrain's IDE configuration based on Atom's modern "One Dark" theme. Apart from the theme, everything around the IDE has been configured to provide a beautiful and pleasant optimized experience. 
 
 ### Features
 - Atom One Dark Theme
