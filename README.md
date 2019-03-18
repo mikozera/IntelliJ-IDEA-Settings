@@ -61,7 +61,7 @@ This is a full JetBrain's IDE configuration based on Atom's modern "One Dark" th
 
 ### Recommended
 - .ignore: improved file ignoring capabilities
-- AceJump: allows for quick cursor movement w/o taking your hands-off the keyboard (Ctrl + ;)
+- AceJump: allows for quick cursor movement w/o taking your hands off the keyboard (Ctrl + ;)
 - Save Actions: auto-format your code 
 - Markdown Navigator: integrates advanced Markdown support
 - Presentation Assistant: displays any pressed keyboard shortcuts (Alt + Shift + D)
