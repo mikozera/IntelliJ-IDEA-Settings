@@ -74,7 +74,7 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 
 ### Instructions
 1. Download Git for Windows (includes GitBash Terminal)
-2. Locate or create ".bash_profile" and ".bashrc" files (C:\Users\ <your user name>)
+2. Locate or create ".bash_profile" and ".bashrc" files (C:\Users\\<your user name>)
 3. Replace content within each of the files
 
 ### Files
