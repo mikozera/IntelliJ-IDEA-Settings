@@ -1,5 +1,17 @@
 <application>
   <component name="ToStringTemplates">
-    <option name="defaultTempalteName" value="String concat (+)" />
+    <option name="defaultTempalteName" value="toString: Expanded" />
+    <option name="templates">
+      <list>
+        <TemplateResource>
+          <option name="fileName" value="toString: Expanded" />
+          <option name="template" value="public java.lang.String toString() {&#10;return String.format(&#10;&quot;$classname {##&#10;#set ($i = 0)&#10;#foreach ($member in $members)&#10;#if ($i != 0)##&#10;, ##&#10;#end&#10;#if ($member.string)&#10;\n  $member.name: \&quot;%s\&quot;, ##&#10;#elseif ($member.char)&#10;\n  $member.name: \'%s\'##&#10;#else&#10;\n  $member.name: %s##&#10;#set ($i = $i + 1)&#10;#end&#10;#end&#10;\n}&quot;,##&#10;#set ($i = 0)&#10;#foreach ($member in $members)&#10;    #if ($i != 0)&#10;    ,##&#10;    #end&#10;    #if ($member.primitiveArray || $member.objectArray)&#10;    java.util.Arrays.toString($member.name)##&#10;    #else&#10;    $member.name ##&#10;    #end&#10;    #set ($i = $i + 1)&#10;#end&#10;);&#10;}" />
+        </TemplateResource>
+        <TemplateResource>
+          <option name="fileName" value="toString: Compressed" />
+          <option name="template" value="public java.lang.String toString() {&#10;return String.format(&#10;&quot;$classname {##&#10;#set ($i = 0)&#10;#foreach ($member in $members)&#10;#if ($i != 0)##&#10;, ##&#10;#end&#10;#if ($member.string)&#10;$member.name: \&quot;%s\&quot;, ##&#10;#elseif ($member.char)&#10;$member.name: \'%s\'##&#10;#else&#10;$member.name: %s##&#10;#set ($i = $i + 1)&#10;#end&#10;#end&#10;}&quot;,##&#10;#set ($i = 0)&#10;#foreach ($member in $members)&#10;    #if ($i != 0)&#10;    ,##&#10;    #end&#10;    #if ($member.primitiveArray || $member.objectArray)&#10;    java.util.Arrays.toString($member.name)##&#10;    #else&#10;    $member.name ##&#10;    #end&#10;    #set ($i = $i + 1)&#10;#end&#10;);&#10;}" />
+        </TemplateResource>
+      </list>
+    </option>
   </component>
 </application>
