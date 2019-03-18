@@ -134,7 +134,7 @@ PS1="$PS1"'$ '
 ![Project Image](https://lh3.googleusercontent.com/p3Gp_AfnMzd5pLuaPArqy8KaWfxoJV_UCagL-WiYx6RjDwh3KC-ath4rDxMxaJs05yCIiCya-joV01Z4S_sQAhBbyc11S-YgBLxj=w1920-h998-rw-no)
 
 > **JavaScript** 
-![Project Image](https://lh3.googleusercontent.com/nPhlu7qn0KU0xLjD65S_uWn6xS1Fnh2fW3ehX81l2T_RYP3KwoCl6MV2rHY_p14w4UyfZH6gbWsVnIOhavOZ3XcurdiZHmlebZtb=w1920-h997-rw-no)
+![Project Image](https://lh3.googleusercontent.com/vJBKtFMuFgzfMR0EBwJpuwgBm6SY5MYW_BA-cCXAI2c3rA6IJrPRazXwHtNgjEDboqUUVLrDy5BKO6rNe_9BH-I-Lv1oX5xDPY-l=w1920-h995-rw-no)
 
 
 ### PyCharm
