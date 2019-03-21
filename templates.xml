@@ -1,0 +1,32 @@
+<application>
+  <component name="TemplateSettings">
+    <option name="deletedKeys">
+      <list>
+        <TemplateKey>
+          <option name="groupName" value="Zen HTML" />
+          <option name="key" value="!!!" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Zen HTML" />
+          <option name="key" value="!!!4t" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Zen HTML" />
+          <option name="key" value="!!!4s" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Zen HTML" />
+          <option name="key" value="!!!xt" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Zen HTML" />
+          <option name="key" value="!!!xs" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Zen HTML" />
+          <option name="key" value="!!!xxs" />
+        </TemplateKey>
+      </list>
+    </option>
+  </component>
+</application>
