@@ -1,6 +1,7 @@
 <application>
   <component name="NotificationConfiguration">
     <notification groupId=".ignore plugin update information" displayType="NONE" />
+    <notification groupId="IDE and Plugin Updates" displayType="NONE" />
     <notification groupId="MATERIAL_THEME_UPDATE" displayType="NONE" shouldLog="false" />
   </component>
 </application>
