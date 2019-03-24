@@ -1,0 +1,34 @@
+<templateSet group="Zen CSS">
+  <template name="mq" value="@media only screen and ($VAR0$) {&#10;    $END$&#10;}" description="Media Query - Template" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JADE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="MARKDOWN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="@mqm" value="// Breakpoints (values are calculated assuming default browser font is 16px; therefore, {WANTED}px/16px = {RESULT}em since media queries are not affected by root font size)&#10;$breakpoints: (&#10;  // 600px&#10;    mobile: 37.5em,&#10;  // 900px&#10;    tablet: 56.25em,&#10;  // 1200px&#10;    tablet-large: 75em,&#10;  // 1800px&#10;    desktop-large: 112.5em&#10;);&#10;&#10;@function breakPoint($key) {&#10;  @return map-get($breakpoints, $key);&#10;}&#10;&#10;// Media Query Manager&#10;// (0px,600px]: Phone&#10;// (600px,900px]: Tablet&#10;// (900,1200px]: Tablet Large&#10;// (1200px, 1800px]: Desktop&#10;// (1800,+infinity): Desktop large&#10;// ORDER: base + typography &gt; general layout + grid &gt; page layout &gt; components&#10;&#10;// max-width: desktop 1st design&#10;@mixin mediaQuery($bp) {&#10;  @if $bp != desktop-large {&#10;    @media only screen and (max-width: breakPoint($bp)) {&#10;      @content;&#10;    }&#10;  }&#10;&#10;  @if $bp == desktop-large {&#10;    @media only screen and (min-width: breakPoint($bp)) {&#10;      @content;&#10;    }&#10;  }&#10;}" description="Media Query Manager - SCSS" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="@mq" value="@include mediaQuery($VAR0$) {&#10;  $END$&#10;}" description="SCSS Media Query - Template" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>
