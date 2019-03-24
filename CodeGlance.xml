@@ -1,7 +1,12 @@
 <application>
   <component name="CodeGlance">
+    <option name="jumpOnMouseDown" value="false" />
     <option name="locked" value="true" />
+    <option name="minLineCount" value="100" />
+    <option name="minWindowWidth" value="700" />
+    <option name="percentageBasedClick" value="true" />
     <option name="pixelsPerLine" value="2" />
+    <option name="viewportColor" value="393F4A" />
     <option name="width" value="80" />
   </component>
 </application>
