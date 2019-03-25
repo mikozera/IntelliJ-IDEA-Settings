@@ -375,4 +375,7 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="script" value="&lt;script&gt;$END$&lt;/script&gt;" description="&lt;script&gt;...&lt;/script&gt;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
