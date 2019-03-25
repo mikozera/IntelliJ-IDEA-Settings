@@ -8,6 +8,7 @@
     <option name="isCustomTreeIndentEnabled" value="true" />
     <option name="rightTreeIndent" value="8" />
     <option name="accentColor" value="61afef" />
+    <option name="useMaterialIcons" value="false" />
     <option name="useProjectViewDecorators" value="false" />
     <option name="compactSidebar" value="true" />
     <option name="tabsHeight" value="40" />
@@ -19,7 +20,7 @@
     <option name="tabOpacity" value="56" />
     <option name="compactDropdowns" value="true" />
     <option name="upperCaseButtons" value="false" />
-    <option name="settingsSelectedTab" value="5" />
+    <option name="settingsSelectedTab" value="2" />
     <option name="fileStatusColorsEnabled" value="true" />
     <option name="userId" value="70f25316:1681251df9f:-8000" />
     <option name="allowDataCollection" value="true" />
