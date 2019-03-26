@@ -1,5 +1,5 @@
 <templateSet group="JavaScript">
-  <template name="cs" value="console.log($END$);" description="console.log" toReformat="false" toShortenFQNames="true">
+  <template name="cs" value="console.log($END$)" description="console.log" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
