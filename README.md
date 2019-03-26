@@ -63,6 +63,7 @@ This is a FULL JetBrain's IDE configuration based off of Atom's One Dark theme. 
 ### Recommended
 - .ignore: improved file ignoring capabilities
 - AceJump: allows for quick cursor movement w/o taking your hands-off the keyboard (Ctrl + ;)
+- Bootstrap 4: enables handy snippets for Bootstrap 4 and Font Awesome
 - Save Actions: auto-format your code 
 - Markdown Navigator: integrates advanced Markdown support
 - Presentation Assistant: displays any pressed keyboard shortcuts (Alt + Shift + D)
