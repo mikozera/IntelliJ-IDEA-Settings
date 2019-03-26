@@ -517,4 +517,19 @@
       <option name="JSX_HTML" value="true" />
     </context>
   </template>
+  <template name="!html5" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;  &lt;head&gt;&#10;    &lt;meta charset=&quot;utf-8&quot; /&gt;&#10;    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;&#10;    &lt;meta&#10;      name=&quot;viewport&quot;&#10;      content=&quot;width=device-width, initial-scale=1, viewport-fit=cover&quot;&#10;    /&gt;&#10;    &lt;title&gt;Title&lt;/title&gt;&#10;    &lt;link rel=&quot;shortcut icon&quot; type=&quot;image/png&quot; href=&quot;#&quot; /&gt;&#10;    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; media=&quot;screen&quot; href=&quot;style.css&quot; /&gt;&#10;    &lt;script src=&quot;app.js&quot;&gt;&lt;/script&gt;&#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    $END$&#10;  &lt;/body&gt;&#10;&lt;/html&gt;" description="HTML5 - Template" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="!bs4" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;  &lt;head&gt;&#10;    &lt;meta charset=&quot;utf-8&quot;/&gt;&#10;    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;/&gt;&#10;    &lt;meta&#10;      name=&quot;viewport&quot;&#10;      content=&quot;width=device-width, initial-scale=1, viewport-fit=cover&quot;&#10;    /&gt;&#10;    &lt;title&gt;Title&lt;/title&gt;&#10;    &lt;link&#10;      rel=&quot;stylesheet&quot;&#10;      href=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css&quot;&#10;      integrity=&quot;sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS&quot;&#10;      crossorigin=&quot;anonymous&quot;&#10;    /&gt;&#10;    &lt;link rel=&quot;shortcut icon&quot; type=&quot;image/png&quot; href=&quot;#&quot;/&gt;&#10;    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; media=&quot;screen&quot; href=&quot;style.css&quot;/&gt;&#10;    &lt;script src=&quot;app.js&quot;&gt;&lt;/script&gt;&#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    $END$&#10;    &lt;script&#10;      src=&quot;https://code.jquery.com/jquery-3.3.1.slim.min.js&quot;&#10;      integrity=&quot;sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo&quot;&#10;      crossorigin=&quot;anonymous&quot;&#10;    &gt;&lt;/script&gt;&#10;    &lt;script&#10;      src=&quot;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js&quot;&#10;      integrity=&quot;sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut&quot;&#10;      crossorigin=&quot;anonymous&quot;&#10;    &gt;&lt;/script&gt;&#10;    &lt;script&#10;      src=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js&quot;&#10;      integrity=&quot;sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k&quot;&#10;      crossorigin=&quot;anonymous&quot;&#10;    &gt;&lt;/script&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;" description="Bootstrap 4 - Template" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="script" value="&lt;script&gt;$END$&lt;/script&gt;" description="&lt;script&gt;...&lt;/script&gt;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSX_HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
