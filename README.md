@@ -143,7 +143,7 @@ PS1="$PS1"'$ '
  
  
 ### PhpStorm
-> **Php**
+> **PHP**
 ![Project Image](https://lh3.googleusercontent.com/Kx4axKEhDgBXdHz7BomKYOJ0vuPLvU-xGrsOdMdBTy6HiWympW3ww2ea0cbu2AxnQuJzOJz6389EJw=w1870-h969-rw-no)
 
 ---
