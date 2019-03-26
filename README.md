@@ -21,6 +21,7 @@
   - [IntelliJ IDEA](#intellij-idea)
   - [WebStorm](#webstorm)
   - [PyCharm](#pycharm)
+  - [PhpStorm](#phpstorm)
 - [**License**](#license)
   - [MIT](#mit)
   
