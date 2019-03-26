@@ -139,7 +139,7 @@ PS1="$PS1"'$ '
 
 ### PyCharm
 > **Python**
-![Project Image]()
+![Project Image](https://lh3.googleusercontent.com/6KALxyKTrtqEZGJf4-7YIeFV9WOaxZSct7rOGMggKjmyeXwNpCWuzX68dBernUcA75cAFHC8S5rZQg=w1868-h969-rw-no)
  
  
 ### PhpStorm
