@@ -57,13 +57,16 @@ This is a complete JetBrain's IDE configuration based off of Atom's One Dark the
 ### Mandatory
 - CodeGlance: enables a "Sublime-esk" mini-map
 - Material Theme UI: enables a basic Atom One Dark theme
+- Nyan Progress Bar: enables a colorful loading bar
 - Rainbow Brackets: enables colorful bracket/brace coloring
 
 ### Recommended
 - .ignore: improved file ignoring capabilities
 - AceJump: allows for quick cursor movement w/o taking your hands-off the keyboard (Ctrl + ;)
+- Bootstrap 4: allows for advanced Bootstrap 4 snippets
 - Save Actions: auto-format your code 
 - Markdown Navigator: integrates advanced Markdown support
+- React Snippets: enhances React support
 - Presentation Assistant: displays any pressed keyboard shortcuts (Alt + Shift + D)
 
 > **Note:** To enable auto-formatting, you must configure it under "Save Actions"
@@ -139,7 +142,7 @@ PS1="$PS1"'$ '
 
 ### PyCharm
 > **Python**
-![Project Image](https://lh3.googleusercontent.com/lj786HZSOreYF_J6bxXz0eguh0Y3yTR5oJ4sfKM766CFJlFHMX1c-qAEtmMJxK--wuZFLKgjWum6jhkTsH4KKNjdenA7N6EanxNj=w1920-h997-rw-no)
+![Project Image](https://lh3.googleusercontent.com/6KALxyKTrtqEZGJf4-7YIeFV9WOaxZSct7rOGMggKjmyeXwNpCWuzX68dBernUcA75cAFHC8S5rZQg=w1868-h969-rw-no)
  
  
 ### PhpStorm
