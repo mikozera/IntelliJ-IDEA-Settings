@@ -1,0 +1,18 @@
+<application>
+  <component name="PresentationAssistant">
+    <option name="alternativeKeymap">
+      <KeymapDescription>
+        <option name="displayText" value="Mac" />
+        <option name="name" value="Mac OS X 10.5+" />
+      </KeymapDescription>
+    </option>
+    <option name="fontSize" value="28" />
+    <option name="mainKeymap">
+      <KeymapDescription>
+        <option name="displayText" value="Windows" />
+        <option name="name" value="JetBrains [Keymap]" />
+      </KeymapDescription>
+    </option>
+    <option name="showActionDescriptions" value="false" />
+  </component>
+</application>
