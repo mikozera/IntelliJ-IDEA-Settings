@@ -20,8 +20,8 @@
 - [**Color Schemes**](#color-schemes)
   - [IntelliJ IDEA](#intellij-idea)
   - [WebStorm](#webstorm)
-  - [PyCharm](#pycharm)
   - [PhpStorm](#phpstorm)
+  - [PyCharm](#pycharm)
   - [CLion](#clion)
 - [**License**](#license)
   - [MIT](#mit)
@@ -40,7 +40,7 @@ This is a complete JetBrain's IDE configuration based off of Atom's One Dark the
 - Awesome Plugins to Enhance the IDE Experience 
 - Advanced Color Scheme Configuration for Most JetBrain's IDEs
 
-> **Note:** Theme has been fully optimized for IntelliJ IDEA, WebStorm & PyCharm
+> **Note:** Theme has been fully optimized for IntelliJ IDEA, WebStorm, PhpStorm, PyCharm & CLion
 
 ---
 
@@ -141,15 +141,13 @@ PS1="$PS1"'$ '
 > **JavaScript** 
 ![WebStorm - JavaScript](https://lh3.googleusercontent.com/vJBKtFMuFgzfMR0EBwJpuwgBm6SY5MYW_BA-cCXAI2c3rA6IJrPRazXwHtNgjEDboqUUVLrDy5BKO6rNe_9BH-I-Lv1oX5xDPY-l=w1870-h969-rw-no)
 
+### PhpStorm
+> **PHP**
+![PhpStorm - PHP](https://lh3.googleusercontent.com/KLOKE9UOKNVTEPIwsDAV9IOmLFDGL4wx17H1E8ixlCnGy82a3H75NMlNBVxIX03grhhDW8G6RzrY2Q=w1874-h969-rw-no)
 
 ### PyCharm
 > **Python**
 ![PyCharm - Python](https://lh3.googleusercontent.com/6KALxyKTrtqEZGJf4-7YIeFV9WOaxZSct7rOGMggKjmyeXwNpCWuzX68dBernUcA75cAFHC8S5rZQg=w1868-h969-rw-no)
- 
- 
-### PhpStorm
-> **PHP**
-![PhpStorm - PHP](https://lh3.googleusercontent.com/KLOKE9UOKNVTEPIwsDAV9IOmLFDGL4wx17H1E8ixlCnGy82a3H75NMlNBVxIX03grhhDW8G6RzrY2Q=w1874-h969-rw-no)
 
 ### CLion
 > **C**
