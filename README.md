@@ -1,6 +1,6 @@
 # JetBrains: Atom One Dark
 
-![Project Image](https://lh3.googleusercontent.com/FD5qrsKPaVtgLAbrhbi-42YxWVaj_iEOyL4VJxTDdDYyY6OVadh9K-mrmKVBM2oooPqipriUthJ8zMNTHcP0Wsfdbjnzna1Fybl1=w1920-h997-rw-no)
+![Project Image](https://lh3.googleusercontent.com/mYzpNKYNA8o8xQqm7Ih1sQfPeRKi-Ns-4RGaB6bK-mwfRv2AbkOg7iBKr9WrB60ioB7vi5nhYeB-6i0j3TE0F1eRnTdsEy5wX2TjHw=w1098-h570-rw-no)
 
 > **IDE:** IntelliJ IDEA
 
