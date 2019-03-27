@@ -13,5 +13,6 @@
     <entry key="win.editor.thumb.darcula.fill.min" value="102" />
     <entry key="ide.balloon.shadow.size" value="0" />
     <entry key="ide.tooltip.initialDelay" value="244" />
+    <entry key="ide.svg.icon" value="true" />
   </component>
 </application>

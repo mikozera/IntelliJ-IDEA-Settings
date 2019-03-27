@@ -1,5 +1,9 @@
 <application>
   <component name="NotificationConfiguration">
+    <notification groupId=".ignore plugin" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId=".ignore plugin update information" displayType="STICKY_BALLOON" shouldLog="false" />
     <notification groupId="IDE and Plugin Updates" displayType="NONE" shouldLog="false" />
+    <notification groupId="Json Parser" shouldLog="false" />
+    <notification groupId="MATERIAL_THEME_UPDATE" displayType="STICKY_BALLOON" shouldLog="false" />
   </component>
 </application>
