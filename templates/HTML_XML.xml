@@ -11,6 +11,7 @@
     <variable name="TAG" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TAGNAME" expression="firstWord(TAG)" defaultValue="&quot;&quot;" alwaysStopAt="false" />
     <context>
+      <option name="JAVA_COMMENT" value="true" />
       <option name="JSP" value="true" />
       <option name="JSX_HTML" value="true" />
     </context>
