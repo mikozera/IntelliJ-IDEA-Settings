@@ -123,7 +123,7 @@ PS1="$PS1"'$ '
 
 ### IntelliJ IDEA
 > **Java** 
-![Project Image](https://lh3.googleusercontent.com/CsTwmEmQP-JfKdWR-qcCjCf9chOsXjSVNMesrkMYrQPyWOsQG7zZ8KZUMKtlRph17hSTiJMBX54eGXf3NdHV94KuZYbUQrnzHNtn=w1920-h996-rw-no)
+![Project Image](https://lh3.googleusercontent.com/xWdaGJHma7FRaSa48R1FVIOoHK0EEFd6lwtyfbql4guaSDZRqDYDZk3myovVtHQxuKUlCWw_FM95aaSpsQYn65k2nGf0-zC5KGGm4g=w1098-h570-rw-no)
 
 
 ### WebStorm
