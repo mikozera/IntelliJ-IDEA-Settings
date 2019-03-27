@@ -148,7 +148,7 @@ PS1="$PS1"'$ '
  
 ### PhpStorm
 > **PHP**
-![Project Image](https://lh3.googleusercontent.com/LgUuEMoGoe-4fogIaY6ujxqOdVj4ooizMwn4wpGtRc-JhtGLL68l9PTJ7UJxv8jw7GT-2vTT9A_l2Dl-8YOkcOL79vpE6xT-nKbJcg=w1874-h969-rw-no)
+![Project Image](https://lh3.googleusercontent.com/KLOKE9UOKNVTEPIwsDAV9IOmLFDGL4wx17H1E8ixlCnGy82a3H75NMlNBVxIX03grhhDW8G6RzrY2Q=w1874-h969-rw-no)
 
 ---
 ## **License**
