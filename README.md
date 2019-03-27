@@ -1,6 +1,6 @@
 # JetBrains: Atom One Dark
 
-![Project Image](https://lh3.googleusercontent.com/mYzpNKYNA8o8xQqm7Ih1sQfPeRKi-Ns-4RGaB6bK-mwfRv2AbkOg7iBKr9WrB60ioB7vi5nhYeB-6i0j3TE0F1eRnTdsEy5wX2TjHw=w1098-h570-rw-no)
+![Project Image](https://lh3.googleusercontent.com/mYzpNKYNA8o8xQqm7Ih1sQfPeRKi-Ns-4RGaB6bK-mwfRv2AbkOg7iBKr9WrB60ioB7vi5nhYeB-6i0j3TE0F1eRnTdsEy5wX2TjHw=w1867-h969-rw-no)
 
 > **IDE:** IntelliJ IDEA
 
@@ -21,6 +21,7 @@
   - [IntelliJ IDEA](#intellij-idea)
   - [WebStorm](#webstorm)
   - [PyCharm](#pycharm)
+  - [PhpStorm](#phpstorm)
 - [**License**](#license)
   - [MIT](#mit)
   
@@ -123,21 +124,21 @@ PS1="$PS1"'$ '
 
 ### IntelliJ IDEA
 > **Java** 
-![Project Image](https://lh3.googleusercontent.com/xWdaGJHma7FRaSa48R1FVIOoHK0EEFd6lwtyfbql4guaSDZRqDYDZk3myovVtHQxuKUlCWw_FM95aaSpsQYn65k2nGf0-zC5KGGm4g=w1098-h570-rw-no)
+![Project Image](https://lh3.googleusercontent.com/tmuriilklF0aD6bPOkxEBGEa8ii2JCjBetBMW-0a91wcYiSLH_fsfBsdM8M76h8f2Xa6ltSyh9fZ0A=w1866-h969-rw-no)
 
 
 ### WebStorm
 > **HTML**
-![Project Image](https://lh3.googleusercontent.com/CbbAhtR4n-S1wMweHfyKHe06vv9cTJx32zI0HUW5apbqByVLawxHyFsJt6gj6Rb0FRCuB_JM05rLXF39j1IM3dFOFVj7YOBRjL5V=w1102-h570-rw-no)
+![Project Image](https://lh3.googleusercontent.com/CbbAhtR4n-S1wMweHfyKHe06vv9cTJx32zI0HUW5apbqByVLawxHyFsJt6gj6Rb0FRCuB_JM05rLXF39j1IM3dFOFVj7YOBRjL5V=w1872-h969-rw-no)
 
 > **CSS**
-![Project Image](https://lh3.googleusercontent.com/12Z-HSwgx1tKG8TV9cGaiVnQPG_CRt7zk7uk9GT93r6pD9IIJ6kVECHbXfUpWNXUMhPUSGSpQzQsGS3h4vEs86QB8QdzqvvJY6sX=w1099-h570-rw-no)
+![Project Image](https://lh3.googleusercontent.com/12Z-HSwgx1tKG8TV9cGaiVnQPG_CRt7zk7uk9GT93r6pD9IIJ6kVECHbXfUpWNXUMhPUSGSpQzQsGS3h4vEs86QB8QdzqvvJY6sX=w1868-h969-rw-no)
 
 > **SCSS** 
-![Project Image](https://lh3.googleusercontent.com/eqPWMnVP99z7PoSPNoFz9XgwwL38kQBfH06mcgD1uYpDrjZ9xSVMhBnRIaxxYHqPE-y4sETQW6MXnhuWK7tbdF4ROVh_aSxLOXlU=w1098-h570-rw-no)
+![Project Image](https://lh3.googleusercontent.com/eqPWMnVP99z7PoSPNoFz9XgwwL38kQBfH06mcgD1uYpDrjZ9xSVMhBnRIaxxYHqPE-y4sETQW6MXnhuWK7tbdF4ROVh_aSxLOXlU=w1867-h969-rw-no)
 
 > **JavaScript** 
-![Project Image](https://lh3.googleusercontent.com/vJBKtFMuFgzfMR0EBwJpuwgBm6SY5MYW_BA-cCXAI2c3rA6IJrPRazXwHtNgjEDboqUUVLrDy5BKO6rNe_9BH-I-Lv1oX5xDPY-l=w1100-h570-rw-no)
+![Project Image](https://lh3.googleusercontent.com/vJBKtFMuFgzfMR0EBwJpuwgBm6SY5MYW_BA-cCXAI2c3rA6IJrPRazXwHtNgjEDboqUUVLrDy5BKO6rNe_9BH-I-Lv1oX5xDPY-l=w1870-h969-rw-no)
 
 
 ### PyCharm
@@ -147,7 +148,7 @@ PS1="$PS1"'$ '
  
 ### PhpStorm
 > **PHP**
-![Project Image](https://lh3.googleusercontent.com/1EXn_RcfBhNhYMV-9bw9hFatruLRpxAfuHIdQ9hpC1Qvrdhh5oAMPEj5Cc3_gO45dz61PmxPG2B9WQ=w1872-h969-rw-no)
+![Project Image](https://lh3.googleusercontent.com/LgUuEMoGoe-4fogIaY6ujxqOdVj4ooizMwn4wpGtRc-JhtGLL68l9PTJ7UJxv8jw7GT-2vTT9A_l2Dl-8YOkcOL79vpE6xT-nKbJcg=w1874-h969-rw-no)
 
 ---
 ## **License**
