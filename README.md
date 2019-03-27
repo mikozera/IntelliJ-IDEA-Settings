@@ -21,6 +21,7 @@
   - [IntelliJ IDEA](#intellij-idea)
   - [WebStorm](#webstorm)
   - [PyCharm](#pycharm)
+  - [PhpStorm](#phpstorm)
 - [**License**](#license)
   - [MIT](#mit)
   
@@ -147,7 +148,7 @@ PS1="$PS1"'$ '
  
 ### PhpStorm
 > **PHP**
-![Project Image](https://lh3.googleusercontent.com/1EXn_RcfBhNhYMV-9bw9hFatruLRpxAfuHIdQ9hpC1Qvrdhh5oAMPEj5Cc3_gO45dz61PmxPG2B9WQ=w1872-h969-rw-no)
+![Project Image](https://lh3.googleusercontent.com/LgUuEMoGoe-4fogIaY6ujxqOdVj4ooizMwn4wpGtRc-JhtGLL68l9PTJ7UJxv8jw7GT-2vTT9A_l2Dl-8YOkcOL79vpE6xT-nKbJcg=w1874-h969-rw-no)
 
 ---
 ## **License**
