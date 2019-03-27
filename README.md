@@ -60,7 +60,7 @@ This is a complete JetBrain's IDE configuration based off of Atom's One Dark the
 - Material Theme UI: enables a basic Atom One Dark theme
 - Nyan Progress Bar: enables a colorful loading bar
 - Rainbow Brackets: enables colorful bracket/brace coloring
-- Save Actions: enables code auto-formatting on save 
+- Save Actions: enables auto-formatting on save 
 
 ### Recommended
 - .ignore: improved file ignoring capabilities
