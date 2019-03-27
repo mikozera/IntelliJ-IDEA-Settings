@@ -20,8 +20,9 @@
 - [**Color Schemes**](#color-schemes)
   - [IntelliJ IDEA](#intellij-idea)
   - [WebStorm](#webstorm)
-  - [PyCharm](#pycharm)
   - [PhpStorm](#phpstorm)
+  - [PyCharm](#pycharm)
+  - [CLion](#clion)
 - [**License**](#license)
   - [MIT](#mit)
   
@@ -39,7 +40,7 @@ This is a complete JetBrain's IDE configuration based off of Atom's One Dark the
 - Awesome Plugins to Enhance the IDE Experience 
 - Advanced Color Scheme Configuration for Most JetBrain's IDEs
 
-> **Note:** Theme has been fully optimized for IntelliJ IDEA, WebStorm & PyCharm
+> **Note:** Theme has been fully optimized for IntelliJ IDEA, WebStorm, PhpStorm, PyCharm & CLion
 
 ---
 
@@ -124,32 +125,36 @@ PS1="$PS1"'$ '
 
 ### IntelliJ IDEA
 > **Java** 
-![Project Image](https://lh3.googleusercontent.com/tmuriilklF0aD6bPOkxEBGEa8ii2JCjBetBMW-0a91wcYiSLH_fsfBsdM8M76h8f2Xa6ltSyh9fZ0A=w1866-h969-rw-no)
+![IntelliJ IDEA - Java](https://lh3.googleusercontent.com/tmuriilklF0aD6bPOkxEBGEa8ii2JCjBetBMW-0a91wcYiSLH_fsfBsdM8M76h8f2Xa6ltSyh9fZ0A=w1866-h969-rw-no)
 
 
 ### WebStorm
 > **HTML**
-![Project Image](https://lh3.googleusercontent.com/CbbAhtR4n-S1wMweHfyKHe06vv9cTJx32zI0HUW5apbqByVLawxHyFsJt6gj6Rb0FRCuB_JM05rLXF39j1IM3dFOFVj7YOBRjL5V=w1872-h969-rw-no)
+![WebStorm - HTML](https://lh3.googleusercontent.com/CbbAhtR4n-S1wMweHfyKHe06vv9cTJx32zI0HUW5apbqByVLawxHyFsJt6gj6Rb0FRCuB_JM05rLXF39j1IM3dFOFVj7YOBRjL5V=w1872-h969-rw-no)
 
 > **CSS**
-![Project Image](https://lh3.googleusercontent.com/12Z-HSwgx1tKG8TV9cGaiVnQPG_CRt7zk7uk9GT93r6pD9IIJ6kVECHbXfUpWNXUMhPUSGSpQzQsGS3h4vEs86QB8QdzqvvJY6sX=w1868-h969-rw-no)
+![WebStorm - CSS](https://lh3.googleusercontent.com/12Z-HSwgx1tKG8TV9cGaiVnQPG_CRt7zk7uk9GT93r6pD9IIJ6kVECHbXfUpWNXUMhPUSGSpQzQsGS3h4vEs86QB8QdzqvvJY6sX=w1868-h969-rw-no)
 
 > **SCSS** 
-![Project Image](https://lh3.googleusercontent.com/eqPWMnVP99z7PoSPNoFz9XgwwL38kQBfH06mcgD1uYpDrjZ9xSVMhBnRIaxxYHqPE-y4sETQW6MXnhuWK7tbdF4ROVh_aSxLOXlU=w1867-h969-rw-no)
+![WebStorm - SCSS](https://lh3.googleusercontent.com/eqPWMnVP99z7PoSPNoFz9XgwwL38kQBfH06mcgD1uYpDrjZ9xSVMhBnRIaxxYHqPE-y4sETQW6MXnhuWK7tbdF4ROVh_aSxLOXlU=w1867-h969-rw-no)
 
 > **JavaScript** 
-![Project Image](https://lh3.googleusercontent.com/vJBKtFMuFgzfMR0EBwJpuwgBm6SY5MYW_BA-cCXAI2c3rA6IJrPRazXwHtNgjEDboqUUVLrDy5BKO6rNe_9BH-I-Lv1oX5xDPY-l=w1870-h969-rw-no)
+![WebStorm - JavaScript](https://lh3.googleusercontent.com/vJBKtFMuFgzfMR0EBwJpuwgBm6SY5MYW_BA-cCXAI2c3rA6IJrPRazXwHtNgjEDboqUUVLrDy5BKO6rNe_9BH-I-Lv1oX5xDPY-l=w1870-h969-rw-no)
 
+### PhpStorm
+> **PHP**
+![PhpStorm - PHP](https://lh3.googleusercontent.com/KLOKE9UOKNVTEPIwsDAV9IOmLFDGL4wx17H1E8ixlCnGy82a3H75NMlNBVxIX03grhhDW8G6RzrY2Q=w1874-h969-rw-no)
 
 ### PyCharm
 > **Python**
-![Project Image](https://lh3.googleusercontent.com/6KALxyKTrtqEZGJf4-7YIeFV9WOaxZSct7rOGMggKjmyeXwNpCWuzX68dBernUcA75cAFHC8S5rZQg=w1868-h969-rw-no)
- 
- 
-### PhpStorm
-> **PHP**
-![Project Image](https://lh3.googleusercontent.com/KLOKE9UOKNVTEPIwsDAV9IOmLFDGL4wx17H1E8ixlCnGy82a3H75NMlNBVxIX03grhhDW8G6RzrY2Q=w1874-h969-rw-no)
+![PyCharm - Python](https://lh3.googleusercontent.com/6KALxyKTrtqEZGJf4-7YIeFV9WOaxZSct7rOGMggKjmyeXwNpCWuzX68dBernUcA75cAFHC8S5rZQg=w1868-h969-rw-no)
 
+### CLion
+> **C**
+![Project Image](https://lh3.googleusercontent.com/Y67zCIFP-LThcajSLIon2c6Zbh-8JufKMyuOlGYVn30kUqPtumaE2CACDAbmOiE4h-_ianJND4v85w=w1868-h969-rw-no)
+
+> **C++**
+![Project Image](https://lh3.googleusercontent.com/cxfOiMHOdvm2nP2RYWgCgxSWnHpP916RyE_8l_HZs1Z9Thpr8tXLbTKXsV5umACWN0V6zujIQFMshw=w1870-h969-rw-no)
 ---
 ## **License**
 
