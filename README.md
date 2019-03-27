@@ -60,12 +60,12 @@ This is a complete JetBrain's IDE configuration based off of Atom's One Dark the
 - Material Theme UI: enables a basic Atom One Dark theme
 - Nyan Progress Bar: enables a colorful loading bar
 - Rainbow Brackets: enables colorful bracket/brace coloring
+- Save Actions: enables code auto-formatting on save 
 
 ### Recommended
 - .ignore: improved file ignoring capabilities
 - AceJump: allows for quick cursor movement w/o taking your hands-off the keyboard (Ctrl + ;)
 - Bootstrap 4: allows for advanced Bootstrap 4 snippets
-- Save Actions: auto-format your code 
 - Markdown Navigator: integrates advanced Markdown support
 - React Snippets: enhances React support
 - Presentation Assistant: displays any pressed keyboard shortcuts (Alt + Shift + D)
