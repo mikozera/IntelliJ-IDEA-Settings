@@ -10,6 +10,7 @@
     <option name="isCompactTables" value="true" />
     <option name="isContrastMode" value="true" />
     <option name="isCustomTreeIndentEnabled" value="true" />
+    <option name="isWizardShown" value="true" />
     <option name="pristineConfig" value="false" />
     <option name="upperCaseButtons" value="false" />
     <option name="useMaterialFont" value="false" />
