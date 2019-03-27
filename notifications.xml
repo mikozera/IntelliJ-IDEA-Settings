@@ -1,9 +1,11 @@
 <application>
   <component name="NotificationConfiguration">
-    <notification groupId=".ignore plugin" displayType="STICKY_BALLOON" shouldLog="false" />
-    <notification groupId=".ignore plugin update information" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId=".ignore plugin" displayType="NONE" shouldLog="false" />
+    <notification groupId=".ignore plugin update information" displayType="NONE" shouldLog="false" />
     <notification groupId="IDE and Plugin Updates" displayType="NONE" shouldLog="false" />
     <notification groupId="Json Parser" shouldLog="false" />
-    <notification groupId="MATERIAL_THEME_UPDATE" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="Material Theme Notifications_UPDATE" displayType="NONE" shouldLog="false" />
+    <notification groupId="MATERIAL_THEME_UPDATE" displayType="NONE" shouldLog="false" />
+    <notification groupId="Plugins updates" displayType="NONE" shouldLog="false" />
   </component>
 </application>
