@@ -154,7 +154,7 @@ PS1="$PS1"'$ '
 ![Project Image](https://lh3.googleusercontent.com/cF8iBfkXUrR0aSGDVxDFZgo0I3z6sTGC2pAIcUVr6bDS_hQuE_Ay4QjnhaaOGQCvm41rAf6JF69QEhsrusFQkFeL9IEboQUhwL4bIQ=w1868-h969-rw-no)
 
 > **C++**
-![Project Image](https://lh3.googleusercontent.com/cxfOiMHOdvm2nP2RYWgCgxSWnHpP916RyE_8l_HZs1Z9Thpr8tXLbTKXsV5umACWN0V6zujIQFMshw=w1870-h969-rw-no)
+![Project Image](https://lh3.googleusercontent.com/K5kkt-YaZV5QStjbVdIiR9MXB6SaYyFObd0LuP0b4JglGhFAuJ64WcF0Tdctl2EAAU9EaMEyoQ978A=w1867-h969-rw-no)
 ---
 ## **License**
 
