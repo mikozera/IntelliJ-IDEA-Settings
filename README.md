@@ -151,7 +151,7 @@ PS1="$PS1"'$ '
 
 ### CLion
 > **C**
-![Project Image](https://lh3.googleusercontent.com/Y67zCIFP-LThcajSLIon2c6Zbh-8JufKMyuOlGYVn30kUqPtumaE2CACDAbmOiE4h-_ianJND4v85w=w1868-h969-rw-no)
+![Project Image](https://lh3.googleusercontent.com/qBq1xS_cviaa3sGyTUnwWmhIgh89zZKWv6y2rMLx3PpBt88bDopB5IYK-Esb3EQetDuysIA-DBOZEA=w1867-h969-rw-no)
 
 > **C++**
 ![Project Image](https://lh3.googleusercontent.com/cxfOiMHOdvm2nP2RYWgCgxSWnHpP916RyE_8l_HZs1Z9Thpr8tXLbTKXsV5umACWN0V6zujIQFMshw=w1870-h969-rw-no)
