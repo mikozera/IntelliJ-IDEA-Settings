@@ -57,7 +57,15 @@
   <inspection_tool class="CssReplaceWithShorthandSafely" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="CssReplaceWithShorthandUnsafely" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="CssUnitlessNumber" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="CssUnknownProperty" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="CssUnknownProperty" enabled="false" level="WARNING" enabled_by_default="false">
+    <option name="myCustomPropertiesEnabled" value="false" />
+    <option name="myIgnoreVendorSpecificProperties" value="false" />
+    <option name="myCustomPropertiesList">
+      <value>
+        <list size="0" />
+      </value>
+    </option>
+  </inspection_tool>
   <inspection_tool class="CssUnknownTarget" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="CssUnresolvedClass" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="CssUnresolvedCustomProperty" enabled="false" level="ERROR" enabled_by_default="false" />
@@ -94,8 +102,10 @@
   <inspection_tool class="EmptyStatementBody" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="m_reportEmptyBlocks" value="true" />
   </inspection_tool>
-  <inspection_tool class="EmptyStatementBodyJS" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="Eslint" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="EmptyStatementBodyJS" enabled="false" level="WARNING" enabled_by_default="false">
+    <option name="m_reportEmptyBlocks" value="false" />
+  </inspection_tool>
+  <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ExceptionCaughtLocallyJS" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="FallThroughInSwitchStatementJS" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="FieldCanBeLocal" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -163,12 +173,17 @@
   <inspection_tool class="JSLastCommaInArrayLiteral" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JSLastCommaInObjectLiteral" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JSMethodCanBeStatic" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="JSMismatchedCollectionQueryUpdate" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="JSMismatchedCollectionQueryUpdate" enabled="false" level="WARNING" enabled_by_default="false">
+    <option name="queries" value="trace,write,forEach,length" />
+    <option name="updates" value="pop,push,shift,splice,unshift,add,insert,remove" />
+  </inspection_tool>
   <inspection_tool class="JSMissingSwitchBranches" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="JSMissingSwitchDefault" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="JSNonASCIINames" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JSObjectNullOrUndefined" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="JSPotentiallyInvalidConstructorUsage" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="JSPotentiallyInvalidConstructorUsage" enabled="false" level="WARNING" enabled_by_default="false">
+    <option name="myConsiderUppercaseFunctionsToBeConstructors" value="true" />
+  </inspection_tool>
   <inspection_tool class="JSPotentiallyInvalidTargetOfIndexedPropertyAccess" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JSPotentiallyInvalidUsageOfClassThis" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JSPotentiallyInvalidUsageOfThis" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -179,7 +194,11 @@
   <inspection_tool class="JSReferencingMutableVariableFromClosure" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JSRemoveUnnecessaryParentheses" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="JSStringConcatenationToES6Template" enabled="false" level="INFORMATION" enabled_by_default="false" />
-  <inspection_tool class="JSSuspiciousNameCombination" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="JSSuspiciousNameCombination" enabled="false" level="WARNING" enabled_by_default="false">
+    <group names="x,width,left,right" />
+    <group names="y,height,top,bottom" />
+    <exclude classes="Math" />
+  </inspection_tool>
   <inspection_tool class="JSSwitchVariableDeclarationIssue" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JSTestFailedLine" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JSTypeOfValues" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -219,7 +238,9 @@
   <inspection_tool class="OldGitHubTaskItemReference" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="PackageJsonMismatchedDependency" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="PointlessArithmeticExpressionJS" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="PointlessBitwiseExpressionJS" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="PointlessBitwiseExpressionJS" enabled="false" level="WARNING" enabled_by_default="false">
+    <option name="m_ignoreExpressionsContainingConstants" value="false" />
+  </inspection_tool>
   <inspection_tool class="PointlessBooleanExpressionJS" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="PossibleListItem" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="ReferenceLink" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -232,7 +253,7 @@
   <inspection_tool class="ShiftOutOfRangeJS" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="SillyAssignmentJS" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="SpellCheckingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
-    <scope name="Project Files" level="WEAK WARNING" enabled="true">
+    <scope name="Project Files" level="WEAK WARNING" enabled="false">
       <option name="processCode" value="true" />
       <option name="processLiterals" value="true" />
       <option name="processComments" value="true" />
@@ -274,7 +295,10 @@
     <option name="m_ignoreImmediatelyReturnedVariables" value="false" />
     <option name="m_ignoreAnnotatedVariables" value="false" />
   </inspection_tool>
-  <inspection_tool class="UnnecessaryLocalVariableJS" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="UnnecessaryLocalVariableJS" enabled="false" level="WARNING" enabled_by_default="false">
+    <option name="m_ignoreImmediatelyReturnedVariables" value="false" />
+    <option name="m_ignoreAnnotatedVariables" value="false" />
+  </inspection_tool>
   <inspection_tool class="UnnecessaryReturnJS" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="UnreachableCodeJS" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="UnterminatedStatementJS" enabled="false" level="WARNING" enabled_by_default="false">

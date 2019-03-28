@@ -7,7 +7,7 @@
   </CssCodeStyleSettings>
   <HTMLCodeStyleSettings>
     <option name="HTML_KEEP_BLANK_LINES" value="1" />
-    <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="body,div,form,h1,h2,h3,p" />
+    <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="body,div,form,h1,h2,h3,p,a" />
     <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
     <option name="HTML_INLINE_ELEMENTS" value="abbr,acronym,b,basefont,bdo,big,cite,cite,code,dfn,em,font,i,kbd,q,s,samp,strike,strong,sub,sup,tt,u,var" />
     <option name="HTML_DONT_ADD_BREAKS_IF_INLINE_CONTENT" value="" />
@@ -81,6 +81,7 @@
     <option name="ENFORCE_TRAILING_COMMA" value="Remove" />
     <option name="SPACES_WITHIN_IMPORTS" value="true" />
     <option name="USE_CHAINED_CALLS_GROUP_INDENTS" value="true" />
+    <option name="SPACES_WITHIN_OBJECT_TYPE_BRACES" value="false" />
   </TypeScriptCodeStyleSettings>
   <XML>
     <option name="XML_KEEP_BLANK_LINES" value="1" />
@@ -187,6 +188,7 @@
   </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="METHOD_CALL_CHAIN_WRAP" value="1" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
@@ -225,6 +227,7 @@
   </codeStyleSettings>
   <codeStyleSettings language="TypeScript">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="METHOD_CALL_CHAIN_WRAP" value="1" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
