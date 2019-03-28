@@ -50,7 +50,7 @@ This is a complete JetBrain's IDE configuration based off of Atom's One Dark the
 3. Install Bash Configuration
 4. Enable Settings Repository: File -> Settings Repository -> Enter link: https://github.com/mikozera/JetBrains-Atom-One-Dark -> Override Local 
 
-> **Note:** Theme comes with a adjusted Inspections Configuration & "optimized" Keymap
+> **Note:** To avoid being asked for an access token, disable "Auto Sync" within the "Settings Repository"
 
 ---
 
