@@ -36,6 +36,45 @@
 *.iml
 out
 gen</template>
+      <template name="Base"># NPM
+node_modules
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# Compiled Source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+
+# Logs and Databases
+*.log
+*.sql
+*.sqlite
+
+# OS Generated Files 
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db</template>
     </userTemplates>
   </component>
 </application>
