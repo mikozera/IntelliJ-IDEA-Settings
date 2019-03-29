@@ -193,6 +193,7 @@
   </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="SPACE_WITHIN_BRACKETS" value="true" />
     <option name="METHOD_CALL_CHAIN_WRAP" value="1" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
@@ -232,6 +233,7 @@
   </codeStyleSettings>
   <codeStyleSettings language="TypeScript">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="SPACE_WITHIN_BRACKETS" value="true" />
     <option name="METHOD_CALL_CHAIN_WRAP" value="1" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
