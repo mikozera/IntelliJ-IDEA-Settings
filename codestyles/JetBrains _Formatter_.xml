@@ -8,7 +8,8 @@
   <HTMLCodeStyleSettings>
     <option name="HTML_KEEP_BLANK_LINES" value="1" />
     <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
-    <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="body,div,form,h1,h2,h3,p,a" />
+    <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="body,div,form,h1,h2,h3,p,a,br,hr" />
+    <option name="HTML_ELEMENTS_TO_REMOVE_NEW_LINE_BEFORE" value="" />
     <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
     <option name="HTML_INLINE_ELEMENTS" value="abbr,acronym,b,basefont,bdo,big,cite,cite,code,dfn,em,font,i,kbd,q,s,samp,strike,strong,sub,sup,tt,u,var" />
     <option name="HTML_DONT_ADD_BREAKS_IF_INLINE_CONTENT" value="" />
