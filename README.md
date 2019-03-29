@@ -65,7 +65,6 @@ This is a complete JetBrain's IDE configuration based off of Atom's One Dark the
 
 ### Recommended
 - .ignore: improved file ignoring capabilities
-- AceJump: allows for quick cursor movement w/o taking your hands-off the keyboard (Ctrl + ;)
 - Bootstrap 4: allows for advanced Bootstrap 4 snippets
 - Markdown Navigator: integrates advanced Markdown support
 - React Snippets: enhances React support
