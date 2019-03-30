@@ -66,6 +66,7 @@ This is a complete JetBrain's IDE configuration based off of Atom's One Dark the
 ### Recommended
 - .ignore: improved file ignoring capabilities
 - Bootstrap 4: allows for advanced Bootstrap 4 snippets
+- Import Cost: calculates file sizes for dependencies
 - Markdown Navigator: integrates advanced Markdown support
 - React Snippets: enhances React support
 - Presentation Assistant: displays any pressed keyboard shortcuts (Alt + Shift + D)
