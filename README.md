@@ -77,7 +77,7 @@ This is a complete JetBrain's IDE configuration based off of Atom's One Dark the
 - String Manipulation: allows for smart string manipulation (Alt + Shift + M)
 - Presentation Assistant: displays any pressed keyboard shortcuts (Alt + Shift + D)
 
-> **Note:** When adding new plugins make sure to "update" the IDE by repeating "Step 4" of the Installation
+> **Note:** When adding new plugins make sure to "update" the IDE by repeating "Step 4" of the "Installation"
 
 ---
 
