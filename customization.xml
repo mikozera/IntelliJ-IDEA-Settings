@@ -2,79 +2,79 @@
   <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
     <group value="HTTP.Request.NewFile" is_action="true" action_type="-1" position="20">
       <path value="root" />
-      <path value="Project View Popup Menu" />
+      <path value="Favorites View Popup Menu" />
       <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="Diagram" is_group="true" action_type="-1" position="18">
       <path value="root" />
-      <path value="Project View Popup Menu" />
+      <path value="Favorites View Popup Menu" />
       <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="NewXmlDescriptor" is_group="true" action_type="-1" position="17">
       <path value="root" />
-      <path value="Project View Popup Menu" />
+      <path value="Favorites View Popup Menu" />
       <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="NewFromTemplate" is_group="true" action_type="-1" position="16">
       <path value="root" />
-      <path value="Project View Popup Menu" />
+      <path value="Favorites View Popup Menu" />
       <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="Dart.NewDartFile" is_action="true" action_type="-1" position="15">
       <path value="root" />
-      <path value="Project View Popup Menu" />
+      <path value="Favorites View Popup Menu" />
       <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="CreateVueSingleFileComp" is_action="true" action_type="-1" position="14">
       <path value="root" />
-      <path value="Project View Popup Menu" />
+      <path value="Favorites View Popup Menu" />
       <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="NewCoffeeScriptFile" is_action="true" action_type="-1" position="13">
       <path value="root" />
-      <path value="Project View Popup Menu" />
+      <path value="Favorites View Popup Menu" />
       <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="NewPugFile" is_action="true" action_type="-1" position="12">
       <path value="root" />
-      <path value="Project View Popup Menu" />
+      <path value="Favorites View Popup Menu" />
       <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="NewTypeScriptConfigFile" is_action="true" action_type="-1" position="10">
       <path value="root" />
-      <path value="Project View Popup Menu" />
+      <path value="Favorites View Popup Menu" />
       <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="angularCliGenerate" is_action="true" action_type="-1" position="4">
       <path value="root" />
-      <path value="Project View Popup Menu" />
+      <path value="Favorites View Popup Menu" />
+      <path value="New" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="NewScratchFile" is_action="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Favorites View Popup Menu" />
       <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="Bash.NewBashScript" is_action="true" action_type="-1" position="1">
       <path value="root" />
-      <path value="Project View Popup Menu" />
+      <path value="Favorites View Popup Menu" />
       <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group seperator="true" action_type="1" position="8">
+    <group seperator="true" action_type="1" position="7">
       <path value="root" />
-      <path value="Project View Popup Menu" />
-      <path value="New" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group seperator="true" action_type="1" position="11">
-      <path value="root" />
-      <path value="Project View Popup Menu" />
+      <path value="Favorites View Popup Menu" />
       <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
