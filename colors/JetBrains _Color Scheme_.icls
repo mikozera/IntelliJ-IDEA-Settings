@@ -4,7 +4,7 @@
     <property name="created">2019-03-09T18:45:13</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.1.4.0.0</property>
-    <property name="modified">2019-03-31T16:15:14</property>
+    <property name="modified">2019-03-31T16:45:52</property>
     <property name="originalScheme">Atom One Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -728,7 +728,7 @@
     </option>
     <option name="HTTP_REQUEST_MESSAGE_BODY">
       <value>
-        <option name="FOREGROUND" value="98c379" />
+        <option name="FOREGROUND" value="abb2bf" />
       </value>
     </option>
     <option name="HTTP_REQUEST_MULTIPART_BOUNDARY">
@@ -785,7 +785,7 @@
     </option>
     <option name="IGNORE.SLASH">
       <value>
-        <option name="FOREGROUND" value="abb2bf" />
+        <option name="FOREGROUND" value="98c379" />
       </value>
     </option>
     <option name="IGNORE.SYNTAX">
