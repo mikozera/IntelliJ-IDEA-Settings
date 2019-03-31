@@ -17,6 +17,7 @@
   </HTMLCodeStyleSettings>
   <JSCodeStyleSettings>
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
+    <option name="FILE_NAME_STYLE" value="PASCAL_CASE" />
     <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />
     <option name="REFORMAT_C_STYLE_COMMENTS" value="true" />
     <option name="FORCE_QUOTE_STYlE" value="true" />
@@ -113,6 +114,9 @@
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
     </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="CoffeeScript">
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
   </codeStyleSettings>
   <codeStyleSettings language="EditorConfig">
     <option name="SPACE_BEFORE_COLON" value="true" />

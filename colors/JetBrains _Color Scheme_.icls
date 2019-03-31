@@ -4,7 +4,7 @@
     <property name="created">2019-03-09T18:45:13</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.1.4.0.0</property>
-    <property name="modified">2019-03-30T15:22:47</property>
+    <property name="modified">2019-03-31T16:45:52</property>
     <property name="originalScheme">Atom One Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -32,6 +32,7 @@
     <option name="CARET_ROW_COLOR" value="2c313a" />
     <option name="CONSOLE_BACKGROUND_KEY" value="21252b" />
     <option name="DELETED_LINES_COLOR" value="e06c75" />
+    <option name="DOCUMENTATION_COLOR" value="3b3d3f" />
     <option name="FILESTATUS_ADDED" value="98c379" />
     <option name="FILESTATUS_COPIED" value="d19a66" />
     <option name="FILESTATUS_DELETED" value="e06c75" />
@@ -107,6 +108,31 @@
     <option name="BASH.VAR_USE_BUILTIN">
       <value>
         <option name="FOREGROUND" value="e5c07b" />
+      </value>
+    </option>
+    <option name="BOOKMARKS_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="61afef" />
+      </value>
+    </option>
+    <option name="BREADCRUMBS_CURRENT">
+      <value>
+        <option name="FOREGROUND" value="61afef" />
+      </value>
+    </option>
+    <option name="BREADCRUMBS_DEFAULT">
+      <value>
+        <option name="FOREGROUND" value="abb2bf" />
+      </value>
+    </option>
+    <option name="BREADCRUMBS_HOVERED">
+      <value>
+        <option name="FOREGROUND" value="abb2bf" />
+      </value>
+    </option>
+    <option name="BREADCRUMBS_INACTIVE">
+      <value>
+        <option name="FOREGROUND" value="5c6370" />
       </value>
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
@@ -702,7 +728,7 @@
     </option>
     <option name="HTTP_REQUEST_MESSAGE_BODY">
       <value>
-        <option name="FOREGROUND" value="98c379" />
+        <option name="FOREGROUND" value="abb2bf" />
       </value>
     </option>
     <option name="HTTP_REQUEST_MULTIPART_BOUNDARY">
@@ -759,7 +785,7 @@
     </option>
     <option name="IGNORE.SLASH">
       <value>
-        <option name="FOREGROUND" value="abb2bf" />
+        <option name="FOREGROUND" value="98c379" />
       </value>
     </option>
     <option name="IGNORE.SYNTAX">
@@ -996,6 +1022,11 @@
       <value>
         <option name="FOREGROUND" value="80805a" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="LIVE_TEMPLATE_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="abb2bf" />
       </value>
     </option>
     <option name="LOCAL_VARIABLE_ATTRIBUTES">

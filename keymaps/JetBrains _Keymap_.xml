@@ -97,7 +97,9 @@
   <action id="Vcs.Log.GoToRef">
     <keyboard-shortcut first-keystroke="alt f3" />
   </action>
-  <action id="Vcs.QuickListPopupAction" />
+  <action id="Vcs.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="ctrl alt 3" />
+  </action>
   <action id="XDebugger.CopyWatch">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
