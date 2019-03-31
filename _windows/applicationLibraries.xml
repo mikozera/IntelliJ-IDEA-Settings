@@ -1,5 +1,9 @@
 <application>
   <component name="libraryTable">
+    <library name="@types/css" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
     <library name="@types/react" type="javaScript">
       <CLASSES />
       <SOURCES />
