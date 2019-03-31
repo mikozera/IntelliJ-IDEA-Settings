@@ -57,11 +57,14 @@ This is a complete JetBrain's IDE configuration based off of Atom's One Dark the
 ## **Plugins**
 
 ### Mandatory
+- Autoscroll Save: file tree is automatically expanded to the current file
 - CodeGlance: enables a "Sublime-esk" mini-map
 - Material Theme UI: enables a basic Atom One Dark theme
 - Nyan Progress Bar: enables a colorful loading bar
 - Rainbow Brackets: enables colorful bracket/brace coloring
 - Save Actions: enables auto-formatting on save 
+- Tabdir: enables improved editor tab support
+- Path Hide: disables the default side-scrolling on the file tree
 
 ### Recommended
 - .ignore: improved file ignoring capabilities
@@ -69,6 +72,7 @@ This is a complete JetBrain's IDE configuration based off of Atom's One Dark the
 - Import Cost: calculates file sizes for dependencies
 - Markdown Navigator: integrates advanced Markdown support
 - React Snippets: enhances React support
+- String Manipulation: allows for smart string manipulation (Alt + Shift + M)
 - Presentation Assistant: displays any pressed keyboard shortcuts (Alt + Shift + D)
 
 > **Note:** To enable auto-formatting, you must configure it under "Save Actions"
