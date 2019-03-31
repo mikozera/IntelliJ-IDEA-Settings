@@ -46,11 +46,11 @@ This is a complete JetBrain's IDE configuration based off of Atom's One Dark the
 
 ## **Installation**
 1. Download JetBrain's IDE
-2. Install Plugins: File -> Settings -> Plugins -> Browse Repositories 
+2. Install Mandatory Plugins: File -> Settings -> Plugins -> Browse Repositories 
 3. Install Bash Configuration
 4. Enable Settings Repository: File -> Settings Repository -> Enter link: https://github.com/mikozera/JetBrains-Atom-One-Dark -> Override Local 
 
-> **Note:** To avoid being asked for an access token, disable "Auto Sync" within the "Settings Repository"
+> **Note:** Must disable "Auto Sync" within the "Settings Repository"
 
 ---
 
@@ -66,6 +66,8 @@ This is a complete JetBrain's IDE configuration based off of Atom's One Dark the
 - Tabdir: enables improved editor tab support
 - Path Hide: disables the default side-scrolling on the file tree
 
+> **Note:** To enable auto-formatting, you must configure it under "Save Actions"
+
 ### Recommended
 - .ignore: improved file ignoring capabilities
 - Bootstrap 4: allows for advanced Bootstrap 4 snippets
@@ -75,7 +77,7 @@ This is a complete JetBrain's IDE configuration based off of Atom's One Dark the
 - String Manipulation: allows for smart string manipulation (Alt + Shift + M)
 - Presentation Assistant: displays any pressed keyboard shortcuts (Alt + Shift + D)
 
-> **Note:** To enable auto-formatting, you must configure it under "Save Actions"
+> **Note:** When adding new plugins make sure to "update" the IDE by repeating "Step 4" of the "Installation"
 
 ---
 
