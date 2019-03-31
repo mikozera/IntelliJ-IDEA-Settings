@@ -63,6 +63,7 @@ This is a complete JetBrain's IDE configuration based off of Atom's One Dark the
 - Nyan Progress Bar: enables a colorful loading bar
 - Rainbow Brackets: enables colorful bracket/brace coloring
 - Save Actions: enables auto-formatting on save 
+- Tabdir: enables improved editor tab support
 
 ### Recommended
 - .ignore: improved file ignoring capabilities
