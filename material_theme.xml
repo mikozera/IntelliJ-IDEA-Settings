@@ -10,7 +10,7 @@
     <option name="accentColor" value="61afef" />
     <option name="useProjectViewDecorators" value="false" />
     <option name="compactSidebar" value="true" />
-    <option name="tabsHeight" value="40" />
+    <option name="tabsHeight" value="38" />
     <option name="isCompactStatusBar" value="true" />
     <option name="isCompactTables" value="true" />
     <option name="customSidebarHeight" value="26" />
@@ -18,7 +18,6 @@
     <option name="useMaterialFont" value="false" />
     <option name="compactDropdowns" value="true" />
     <option name="upperCaseButtons" value="false" />
-    <option name="settingsSelectedTab" value="2" />
     <option name="fileStatusColorsEnabled" value="true" />
     <option name="userId" value="70f25316:1681251df9f:-8000" />
     <option name="allowDataCollection" value="true" />
