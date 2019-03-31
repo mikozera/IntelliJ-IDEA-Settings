@@ -57,6 +57,7 @@ This is a complete JetBrain's IDE configuration based off of Atom's One Dark the
 ## **Plugins**
 
 ### Mandatory
+- Autoscroll Save: file tree is automatically expanded to the current file
 - CodeGlance: enables a "Sublime-esk" mini-map
 - Material Theme UI: enables a basic Atom One Dark theme
 - Nyan Progress Bar: enables a colorful loading bar
