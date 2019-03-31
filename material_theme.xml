@@ -5,12 +5,13 @@
     <option name="highlightColor" value="61afef" />
     <option name="highlightColorEnabled" value="true" />
     <option name="isContrastMode" value="true" />
+    <option name="isMaterialDesign" value="false" />
     <option name="isCustomTreeIndentEnabled" value="true" />
     <option name="rightTreeIndent" value="8" />
     <option name="accentColor" value="61afef" />
     <option name="useProjectViewDecorators" value="false" />
     <option name="compactSidebar" value="true" />
-    <option name="tabsHeight" value="40" />
+    <option name="tabsHeight" value="50" />
     <option name="isCompactStatusBar" value="true" />
     <option name="isCompactTables" value="true" />
     <option name="customSidebarHeight" value="26" />
