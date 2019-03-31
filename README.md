@@ -69,6 +69,7 @@ This is a complete JetBrain's IDE configuration based off of Atom's One Dark the
 - Import Cost: calculates file sizes for dependencies
 - Markdown Navigator: integrates advanced Markdown support
 - React Snippets: enhances React support
+- String Manipulation: allows for smart string manipulation (Alt + Shift + M)
 - Presentation Assistant: displays any pressed keyboard shortcuts (Alt + Shift + D)
 
 > **Note:** To enable auto-formatting, you must configure it under "Save Actions"
