@@ -1,6 +1,18 @@
 <application>
   <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
-    <group value="Ignore.New" is_group="true" action_type="-1" position="19">
+    <group value="HTTP.Request.NewFile" is_action="true" action_type="-1" position="20">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="New" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Diagram" is_group="true" action_type="-1" position="18">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="New" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="NewXmlDescriptor" is_group="true" action_type="-1" position="17">
       <path value="root" />
       <path value="Project View Popup Menu" />
       <path value="New" />
@@ -12,25 +24,37 @@
       <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="angularCliGenerate" is_action="true" action_type="-1" position="4">
+    <group value="Dart.NewDartFile" is_action="true" action_type="-1" position="15">
       <path value="root" />
       <path value="Project View Popup Menu" />
       <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="VcsGlobalGroup" is_group="true" action_type="-1" position="3">
+    <group value="CreateVueSingleFileComp" is_action="true" action_type="-1" position="14">
       <path value="root" />
-      <path value="Main menu" />
-      <path value="VCS" />
+      <path value="Project View Popup Menu" />
+      <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group seperator="true" action_type="-1" position="2">
+    <group value="NewCoffeeScriptFile" is_action="true" action_type="-1" position="13">
       <path value="root" />
-      <path value="Main menu" />
-      <path value="VCS" />
+      <path value="Project View Popup Menu" />
+      <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="NewScratchFile" is_action="true" action_type="-1" position="2">
+    <group value="NewPugFile" is_action="true" action_type="-1" position="12">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="New" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="NewTypeScriptConfigFile" is_action="true" action_type="-1" position="10">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="New" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="angularCliGenerate" is_action="true" action_type="-1" position="4">
       <path value="root" />
       <path value="Project View Popup Menu" />
       <path value="New" />
@@ -42,62 +66,13 @@
       <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="VcsGlobalGroup" is_group="true" action_type="1" position="0">
-      <path value="root" />
-      <path value="Main menu" />
-      <path value="VCS" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group seperator="true" action_type="1" position="1">
-      <path value="root" />
-      <path value="Main menu" />
-      <path value="VCS" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="Git.Menu" is_group="true" action_type="1" position="2">
-      <path value="root" />
-      <path value="Main menu" />
-      <path value="VCS" />
-      <path value="VCS Group" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group seperator="true" action_type="1" position="7">
-      <path value="root" />
-      <path value="Project View Popup Menu" />
-      <path value="New" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="Ignore.New" is_group="true" action_type="1" position="8">
+    <group seperator="true" action_type="1" position="8">
       <path value="root" />
       <path value="Project View Popup Menu" />
       <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group seperator="true" action_type="1" position="11">
-      <path value="root" />
-      <path value="Project View Popup Menu" />
-      <path value="New" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="NewScratchFile" is_action="true" action_type="1" position="12">
-      <path value="root" />
-      <path value="Project View Popup Menu" />
-      <path value="New" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="NewFromTemplate" is_group="true" action_type="1" position="13">
-      <path value="root" />
-      <path value="Project View Popup Menu" />
-      <path value="New" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="angularCliGenerate" is_action="true" action_type="1" position="14">
-      <path value="root" />
-      <path value="Project View Popup Menu" />
-      <path value="New" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="Bash.NewBashScript" is_action="true" action_type="1" position="19">
       <path value="root" />
       <path value="Project View Popup Menu" />
       <path value="New" />
