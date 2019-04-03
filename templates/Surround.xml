@@ -11,9 +11,13 @@
     </context>
   </template>
   <template name="EM" value="&lt;!-- @formatter:off --&gt;&#10;&#10;$SELECTION$&#10;&lt;!-- @formatter:on --&gt;&#10;" description="Surround with @formatter:off/on comment" toReformat="false" toShortenFQNames="false">
-    <variable name="SUMMARY" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true" />
+    </context>
+  </template>
+  <template name="CB" value="{$SELECTION$}$END$&#10;" description="Surround with Curly Braces" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
 </templateSet>
