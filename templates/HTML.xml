@@ -1729,4 +1729,14 @@
       <option name="JSX_HTML" value="true" />
     </context>
   </template>
+  <template name="&lt;&gt;" value="&lt;&gt;&#10;    $END$&#10;&lt;/&gt;" description="React Fragment" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="{" value="{$END$}" description="JSX interpolation" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>

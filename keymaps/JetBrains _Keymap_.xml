@@ -1,7 +1,5 @@
 <keymap version="1" name="JetBrains [Keymap]" parent="$default">
-  <action id="ActivateDebugToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl alt back_quote" />
-  </action>
+  <action id="ActivateDebugToolWindow" />
   <action id="ActivateFavoritesToolWindow">
     <keyboard-shortcut first-keystroke="alt 5" />
   </action>
@@ -68,6 +66,10 @@
   <action id="GotoNextError" />
   <action id="GuiDesigner.Duplicate">
     <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="shift ctrl f12" />
+    <keyboard-shortcut first-keystroke="ctrl alt back_quote" />
   </action>
   <action id="MaximizeToolWindow">
     <keyboard-shortcut first-keystroke="shift back_quote" />

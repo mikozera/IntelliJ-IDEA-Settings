@@ -1,6 +1,6 @@
 <application>
   <component name="UISettings">
-    <option name="EDITOR_TAB_LIMIT" value="12" />
+    <option name="EDITOR_TAB_LIMIT" value="6" />
     <option name="FONT_FACE" value="Fira Code Retina" />
     <option name="HIDE_KNOWN_EXTENSION_IN_TABS" value="true" />
     <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
