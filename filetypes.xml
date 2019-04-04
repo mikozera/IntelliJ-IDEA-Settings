@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern=".*" type="Git file" />
+      <mapping ext="php" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
