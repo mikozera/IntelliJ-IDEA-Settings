@@ -1,7 +1,4 @@
 <application>
-  <component name="EditorSettings">
-    <option name="SHOW_BREADCRUMBS" value="false" />
-  </component>
   <component name="JSEditorOptions">
     <option name="START_STRING_INTERPOLATION_ON_TYPING" value="true" />
   </component>
