@@ -8,6 +8,7 @@
   <component name="EditorSettings">
     <option name="SHOW_BREADCRUMBS" value="false" />
     <option name="IS_CAMEL_WORDS" value="true" />
+    <option name="SHOW_PARAMETER_NAME_HINTS" value="false" />
   </component>
   <component name="JSEditorOptions">
     <option name="START_STRING_INTERPOLATION_ON_TYPING" value="true" />
