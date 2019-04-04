@@ -2,10 +2,15 @@
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2019-03-09T18:45:13</property>
+    <property name="description">Atom One Dark</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.1.4.0.0</property>
-    <property name="modified">2019-04-04T18:13:51</property>
+    <property name="modified">2019-04-04T18:33:19</property>
     <property name="originalScheme">Atom One Dark</property>
+    <property name="vendorMail" />
+    <property name="vendorName">mikozera</property>
+    <property name="vendorUrl">http://</property>
+    <property name="version">1.0</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
   <font>
