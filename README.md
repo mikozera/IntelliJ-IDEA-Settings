@@ -74,6 +74,7 @@ This is a complete JetBrain's IDE configuration based off of Atom's One Dark the
 - Import Cost: calculates file sizes for dependencies
 - Markdown Navigator: integrates advanced Markdown support
 - React Snippets: enhances React support
+- React PropTypes: enhances React PropType validation via a UI (Alt + Ins)
 - String Manipulation: allows for smart string manipulation (Alt + Shift + M)
 - Presentation Assistant: displays any pressed keyboard shortcuts (Alt + Shift + D)
 
