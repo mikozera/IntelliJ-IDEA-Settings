@@ -6,6 +6,7 @@
     <option name="SECONDARY_FONT_FAMILY" value="Fira Code" />
   </component>
   <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
     <option name="SHOW_BREADCRUMBS" value="false" />
     <option name="IS_CAMEL_WORDS" value="true" />
     <option name="SHOW_PARAMETER_NAME_HINTS" value="false" />
