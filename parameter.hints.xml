@@ -5,5 +5,11 @@
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
     </blacklists>
+    <disabledLanguages>
+      <language id="TypeScript" />
+      <language id="Angular2Html" />
+      <language id="JavaScript" />
+      <language id="Vue" />
+    </disabledLanguages>
   </component>
 </application>

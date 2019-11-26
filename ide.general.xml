@@ -14,5 +14,6 @@
     <entry key="ide.balloon.shadow.size" value="0" />
     <entry key="ide.tooltip.initialDelay" value="87" />
     <entry key="ide.svg.icon" value="true" />
+    <entry key="ide.tree.ui.experimental" value="false" />
   </component>
 </application>
