@@ -1,0 +1,7 @@
+<application>
+  <component name="SettingVariables">
+    <option name="importMode" value="NewModules" />
+    <option name="needDefault" value="true" />
+    <option name="noSemiColons" value="false" />
+  </component>
+</application>
