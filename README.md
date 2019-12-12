@@ -1,234 +1,173 @@
-# **Computer Science - Archive**
+# JetBrains: Atom One Dark
 
-![Project Image](https://lh3.googleusercontent.com/N8K5kovDbSeIXTfjmSDlCMVMhn79Isic7CvMSuysC2lUIEVFfRfJS7WsIYjOT7SWMtSZNoA2qMkSTTnqqwYGM5m8EzdHaBt2n9XnkA=w1920-h1012-rw-no)
+![Project Image](https://lh3.googleusercontent.com/mYzpNKYNA8o8xQqm7Ih1sQfPeRKi-Ns-4RGaB6bK-mwfRv2AbkOg7iBKr9WrB60ioB7vi5nhYeB-6i0j3TE0F1eRnTdsEy5wX2TjHw=w1867-h969-rw-no)
 
-> **Code Editor:** Visual Studio Code
+> **IDE:** IntelliJ IDEA
 
 ---
 
 ## **Contents**
 
--   [**Description**](#description)
-    -   [Languages](#languages)
--   [**Integrated Development Enviroments**](#integrated-development-enviroments)
--   [**Snake Game**](#snake-game)
-    -   [HTML/CSS](#htmlcss)
-    -   [JavaScript](#javascript)
--   [**License**](#license)
-    -   [MIT](#mit)
-
+- [**Description**](#description)
+  - [Features](#features)
+- [**Installation**](#installation)
+- [**Plugins**](#plugins)
+  - [Mandatory](#mandatory)
+  - [Recommended](#recommended)
+- [**Bash Configuration**](#bash-configuration)
+  - [Instructions](#instructions)
+  - [Files](#files)
+- [**Color Schemes**](#color-schemes)
+  - [IntelliJ IDEA](#intellij-idea)
+  - [WebStorm](#webstorm)
+  - [PyCharm](#pycharm)
+  - [PhpStorm](#phpstorm)
+  - [CLion](#clion)
+- [**License**](#license)
+  - [MIT](#mit)
+  
 ---
 
 ## **Description**
+This is a complete JetBrain's IDE configuration based off of Atom's One Dark theme. Apart from the theme, everything around the IDE has been set up to provide a beautiful and pleasant experience. 
 
-Personal archive to store/backup some of my personal and school work, allowing ease of acess to numerous files.
+### Features
+- Atom One Dark Theme
+- Fira Code Retina (w/ Font Ligatures)
+- Optimized IDE Configuration
+- Modified Keymap
+- Improved GitBash Compatibility (w/ Bash Configuration)
+- Awesome Plugins to Enhance the IDE Experience 
+- Advanced Color Scheme Configuration for Most JetBrain's IDEs
 
-### **Languages**
-
--   HTML/CSS
--   JavaScript
--   Java
--   Python
--   Markdown
-
----
-
-## **Integrated Development Enviroments**
-
--   IntelliJ IDEA
-
--   WebStorm
-
--   PyCharm
-
-> **IDE Configuration:** https://github.com/mikozera/JetBrains-Atom-One-Dark
+> **Note:** Theme has been fully optimized for IntelliJ IDEA, WebStorm, PyCharm, PhpStorm  & CLion
 
 ---
 
-## **Snake Game**
+## **Installation**
+1. Download JetBrain's IDE
+2. Install Mandatory Plugins: File -> Settings -> Plugins -> Browse Repositories 
+3. Install Bash Configuration
+4. Enable Settings Repository: File -> Settings Repository -> Enter link: https://github.com/mikozera/JetBrains-Atom-One-Dark -> Override Local 
 
-### HTML/CSS
+> **Note:** Must disable "Auto Sync" within the "Settings Repository"
 
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Snake Game</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <canvas id="canvas" width="650" height="650"></canvas>
-        <script src="snake.js"></script>
-        <style>
-            canvas {
-                background-color: #000;
-            }
-        </style>
-    </head>
-</html>
+---
+
+## **Plugins**
+
+### Mandatory
+- Autoscroll Save: file tree is automatically expanded to the current file
+- CodeGlance: enables a "Sublime-esk" mini-map
+- Material Theme UI: enables a basic Atom One Dark theme
+- Nyan Progress Bar: enables a colorful loading bar
+- Rainbow Brackets: enables colorful bracket/brace coloring
+- Save Actions: enables auto-formatting on save 
+- Tabdir: enables improved editor tab support
+- Path Hide: disables the default side-scrolling on the file tree
+
+> **Note:** To enable auto-formatting, you must configure it under "Save Actions"
+
+### Recommended
+- .ignore: improved file ignoring capabilities
+- Bootstrap 4: allows for advanced Bootstrap 4 snippets
+- Import Cost: calculates file sizes for dependencies
+- Markdown Navigator: integrates advanced Markdown support
+- React Snippets: enhances React support
+- React PropTypes: enhances React PropType validation via a UI (Alt + Ins)
+- String Manipulation: allows for smart string manipulation (Alt + Shift + M)
+- Presentation Assistant: displays any pressed keyboard shortcuts (Alt + Shift + D)
+
+> **Note:** When adding new plugins make sure to "update" the IDE by repeating "Step 4" of the "Installation"
+
+---
+
+## **Bash Configuration**
+
+### Instructions
+1. Download Git for Windows (includes GitBash Terminal)
+2. Locate or create ".bash_profile" and ".bashrc" files (C:\Users\<your user name>)
+3. Replace content within each of the files
+
+### Files
+##### .bash_profile
+```
+if [ -f ~/.bashrc ]; then
+  source ~/.bashrc
+fi
 ```
 
-### JavaScript
-
-```javascript
-window.onload = () => {
-  const cvs = document.getElementById("canvas");
-  const ctx = cvs.getContext("2d");
-
-  // some variables
-  const cvsW = cvs.width;
-  const cvsH = cvs.height;
-
-  const snakeW = 25;
-  const snakeH = 25;
-
-  // keeps track of score
-  let score = 0;
-
-  // default direction of the snake
-  let direction = "right";
-
-  // read users direction
-  document.addEventListener("keydown", getDirection);
-
-  function getDirection(e) {
-    if (e.keyCode == 65 && direction != "right") {
-      direction = "left";
-    } else if (e.keyCode == 87 && direction != "down") {
-      direction = "up";
-    } else if (e.keyCode == 68 && direction != "left") {
-      direction = "right";
-    } else if (e.keyCode == 83 && direction != "up") {
-      direction = "down";
-    }
-  }
-
-  // draw snake
-  function drawSnake(x, y) {
-    ctx.fillStyle = "#FFF";
-    ctx.fillRect(x * snakeW, y * snakeH, snakeW, snakeH);
-
-    ctx.fillStyle = "#000";
-    ctx.strokeRect(x * snakeW, y * snakeH, snakeW, snakeH);
-  }
-
-  // create snake array, it will contain 4 cells in default
-  const len = 2;
-  const snake = [];
-
-  for (let i = len - 1; i >= 0; i--) {
-    snake.push({
-      x: i,
-      y: 0
-    });
-  }
-
-  // create some food
-  let food = {
-    x: Math.round(Math.random() * (cvsW / snakeW - 1)),
-    y: Math.round(Math.random() * (cvsH / snakeH - 1))
-  };
-
-  // draw food function
-  function drawFood(x, y) {
-    ctx.fillStyle = "yellow";
-    ctx.fillRect(x * snakeW, y * snakeH, snakeW, snakeH);
-
-    ctx.fillStyle = "#000";
-    ctx.strokeRect(x * snakeW, y * snakeH, snakeW, snakeH);
-  }
-
-  // check collision
-  function checkCollision(x, y, array) {
-    for (let i = 0; i < array.length; i++) {
-      if (x == array[i].x && y == array[i].y) {
-        return true;
-      }
-    }
-    return false;
-  }
-
-  // shows score
-  function drawScore(x) {
-    ctx.fillStyle = "yellow";
-    ctx.font = "16px Verdana";
-    ctx.fillText(`Score: ${x}`, 16, 24);
-  }
-
-  // main draw function
-  function draw() {
-    // clear canvas
-    ctx.clearRect(0, 0, cvsW, cvsH);
-
-    for (let i = 0; i < snake.length; i++) {
-      const x = snake[i].x;
-      const y = snake[i].y;
-      drawSnake(x, y);
-    }
-
-    // snake head
-    let snakeX = snake[0].x;
-    let snakeY = snake[0].y;
-
-    // draw food
-    drawFood(food.x, food.y);
-
-    // create new head, based on the previous head and direction
-    if (direction == "left") {
-      snakeX--;
-    } else if (direction == "up") {
-      snakeY--;
-    } else if (direction == "right") {
-      snakeX++;
-    } else if (direction == "down") {
-      snakeY++;
-    }
-
-    // if the snake hits the wall or eats its tail then it's game over
-    if (
-      snakeX < 0 ||
-      snakeY < 0 ||
-      snakeX >= cvsW / snakeW ||
-      snakeY >= cvsH / snakeH ||
-      checkCollision(snakeX, snakeY, snake)
-    ) {
-      location.reload();
-    }
-
-    // if our snake eats the food
-    let newHead;
-    if (snakeX == food.x && snakeY == food.y) {
-      food = {
-        x: Math.round(Math.random() * (cvsW / snakeW - 1)),
-        y: Math.round(Math.random() * (cvsH / snakeH - 1))
-      };
-      newHead = {
-        x: snakeX,
-        y: snakeY
-      };
-      score++;
-    } else {
-      snake.pop();
-      newHead = {
-        x: snakeX,
-        y: snakeY
-      };
-    }
-    snake.unshift(newHead);
-    drawScore(score);
-  }
-
-  setInterval(draw, 60);
-};
+##### .bashrc
 ```
+# Bash Configuration
+PS1='\[\033]0;Terminal\007\]'
+PS1="$PS1"'\[\033[32m\]' 
+PS1="$PS1"'\u' 
+PS1="$PS1"'\[\033[37m\]' 
+PS1="$PS1"': ' 
+PS1="$PS1"'\[\033[33m\]' 
+PS1="$PS1"'\w' 
 
+if test -z "$WINELOADERNOEXEC"
+then
+  GIT_EXEC_PATH="$(git --exec-path 2>/dev/null)"
+  COMPLETION_PATH="${GIT_EXEC_PATH%/libexec/git-core}"
+  COMPLETION_PATH="${COMPLETION_PATH%/lib/git-core}"
+  COMPLETION_PATH="$COMPLETION_PATH/share/git/completion"
+  if test -f "$COMPLETION_PATH/git-prompt.sh"
+  then
+    . "$COMPLETION_PATH/git-completion.bash"
+    . "$COMPLETION_PATH/git-prompt.sh"
+    PS1="$PS1"'\[\033[36m\]' 
+    PS1="$PS1"'`__git_ps1`' 
+  fi
+fi
+PS1="$PS1"'\[\033[37m\]' 
+PS1="$PS1"'\n' 
+PS1="$PS1"'$ ' 
+```
 ---
 
+## **Color Schemes**
+
+### IntelliJ IDEA
+> **Java** 
+![IntelliJ IDEA - Java](https://lh3.googleusercontent.com/tmuriilklF0aD6bPOkxEBGEa8ii2JCjBetBMW-0a91wcYiSLH_fsfBsdM8M76h8f2Xa6ltSyh9fZ0A=w1866-h969-rw-no)
+
+
+### WebStorm
+> **HTML**
+![WebStorm - HTML](https://lh3.googleusercontent.com/CbbAhtR4n-S1wMweHfyKHe06vv9cTJx32zI0HUW5apbqByVLawxHyFsJt6gj6Rb0FRCuB_JM05rLXF39j1IM3dFOFVj7YOBRjL5V=w1872-h969-rw-no)
+
+> **CSS**
+![WebStorm - CSS](https://lh3.googleusercontent.com/12Z-HSwgx1tKG8TV9cGaiVnQPG_CRt7zk7uk9GT93r6pD9IIJ6kVECHbXfUpWNXUMhPUSGSpQzQsGS3h4vEs86QB8QdzqvvJY6sX=w1868-h969-rw-no)
+
+> **SCSS** 
+![WebStorm - SCSS](https://lh3.googleusercontent.com/eqPWMnVP99z7PoSPNoFz9XgwwL38kQBfH06mcgD1uYpDrjZ9xSVMhBnRIaxxYHqPE-y4sETQW6MXnhuWK7tbdF4ROVh_aSxLOXlU=w1867-h969-rw-no)
+
+> **JavaScript** 
+![WebStorm - JavaScript](https://lh3.googleusercontent.com/vJBKtFMuFgzfMR0EBwJpuwgBm6SY5MYW_BA-cCXAI2c3rA6IJrPRazXwHtNgjEDboqUUVLrDy5BKO6rNe_9BH-I-Lv1oX5xDPY-l=w1870-h969-rw-no)
+
+### PyCharm
+> **Python**
+![PyCharm - Python](https://lh3.googleusercontent.com/6KALxyKTrtqEZGJf4-7YIeFV9WOaxZSct7rOGMggKjmyeXwNpCWuzX68dBernUcA75cAFHC8S5rZQg=w1868-h969-rw-no)
+
+### PhpStorm
+> **PHP**
+![PhpStorm - PHP](https://lh3.googleusercontent.com/KLOKE9UOKNVTEPIwsDAV9IOmLFDGL4wx17H1E8ixlCnGy82a3H75NMlNBVxIX03grhhDW8G6RzrY2Q=w1874-h969-rw-no)
+
+### CLion
+> **C**
+![Project Image](https://lh3.googleusercontent.com/cF8iBfkXUrR0aSGDVxDFZgo0I3z6sTGC2pAIcUVr6bDS_hQuE_Ay4QjnhaaOGQCvm41rAf6JF69QEhsrusFQkFeL9IEboQUhwL4bIQ=w1868-h969-rw-no)
+
+> **C++**
+![Project Image](https://lh3.googleusercontent.com/K5kkt-YaZV5QStjbVdIiR9MXB6SaYyFObd0LuP0b4JglGhFAuJ64WcF0Tdctl2EAAU9EaMEyoQ978A=w1867-h969-rw-no)
+---
 ## **License**
 
 ### MIT
 
-Copyright (c) 2018 Sebastian Nunez
+Copyright (c) 2019 Sebastian Nunez
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -248,4 +187,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[back to the top](#computer-science---archive)
+[back to the top](#jetbrains-atom-one-dark)

@@ -1,3 +1,0 @@
-D:/Computer-Science-Archive/Projects/Languages/C/Basics/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_8c140.dir
-D:/Computer-Science-Archive/Projects/Languages/C/Basics/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/edit_cache.dir
-D:/Computer-Science-Archive/Projects/Languages/C/Basics/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/rebuild_cache.dir
