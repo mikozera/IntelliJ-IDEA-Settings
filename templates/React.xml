@@ -182,4 +182,10 @@
       <option name="JS_CLASS" value="true" />
     </context>
   </template>
+  <template name="pte" value="PropTypes.oneOf(['$END$'])," description="Prop type limited to specific values by treating it as an enum" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="pter" value="PropTypes.oneOf(['$END$']).isRequired," description="Prop type limited to specific values by treating it as an enum required" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
