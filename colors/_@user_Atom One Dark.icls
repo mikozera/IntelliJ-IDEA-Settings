@@ -4,7 +4,7 @@
     <property name="created">2019-01-03T01:06:22</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2018.3.2.0.0</property>
-    <property name="modified">2019-12-12T19:35:32</property>
+    <property name="modified">2019-12-12T19:41:45</property>
     <property name="originalScheme">Atom One Dark</property>
     <property name="rainbow JAVA">false</property>
   </metaInfo>
@@ -108,7 +108,7 @@
     </option>
     <option name="ANGLE_BRACKETS_RAINBOW_COLOR2">
       <value>
-        <option name="FOREGROUND" value="4eb3c0" />
+        <option name="FOREGROUND" value="49b0cc" />
       </value>
     </option>
     <option name="ANGLE_BRACKETS_RAINBOW_COLOR3">
@@ -118,7 +118,7 @@
     </option>
     <option name="ANGLE_BRACKETS_RAINBOW_COLOR4">
       <value>
-        <option name="FOREGROUND" value="4eb3c0" />
+        <option name="FOREGROUND" value="49b0cc" />
       </value>
     </option>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
@@ -523,12 +523,12 @@
     </option>
     <option name="CSS.PSEUDO">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="e06c75" />
       </value>
     </option>
     <option name="CSS.TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="e06c75" />
       </value>
     </option>
     <option name="CSS.URL">
@@ -571,7 +571,7 @@
     </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="e5c17c" />
+        <option name="FOREGROUND" value="ffc66d" />
       </value>
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
@@ -591,7 +591,7 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="e5c17c" />
+        <option name="FOREGROUND" value="ffc66d" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
@@ -1278,7 +1278,7 @@
     </option>
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="e06c75" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
@@ -3256,7 +3256,7 @@
     </option>
     <option name="ROUND_BRACKETS_RAINBOW_COLOR1">
       <value>
-        <option name="FOREGROUND" value="4eb3c0" />
+        <option name="FOREGROUND" value="49b0cc" />
       </value>
     </option>
     <option name="ROUND_BRACKETS_RAINBOW_COLOR2">
@@ -3271,7 +3271,7 @@
     </option>
     <option name="ROUND_BRACKETS_RAINBOW_COLOR4">
       <value>
-        <option name="FOREGROUND" value="4eb3c0" />
+        <option name="FOREGROUND" value="49b0cc" />
       </value>
     </option>
     <option name="RUBY_BAD_CHARACTER">
@@ -3630,7 +3630,7 @@
     </option>
     <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR2">
       <value>
-        <option name="FOREGROUND" value="4eb3c0" />
+        <option name="FOREGROUND" value="49b0cc" />
       </value>
     </option>
     <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR3">
