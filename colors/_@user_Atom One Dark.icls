@@ -4,20 +4,23 @@
     <property name="created">2019-01-03T01:06:22</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2018.3.2.0.0</property>
-    <property name="modified">2019-03-02T21:55:20</property>
+    <property name="modified">2019-12-12T19:41:45</property>
     <property name="originalScheme">Atom One Dark</property>
     <property name="rainbow JAVA">false</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
   <font>
     <option name="EDITOR_FONT_NAME" value="Fira Code Retina" />
-    <option name="EDITOR_FONT_SIZE" value="15" />
+    <option name="EDITOR_FONT_SIZE" value="16" />
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Monospaced" />
-    <option name="EDITOR_FONT_SIZE" value="15" />
+    <option name="EDITOR_FONT_SIZE" value="16" />
   </font>
-  <option name="CONSOLE_FONT_NAME" value="Fira Code Medium" />
+  <option name="EDITOR_LIGATURES" value="true" />
+  <option name="CONSOLE_FONT_NAME" value="Fira Code Retina" />
+  <option name="CONSOLE_FONT_SIZE" value="15" />
+  <option name="CONSOLE_LIGATURES" value="true" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="98c379" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
@@ -64,6 +67,7 @@
     <option name="MT_SUPPRESSED" value="abb2bf" />
     <option name="NOTIFICATION_BACKGROUND" value="3d1a11" />
     <option name="NOT_CHANGED" value="979fad" />
+    <option name="PRESENTATION_ASSISTANT_HINT_BACKGROUND" value="263238" />
     <option name="QUESTION_HINT" value="282c34" />
     <option name="RIGHT_MARGIN_COLOR" value="2e3c43" />
     <option name="SELECTED_INDENT_GUIDE" value="57b6c2" />
@@ -94,27 +98,27 @@
     </option>
     <option name="ANGLE_BRACKETS_RAINBOW_COLOR0">
       <value>
-        <option name="FOREGROUND" value="da70cc" />
+        <option name="FOREGROUND" value="c679dd" />
       </value>
     </option>
     <option name="ANGLE_BRACKETS_RAINBOW_COLOR1">
       <value>
-        <option name="FOREGROUND" value="7bceee" />
+        <option name="FOREGROUND" value="ffc66d" />
       </value>
     </option>
     <option name="ANGLE_BRACKETS_RAINBOW_COLOR2">
       <value>
-        <option name="FOREGROUND" value="ffd719" />
+        <option name="FOREGROUND" value="49b0cc" />
       </value>
     </option>
     <option name="ANGLE_BRACKETS_RAINBOW_COLOR3">
       <value>
-        <option name="FOREGROUND" value="da70cc" />
+        <option name="FOREGROUND" value="ffc66d" />
       </value>
     </option>
     <option name="ANGLE_BRACKETS_RAINBOW_COLOR4">
       <value>
-        <option name="FOREGROUND" value="7bceee" />
+        <option name="FOREGROUND" value="49b0cc" />
       </value>
     </option>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
@@ -178,7 +182,6 @@
     <option name="BASH.EXTERNAL_COMMAND">
       <value>
         <option name="FOREGROUND" value="61aeef" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="BLADE_BAD_CHARACTER">
@@ -480,7 +483,7 @@
     </option>
     <option name="CSS.COLOR">
       <value>
-        <option name="FOREGROUND" value="ffea7d" />
+        <option name="FOREGROUND" value="61aeef" />
       </value>
     </option>
     <option name="CSS.FUNCTION">
@@ -501,18 +504,16 @@
     <option name="CSS.IMPORTANT">
       <value>
         <option name="FOREGROUND" value="c679dd" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="CSS.KEYWORD">
       <value>
         <option name="FOREGROUND" value="c679dd" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="CSS.PROPERTY_NAME">
       <value>
-        <option name="FOREGROUND" value="57b6c2" />
+        <option name="FOREGROUND" value="a6b2c0" />
       </value>
     </option>
     <option name="CSS.PROPERTY_VALUE">
@@ -522,12 +523,12 @@
     </option>
     <option name="CSS.PSEUDO">
       <value>
-        <option name="FOREGROUND" value="eeffff" />
+        <option name="FOREGROUND" value="e06c75" />
       </value>
     </option>
     <option name="CSS.TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="e06c75" />
       </value>
     </option>
     <option name="CSS.URL">
@@ -570,8 +571,7 @@
     </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="e5c17c" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="ffc66d" />
       </value>
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
@@ -591,7 +591,7 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="e5c17c" />
+        <option name="FOREGROUND" value="ffc66d" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
@@ -612,20 +612,17 @@
     <option name="DEFAULT_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="59626f" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
       <value>
         <option name="FOREGROUND" value="c679dd" />
-        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
       <value>
         <option name="FOREGROUND" value="59626f" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
@@ -635,12 +632,12 @@
     </option>
     <option name="DEFAULT_DOT">
       <value>
-        <option name="FOREGROUND" value="a6b2c0" />
+        <option name="FOREGROUND" value="49b0cc" />
       </value>
     </option>
     <option name="DEFAULT_ENTITY">
       <value>
-        <option name="FOREGROUND" value="eeffff" />
+        <option name="FOREGROUND" value="49b0cc" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
@@ -687,7 +684,6 @@
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="c679dd" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_LABEL">
@@ -717,7 +713,7 @@
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="a6b2c0" />
+        <option name="FOREGROUND" value="49b0cc" />
       </value>
     </option>
     <option name="DEFAULT_PARAMETER">
@@ -749,7 +745,7 @@
     </option>
     <option name="DEFAULT_SEMICOLON">
       <value>
-        <option name="FOREGROUND" value="a6b2c0" />
+        <option name="FOREGROUND" value="49b0cc" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_FIELD">
@@ -779,7 +775,7 @@
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="a6b2c0" />
+        <option name="FOREGROUND" value="49b0cc" />
       </value>
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
@@ -1131,6 +1127,9 @@
         <option name="FOREGROUND" value="f07178" />
       </value>
     </option>
+    <option name="HAML_RUBY_CODE">
+      <value />
+    </option>
     <option name="HAML_RUBY_START">
       <value>
         <option name="FOREGROUND" value="56b6c2" />
@@ -1256,8 +1255,7 @@
     </option>
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="e5c17c" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="ffc66d" />
       </value>
     </option>
     <option name="HTML_ATTRIBUTE_VALUE">
@@ -1270,17 +1268,17 @@
     </option>
     <option name="HTML_ENTITY_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="eeffff" />
+        <option name="FOREGROUND" value="c679dd" />
       </value>
     </option>
     <option name="HTML_TAG">
       <value>
-        <option name="FOREGROUND" value="ace4ff" />
+        <option name="FOREGROUND" value="49b0cc" />
       </value>
     </option>
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="e06c75" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
@@ -1510,6 +1508,16 @@
         <option name="FOREGROUND" value="61aeef" />
       </value>
     </option>
+    <option name="JS.GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="ffc66d" />
+      </value>
+    </option>
+    <option name="JS.INSTANCE_MEMBER_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="61aeef" />
+      </value>
+    </option>
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
       <value>
         <option name="FOREGROUND" value="e06c75" />
@@ -1518,6 +1526,16 @@
     <option name="JS.MODULE_KEYWORD">
       <value>
         <option name="FOREGROUND" value="e06c75" />
+      </value>
+    </option>
+    <option name="JS.PRIMITIVE.TYPE">
+      <value>
+        <option name="FOREGROUND" value="f07178" />
+      </value>
+    </option>
+    <option name="JS.REGEXP">
+      <value>
+        <option name="FOREGROUND" value="499ab6" />
       </value>
     </option>
     <option name="JS.THIS_SUPER">
@@ -1557,6 +1575,11 @@
     <option name="KOTLIN_DYNAMIC_PROPERTY_CALL">
       <value>
         <option name="FOREGROUND" value="f07178" />
+      </value>
+    </option>
+    <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
+      <value>
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="KOTLIN_IMPLICIT_EXHAUSTIVE_WHEN">
@@ -2960,7 +2983,6 @@
     <option name="PY.DOC_COMMENT_TAG">
       <value>
         <option name="FOREGROUND" value="c679dd" />
-        <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -2984,7 +3006,6 @@
     <option name="PY.KEYWORD">
       <value>
         <option name="FOREGROUND" value="c679dd" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PY.KEYWORD_ARGUMENT">
@@ -3021,7 +3042,6 @@
     <option name="PY.PREDEFINED_DEFINITION">
       <value>
         <option name="FOREGROUND" value="61aeef" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PY.PREDEFINED_USAGE">
@@ -3032,7 +3052,6 @@
     <option name="PY.SELF_PARAMETER">
       <value>
         <option name="FOREGROUND" value="c679dd" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PY.STRING">
@@ -3151,12 +3170,12 @@
     </option>
     <option name="REGEXP.BRACKETS">
       <value>
-        <option name="FOREGROUND" value="a6b2c0" />
+        <option name="FOREGROUND" value="c679dd" />
       </value>
     </option>
     <option name="REGEXP.CHAR_CLASS">
       <value>
-        <option name="FOREGROUND" value="98c379" />
+        <option name="FOREGROUND" value="ffc66d" />
       </value>
     </option>
     <option name="REGEXP.ESC_CHARACTER">
@@ -3169,7 +3188,7 @@
     </option>
     <option name="REGEXP.PARENTHS">
       <value>
-        <option name="FOREGROUND" value="a6b2c0" />
+        <option name="FOREGROUND" value="f07178" />
       </value>
     </option>
     <option name="REGEXP.QUOTE_CHARACTER">
@@ -3232,27 +3251,27 @@
     </option>
     <option name="ROUND_BRACKETS_RAINBOW_COLOR0">
       <value>
-        <option name="FOREGROUND" value="da70cc" />
+        <option name="FOREGROUND" value="c679dd" />
       </value>
     </option>
     <option name="ROUND_BRACKETS_RAINBOW_COLOR1">
       <value>
-        <option name="FOREGROUND" value="7bceee" />
+        <option name="FOREGROUND" value="49b0cc" />
       </value>
     </option>
     <option name="ROUND_BRACKETS_RAINBOW_COLOR2">
       <value>
-        <option name="FOREGROUND" value="ffd719" />
+        <option name="FOREGROUND" value="ffc66d" />
       </value>
     </option>
     <option name="ROUND_BRACKETS_RAINBOW_COLOR3">
       <value>
-        <option name="FOREGROUND" value="da70cc" />
+        <option name="FOREGROUND" value="c679dd" />
       </value>
     </option>
     <option name="ROUND_BRACKETS_RAINBOW_COLOR4">
       <value>
-        <option name="FOREGROUND" value="7bceee" />
+        <option name="FOREGROUND" value="49b0cc" />
       </value>
     </option>
     <option name="RUBY_BAD_CHARACTER">
@@ -3554,15 +3573,19 @@
         <option name="FOREGROUND" value="98c379" />
       </value>
     </option>
+    <option name="SASS_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="bc9455" />
+      </value>
+    </option>
     <option name="SASS_MIXIN">
       <value>
-        <option name="FOREGROUND" value="61aeef" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="c679dd" />
       </value>
     </option>
     <option name="SASS_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="d19a66" />
+        <option name="FOREGROUND" value="f07178" />
       </value>
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
@@ -3572,32 +3595,52 @@
     </option>
     <option name="SQUARE_BRACKETS_RAINBOW_COLOR0">
       <value>
-        <option name="FOREGROUND" value="da70cc" />
+        <option name="FOREGROUND" value="c679dd" />
       </value>
     </option>
     <option name="SQUARE_BRACKETS_RAINBOW_COLOR1">
       <value>
-        <option name="FOREGROUND" value="7bceee" />
+        <option name="FOREGROUND" value="4eb3c0" />
       </value>
     </option>
     <option name="SQUARE_BRACKETS_RAINBOW_COLOR2">
       <value>
-        <option name="FOREGROUND" value="ffd719" />
+        <option name="FOREGROUND" value="ffc66d" />
+      </value>
+    </option>
+    <option name="SQUARE_BRACKETS_RAINBOW_COLOR3">
+      <value>
+        <option name="FOREGROUND" value="c679dd" />
+      </value>
+    </option>
+    <option name="SQUARE_BRACKETS_RAINBOW_COLOR4">
+      <value>
+        <option name="FOREGROUND" value="4eb3c0" />
       </value>
     </option>
     <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR0">
       <value>
-        <option name="FOREGROUND" value="ffd719" />
+        <option name="FOREGROUND" value="ffc66d" />
       </value>
     </option>
     <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR1">
       <value>
-        <option name="FOREGROUND" value="da70cc" />
+        <option name="FOREGROUND" value="c679dd" />
       </value>
     </option>
     <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR2">
       <value>
-        <option name="FOREGROUND" value="7bceee" />
+        <option name="FOREGROUND" value="49b0cc" />
+      </value>
+    </option>
+    <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR3">
+      <value>
+        <option name="FOREGROUND" value="ffc66d" />
+      </value>
+    </option>
+    <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR4">
+      <value>
+        <option name="FOREGROUND" value="c679dd" />
       </value>
     </option>
     <option name="STATIC_FIELD_ATTRIBUTES">
@@ -3960,7 +4003,6 @@
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffeb95" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="TS.TYPE_PARAMETER">
@@ -4041,12 +4083,11 @@
     <option name="XML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="e5c17c" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="XML_ENTITY_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="eeffff" />
+        <option name="FOREGROUND" value="c679dd" />
       </value>
     </option>
     <option name="XML_PROLOGUE">
