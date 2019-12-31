@@ -100,31 +100,105 @@ fi
 ##### .bashrc
 ```
 # Bash Configuration
-PS1='\[\033]0;Terminal\007\]'
-PS1="$PS1"'\[\033[32m\]' 
-PS1="$PS1"'\u' 
-PS1="$PS1"'\[\033[37m\]' 
-PS1="$PS1"': ' 
-PS1="$PS1"'\[\033[33m\]' 
-PS1="$PS1"'\w' 
+if [[ $COLORTERM = gnome-* && $TERM = xterm ]] && infocmp gnome-256color >/dev/null 2>&1; then
+	export TERM='gnome-256color';
+elif infocmp xterm-256color >/dev/null 2>&1; then
+	export TERM='xterm-256color';
+fi;
 
-if test -z "$WINELOADERNOEXEC"
-then
-  GIT_EXEC_PATH="$(git --exec-path 2>/dev/null)"
-  COMPLETION_PATH="${GIT_EXEC_PATH%/libexec/git-core}"
-  COMPLETION_PATH="${COMPLETION_PATH%/lib/git-core}"
-  COMPLETION_PATH="$COMPLETION_PATH/share/git/completion"
-  if test -f "$COMPLETION_PATH/git-prompt.sh"
-  then
-    . "$COMPLETION_PATH/git-completion.bash"
-    . "$COMPLETION_PATH/git-prompt.sh"
-    PS1="$PS1"'\[\033[36m\]' 
-    PS1="$PS1"'`__git_ps1`' 
-  fi
-fi
-PS1="$PS1"'\[\033[37m\]' 
-PS1="$PS1"'\n' 
-PS1="$PS1"'$ ' 
+prompt_git() {
+	local s='';
+	local branchName='';
+
+	git rev-parse --is-inside-work-tree &>/dev/null || return;
+
+	branchName="$(git symbolic-ref --quiet --short HEAD 2> /dev/null || \
+		git describe --all --exact-match HEAD 2> /dev/null || \
+		git rev-parse --short HEAD 2> /dev/null || \
+		echo '(unknown)')";
+
+	repoUrl="$(git config --get remote.origin.url)";
+	if grep -q 'chromium/src.git' <<< "${repoUrl}"; then
+		s+='*';
+	else
+
+		if ! $(git diff --quiet --ignore-submodules --cached); then
+			s+='+';
+		fi;
+
+		if ! $(git diff-files --quiet --ignore-submodules --); then
+			s+='!';
+		fi;
+
+		if [ -n "$(git ls-files --others --exclude-standard)" ]; then
+			s+='?';
+		fi;
+
+		if $(git rev-parse --verify refs/stash &>/dev/null); then
+			s+='$';
+		fi;
+	fi;
+
+	[ -n "${s}" ] && s=" [${s}]";
+
+	echo -e "${1}${branchName}${2}${s}";
+}
+
+if tput setaf 1 &> /dev/null; then
+	tput sgr0;
+	bold=$(tput bold);
+	reset=$(tput sgr0);
+	black=$(tput setaf 0);
+	blue=$(tput setaf 39);
+	cyan=$(tput setaf 37);
+	green=$(tput setaf 40);
+	orange=$(tput setaf 202);
+	purple=$(tput setaf 125);
+	red=$(tput setaf 196);
+	violet=$(tput setaf 129);
+	white=$(tput setaf 15);
+	yellow=$(tput setaf 226);
+else
+	bold='';
+	reset="\e[0m";
+	black="\e[1;30m";
+	blue="\e[1;34m";
+	cyan="\e[1;36m";
+	green="\e[1;32m";
+	orange="\e[1;33m";
+	purple="\e[1;35m";
+	red="\e[1;31m";
+	violet="\e[1;35m";
+	white="\e[1;37m";
+	yellow="\e[1;33m";
+fi;
+
+if [[ "${USER}" == "root" ]]; then
+	userStyle="${red}";
+else
+	userStyle="${green}";
+fi;
+
+if [[ "${SSH_TTY}" ]]; then
+	hostStyle="${red}";
+else
+	hostStyle="${orange}";
+fi;
+
+PS1="\[\033]0;\W\007\]";
+PS1+="\[${userStyle}\]\u";
+PS1+="\[${white}\] at ";
+PS1+="\[${hostStyle}\]\h";
+PS1+="\[${white}\] in ";
+PS1+="\[${yellow}\]\W";
+PS1+="\$(prompt_git \"\[${white}\] on \[${blue}\]\" \"\[${violet}\]\")";
+PS1+="\n";
+PS1+="\[${white}\]\$ \[${reset}\]"; s
+export PS1;
+
+PS2="\[${yellow}\]→ \[${reset}\]";
+export PS2;
+
 ```
 ---
 
