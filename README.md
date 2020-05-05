@@ -97,16 +97,16 @@ if [ -f ~/.bashrc ]; then
 fi
 ```
 
-##### .bashrc
+##### .bashrc (Windows)
 ```
-# Bash Configuration
+# Bash Configuration (Windows)
 PS1='\[\033]0;Terminal\007\]'
-PS1="$PS1"'\[\033[32m\]' 
-PS1="$PS1"'\u' 
-PS1="$PS1"'\[\033[37m\]' 
-PS1="$PS1"': ' 
-PS1="$PS1"'\[\033[33m\]' 
-PS1="$PS1"'\w' 
+PS1="$PS1"'\[\033[32m\]'
+PS1="$PS1"'\u'
+PS1="$PS1"'\[\033[37m\]'
+PS1="$PS1"': '
+PS1="$PS1"'\[\033[33m\]'
+PS1="$PS1"'\W'
 
 if test -z "$WINELOADERNOEXEC"
 then
@@ -118,51 +118,119 @@ then
   then
     . "$COMPLETION_PATH/git-completion.bash"
     . "$COMPLETION_PATH/git-prompt.sh"
-    PS1="$PS1"'\[\033[36m\]' 
-    PS1="$PS1"'`__git_ps1`' 
+    PS1="$PS1"'\[\033[36m\]'
+    PS1="$PS1"'`__git_ps1`'
   fi
 fi
-PS1="$PS1"'\[\033[37m\]' 
-PS1="$PS1"'\n' 
-PS1="$PS1"'$ ' 
+PS1="$PS1"'\[\033[37m\]'
+PS1="$PS1"'\n'
+PS1="$PS1"'$ '
 ```
+
+##### .bashrc (macOS)
+```
+# Bash Configuration (macOS)
+if [[ $COLORTERM = gnome-* && $TERM = xterm ]] && infocmp gnome-256color >/dev/null 2>&1; then
+	export TERM='gnome-256color';
+elif infocmp xterm-256color >/dev/null 2>&1; then
+	export TERM='xterm-256color';
+fi;
+
+prompt_git() {
+	local s='';
+	local branchName='';
+
+	git rev-parse --is-inside-work-tree &>/dev/null || return;
+
+	branchName="$(git symbolic-ref --quiet --short HEAD 2> /dev/null || \
+		git describe --all --exact-match HEAD 2> /dev/null || \
+		git rev-parse --short HEAD 2> /dev/null || \
+		echo '(unknown)')";
+
+	repoUrl="$(git config --get remote.origin.url)";
+	if grep -q 'chromium/src.git' <<< "${repoUrl}"; then
+		s+='*';
+	else
+
+		if ! $(git diff --quiet --ignore-submodules --cached); then
+			s+='+';
+		fi;
+
+		if ! $(git diff-files --quiet --ignore-submodules --); then
+			s+='!';
+		fi;
+
+		if [ -n "$(git ls-files --others --exclude-standard)" ]; then
+			s+='?';
+		fi;
+
+		if $(git rev-parse --verify refs/stash &>/dev/null); then
+			s+='$';
+		fi;
+	fi;
+
+	[ -n "${s}" ] && s=" [${s}]";
+
+	echo -e "${1}${branchName}${2}";
+}
+
+if tput setaf 1 &> /dev/null; then
+	tput sgr0;
+	bold=$(tput bold);
+	reset=$(tput sgr0);
+	black=$(tput setaf 0);
+	blue=$(tput setaf 39);
+	cyan=$(tput setaf 37);
+	green=$(tput setaf 40);
+	orange=$(tput setaf 202);
+	purple=$(tput setaf 125);
+	red=$(tput setaf 196);
+	violet=$(tput setaf 129);
+	white=$(tput setaf 15);
+	yellow=$(tput setaf 226);
+else
+	bold='';
+	reset="\e[0m";
+	black="\e[1;30m";
+	blue="\e[1;34m";
+	cyan="\e[1;36m";
+	green="\e[1;32m";
+	orange="\e[1;33m";
+	purple="\e[1;35m";
+	red="\e[1;31m";
+	violet="\e[1;35m";
+	white="\e[1;37m";
+	yellow="\e[1;33m";
+fi;
+
+if [[ "${USER}" == "root" ]]; then
+	userStyle="${red}";
+else
+	userStyle="${green}";
+fi;
+
+if [[ "${SSH_TTY}" ]]; then
+	hostStyle="${red}";
+else
+	hostStyle="${orange}";
+fi;
+
+PS1="\[\033]0;\W\007\]";
+PS1+="\[${userStyle}\]\u";
+PS1+="\[${white}\]: ";
+PS1+="\[${yellow}\]\W";
+PS1+="\$(prompt_git \"\[${white}\] \[${blue}\](\" \")\")";
+PS1+="\n";
+PS1+="\[${white}\]\$ \[${reset}\]";
+export PS1;
+
+PS2="\[${yellow}\]→ \[${reset}\]";
+export PS2;
+
+```
+
 ---
 
-## **Color Schemes**
-
-### IntelliJ IDEA
-> **Java** 
-![IntelliJ IDEA - Java](https://lh3.googleusercontent.com/tmuriilklF0aD6bPOkxEBGEa8ii2JCjBetBMW-0a91wcYiSLH_fsfBsdM8M76h8f2Xa6ltSyh9fZ0A=w1866-h969-rw-no)
-
-
-### WebStorm
-> **HTML**
-![WebStorm - HTML](https://lh3.googleusercontent.com/CbbAhtR4n-S1wMweHfyKHe06vv9cTJx32zI0HUW5apbqByVLawxHyFsJt6gj6Rb0FRCuB_JM05rLXF39j1IM3dFOFVj7YOBRjL5V=w1872-h969-rw-no)
-
-> **CSS**
-![WebStorm - CSS](https://lh3.googleusercontent.com/12Z-HSwgx1tKG8TV9cGaiVnQPG_CRt7zk7uk9GT93r6pD9IIJ6kVECHbXfUpWNXUMhPUSGSpQzQsGS3h4vEs86QB8QdzqvvJY6sX=w1868-h969-rw-no)
-
-> **SCSS** 
-![WebStorm - SCSS](https://lh3.googleusercontent.com/eqPWMnVP99z7PoSPNoFz9XgwwL38kQBfH06mcgD1uYpDrjZ9xSVMhBnRIaxxYHqPE-y4sETQW6MXnhuWK7tbdF4ROVh_aSxLOXlU=w1867-h969-rw-no)
-
-> **JavaScript** 
-![WebStorm - JavaScript](https://lh3.googleusercontent.com/vJBKtFMuFgzfMR0EBwJpuwgBm6SY5MYW_BA-cCXAI2c3rA6IJrPRazXwHtNgjEDboqUUVLrDy5BKO6rNe_9BH-I-Lv1oX5xDPY-l=w1870-h969-rw-no)
-
-### PyCharm
-> **Python**
-![PyCharm - Python](https://lh3.googleusercontent.com/6KALxyKTrtqEZGJf4-7YIeFV9WOaxZSct7rOGMggKjmyeXwNpCWuzX68dBernUcA75cAFHC8S5rZQg=w1868-h969-rw-no)
-
-### PhpStorm
-> **PHP**
-![PhpStorm - PHP](https://lh3.googleusercontent.com/KLOKE9UOKNVTEPIwsDAV9IOmLFDGL4wx17H1E8ixlCnGy82a3H75NMlNBVxIX03grhhDW8G6RzrY2Q=w1874-h969-rw-no)
-
-### CLion
-> **C**
-![Project Image](https://lh3.googleusercontent.com/cF8iBfkXUrR0aSGDVxDFZgo0I3z6sTGC2pAIcUVr6bDS_hQuE_Ay4QjnhaaOGQCvm41rAf6JF69QEhsrusFQkFeL9IEboQUhwL4bIQ=w1868-h969-rw-no)
-
-> **C++**
-![Project Image](https://lh3.googleusercontent.com/K5kkt-YaZV5QStjbVdIiR9MXB6SaYyFObd0LuP0b4JglGhFAuJ64WcF0Tdctl2EAAU9EaMEyoQ978A=w1867-h969-rw-no)
----
 ## **License**
 
 ### MIT
