@@ -171,7 +171,7 @@ prompt_git() {
 
 	[ -n "${s}" ] && s=" [${s}]";
 
-	echo -e "${1}${branchName}${2}${s}";
+	echo -e "${1}${branchName}${2}";
 }
 
 if tput setaf 1 &> /dev/null; then
@@ -217,17 +217,16 @@ fi;
 
 PS1="\[\033]0;\W\007\]";
 PS1+="\[${userStyle}\]\u";
-PS1+="\[${white}\] at ";
-PS1+="\[${hostStyle}\]\h";
-PS1+="\[${white}\] in ";
+PS1+="\[${white}\]: ";
 PS1+="\[${yellow}\]\W";
-PS1+="\$(prompt_git \"\[${white}\] on \[${blue}\]\" \"\[${violet}\]\")";
+PS1+="\$(prompt_git \"\[${white}\] \[${blue}\](\" \")\")";
 PS1+="\n";
-PS1+="\[${white}\]\$ \[${reset}\]"; s
+PS1+="\[${white}\]\$ \[${reset}\]";
 export PS1;
 
 PS2="\[${yellow}\]→ \[${reset}\]";
 export PS2;
+
 ```
 
 ---
