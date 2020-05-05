@@ -97,7 +97,7 @@ if [ -f ~/.bashrc ]; then
 fi
 ```
 
-##### .bashrc
+##### .bashrc (Windows)
 ```
 # Bash Configuration (Windows)
 PS1='\[\033]0;Terminal\007\]'
@@ -125,8 +125,10 @@ fi
 PS1="$PS1"'\[\033[37m\]'
 PS1="$PS1"'\n'
 PS1="$PS1"'$ '
+```
 
-
+##### .bashrc (macOS)
+```
 # Bash Configuration (macOS)
 if [[ $COLORTERM = gnome-* && $TERM = xterm ]] && infocmp gnome-256color >/dev/null 2>&1; then
 	export TERM='gnome-256color';
@@ -226,8 +228,8 @@ export PS1;
 
 PS2="\[${yellow}\]→ \[${reset}\]";
 export PS2;
-
 ```
+
 ---
 
 ## **Color Schemes**
